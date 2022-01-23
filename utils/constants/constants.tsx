@@ -8,35 +8,47 @@ import {
 export const darkMode: boolean = true;
 
 export const navigation = [
-  { name: "Features", href: "Features" },
-  { name: "Platform", href: "Platform" },
-  { name: "About", href: "About" },
-  { name: "Contact", href: "Contact" },
+  { name: "Features", href: "Features", current: false },
+  { name: "Platform", href: "Platform", current: false },
+  { name: "About", href: "About", current: false },
+  { name: "Contact", href: "Contact", current: false },
 ];
 
 export const features = [
   {
-    name: "Competitive exchange rates",
+    name: "Simple UI-based data mapping",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Visualize your integrations’ data structure for easy point-and-click mapping, or write code for more complex mappings. Build an entire DAG as you go. ",
     icon: GlobeAltIcon,
   },
   {
-    name: "No hidden fees",
+    name: "Biologically-aware types and connectors",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Quickly organize data into bio objects through powerful types, and out-of-the-box connectors to LIMS like Benchling or data formats like FASTA.",
     icon: ScaleIcon,
   },
   {
-    name: "Transfers are instant",
+    name: "Never lose data or history",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Quickly revert changes or imports if your data format breaks. Store everything all the time for auditing and debugging experiments.",
     icon: LightningBoltIcon,
   },
   {
-    name: "Mobile notifications",
+    name: "Powerful lab-as-code tooling for engineers",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Ganymede offers a declarative library of high-level automation tools and bioinformatic functions so you don’t have to reinvent the wheel.",
+    icon: AnnotationIcon,
+  },
+  {
+    name: "An ORM over your integrations",
+    description:
+      "Virtualize your integrations to build using their internal schema within Ganymede. Inherit structure from apps, open public databases, ontologies, etc.",
+    icon: AnnotationIcon,
+  },
+  {
+    name: "Build entire applications",
+    description:
+      "Simple persistence within Ganymede allows for rapidly building apps, no other backend needed. Turn any interface into a CRUD form for your users.",
     icon: AnnotationIcon,
   },
 ];

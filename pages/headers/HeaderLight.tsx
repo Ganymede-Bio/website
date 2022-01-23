@@ -1,9 +1,10 @@
+// TBD
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Navigation from "../../layout/navs/Navigation";
 
-export default function Header() {
+export default function HeaderLight() {
   return (
     <>
       <Popover as="header" className="relative">

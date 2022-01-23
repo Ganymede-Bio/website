@@ -16,8 +16,9 @@ export default function Contact() {
                 Get in touch
               </h2>
               <p className="mt-3 text-lg leading-6 text-gray-500">
-                Nullam risus blandit ac aliquam justo ipsum. Quam mauris
-                volutpat massa dictumst amet. Sapien tortor lacus arcu.
+                We'd love to stay in touch. Enter your contact info to get an
+                exclusive early invite to the Ganymede beta when ready, and to
+                keep up with our news.
               </p>
               <dl className="mt-8 text-base text-gray-500">
                 <div>
