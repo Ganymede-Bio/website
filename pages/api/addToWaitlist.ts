@@ -1,8 +1,10 @@
 import prisma from "../../lib/prisma";
+import type { NextApiRequest, NextApiResponse } from "next";
 
-const handler = async (req: Request, res: Response) => {
+const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   const { body } = req;
   const { email } = JSON.parse(body);
+
   const user = await prisma.userInfoRequest
     .create({
       data: { email: email },
