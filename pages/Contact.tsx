@@ -1,7 +1,13 @@
+import { useState } from "react";
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
 import Header from "./headers/Header";
+import prisma from "../lib/prisma";
 
 export default function Contact() {
+  // const user = await prisma.user.create({
+  //   data: { email: "alice@prisma.io" },
+  // });
+
   return (
     <>
       <Header />
@@ -88,7 +94,7 @@ export default function Contact() {
                     type="email"
                     autoComplete="email"
                     className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
-                    placeholder="Email"
+                    placeholder="Work email"
                   />
                 </div>
                 <div>

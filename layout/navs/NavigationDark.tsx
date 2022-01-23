@@ -5,24 +5,7 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import { PlusSmIcon } from "@heroicons/react/solid";
-
-const user = {
-  name: "Tom Cook",
-  email: "tom@example.com",
-  imageUrl:
-    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-};
-// const navigation = [
-//   { name: "Dashboard", href: "#", current: true },
-//   { name: "Team", href: "#", current: false },
-//   { name: "Projects", href: "#", current: false },
-//   { name: "Calendar", href: "#", current: false },
-// ];
-// const userNavigation = [
-//   { name: "Your Profile", href: "#" },
-//   { name: "Settings", href: "#" },
-//   { name: "Sign out", href: "#" },
-// ];
+import Link from "next/link";
 
 function classNames(...classes: [string]) {
   return classes.filter(Boolean).join(" ");
@@ -48,28 +31,32 @@ export default function NavigationDark() {
                   </Disclosure.Button>
                 </div>
                 <div className="flex-shrink-0 flex items-center">
-                  <a href="/">
-                    <img
-                      className="block lg:hidden h-8 w-auto"
-                      src="logo/ganymede_icon.png"
-                      alt="Ganymede Logo"
-                    />
-                  </a>
+                  <Link href={{ pathname: "/" }}>
+                    <button>
+                      <img
+                        className="block lg:hidden h-8 w-auto"
+                        src="logo/ganymede_icon.png"
+                        alt="Ganymede Logo"
+                      />
+                    </button>
+                  </Link>
                 </div>
                 <div className="hidden md:ml-6 md:flex md:items-center md:space-x-4 px-4">
                   {navigation.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className={classNames(
-                        item.current
-                          ? "bg-gray-900 text-white px-3 py-2 rounded-md text-lg font-medium"
-                          : "text-white hover:bg-gray-700 hover:text-gray-300 px-3 py-2 rounded-md text-lg font-medium"
-                      )}
-                      aria-current={item.current ? "page" : undefined}
-                    >
-                      {item.name}
-                    </a>
+                    <li key={item.name}>
+                      <Link href={{ pathname: item.href }}>
+                        <a
+                          className={classNames(
+                            item.current
+                              ? "bg-gray-900 text-white px-3 py-2 rounded-md text-lg font-medium"
+                              : "text-white hover:bg-gray-700 hover:text-gray-300 px-3 py-2 rounded-md text-lg font-medium"
+                          )}
+                          aria-current={item.current ? "page" : undefined}
+                        >
+                          {item.name}
+                        </a>
+                      </Link>
+                    </li>
                   ))}
                 </div>
               </div>

@@ -1,11 +1,19 @@
-import { Fragment } from "react";
+import { FormEvent, Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { ChevronRightIcon } from "@heroicons/react/solid";
+import { useForm } from "react-hook-form";
 import Navigation from "../layout/navs/Navigation";
 import LoginButton from "../components/buttons/LoginButton";
+import WaitListForm from "../components/forms/WaitListForm";
 
 export default function Main() {
+  const onSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    // alert(JSON.stringify(e));
+    console.log(e);
+  };
+
   return (
     <div className="relative overflow-hidden">
       <Popover as="header" className="relative">
@@ -138,39 +146,7 @@ export default function Main() {
                   a powerful bio-aware low-code platform.
                 </p>
                 <div className="mt-10 sm:mt-12">
-                  <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0 ">
-                    <div className="sm:flex">
-                      <div className="min-w-0 flex-1">
-                        <label htmlFor="email" className="sr-only">
-                          Email address
-                        </label>
-                        <input
-                          id="email"
-                          type="email"
-                          placeholder="Enter your email"
-                          className="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900"
-                        />
-                      </div>
-                      <div className="mt-3 sm:mt-0 sm:ml-3">
-                        <button
-                          type="submit"
-                          className="block w-full py-3 px-8 rounded-md shadow bg-indigo-500 text-white font-medium hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900"
-                        >
-                          Request Info
-                        </button>
-                      </div>
-                    </div>
-                    <p className="mt-3 text-sm text-gray-300 sm:mt-4">
-                      Join the waitlist. Learn more about how Ganymede can work
-                      for you!
-                      {/* By providing your email, you agree to
-                      our{" "}
-                      <a href="#" className="font-medium text-white">
-                        terms of service
-                      </a>
-                      . */}
-                    </p>
-                  </form>
+                  <WaitListForm />
                 </div>
               </div>
             </div>
