@@ -1,5 +1,5 @@
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
-import Header from "./Header";
+import Header from "./headers/Header";
 
 export default function Contact() {
   return (

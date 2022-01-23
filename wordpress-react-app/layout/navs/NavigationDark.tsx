@@ -1,4 +1,4 @@
-import { navigation } from "../../store/constants";
+import { navigation } from "../../utils/constants/constants";
 
 export default function NavigationDark() {
   return (
@@ -7,7 +7,7 @@ export default function NavigationDark() {
         <a
           key={item.name}
           href={item.href}
-          className="text-base font-medium text-black hover:text-gray-300"
+          className="text-base font-medium text-white hover:text-gray-300"
         >
           {item.name}
         </a>

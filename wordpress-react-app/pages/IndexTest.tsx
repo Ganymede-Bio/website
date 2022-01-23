@@ -1,5 +1,5 @@
-import NavigationDark from "../layout/navs/NavigationDark";
+import Navigation from "../layout/navs/Navigation";
 
 export default function IndexTest() {
-  return <NavigationDark />;
+  return <Navigation />;
 }

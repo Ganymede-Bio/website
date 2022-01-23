@@ -1,21 +1,21 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import Navigation from "../../layout/navs/Navigation";
 import Link from "next/link";
-import Navigation from "../layout/Navigation";
 
 export default function Header() {
   return (
     <>
       <Popover as="header" className="relative">
-        <div className="bg-gray-900 pt-6">
+        <div className="bg-gray-900 pt-6 py-6">
           <nav
             className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
             aria-label="Global"
           >
             <div className="flex items-center flex-1">
               <div className="flex items-center justify-between w-full md:w-auto">
-                <a href="#">
+                <a href="/">
                   <span className="sr-only">Workflow</span>
                   <img
                     className="h-8 w-auto sm:h-10"
