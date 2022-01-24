@@ -12,10 +12,10 @@ export default function About() {
               <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
                 Meet our team
               </h2>
-              <p className="text-xl text-gray-500">
+              {/* <p className="text-xl text-gray-500">
                 Ornare sagittis, suspendisse in hendrerit quis. Sed dui aliquet
                 lectus sit pretium egestas vel mattis neque.
-              </p>
+              </p> */}
             </div>
             <ul
               role="list"

@@ -1,8 +1,10 @@
 import {
-  AnnotationIcon,
-  GlobeAltIcon,
-  LightningBoltIcon,
-  ScaleIcon,
+  DesktopComputerIcon,
+  BeakerIcon,
+  BriefcaseIcon,
+  CakeIcon,
+  DatabaseIcon,
+  GlobeIcon,
 } from "@heroicons/react/outline";
 
 export const darkMode: boolean = true;
@@ -14,42 +16,51 @@ export const navigation = [
   { name: "Contact", href: "Contact", current: false },
 ];
 
-export const features = [
+export const uiFeatures = [
   {
+    id: "ui_feature_simple_ui_based_data_mapping",
     name: "Simple UI-based data mapping",
     description:
       "Visualize your integrations’ data structure for easy point-and-click mapping, or write code for more complex mappings. Build an entire DAG as you go. ",
-    icon: GlobeAltIcon,
+    icon: CakeIcon,
   },
   {
+    id: "ui_feature_biologically_aware_types_and_connectors",
     name: "Biologically-aware types and connectors",
     description:
       "Quickly organize data into bio objects through powerful types, and out-of-the-box connectors to LIMS like Benchling or data formats like FASTA.",
-    icon: ScaleIcon,
+    icon: BeakerIcon,
   },
   {
+    id: "ui_feature_never_lose_data_or_history",
     name: "Never lose data or history",
     description:
       "Quickly revert changes or imports if your data format breaks. Store everything all the time for auditing and debugging experiments.",
-    icon: LightningBoltIcon,
+    icon: BriefcaseIcon,
   },
+];
+
+export const apiFeatures = [
   {
+    id: "api_feature_powerful_lab_as_code_tooling_for_engineers",
     name: "Powerful lab-as-code tooling for engineers",
     description:
       "Ganymede offers a declarative library of high-level automation tools and bioinformatic functions so you don’t have to reinvent the wheel.",
-    icon: AnnotationIcon,
+    icon: DesktopComputerIcon,
   },
   {
+    id: "api_feature_an_orm_over_your_integrations",
     name: "An ORM over your integrations",
     description:
       "Virtualize your integrations to build using their internal schema within Ganymede. Inherit structure from apps, open public databases, ontologies, etc.",
-    icon: AnnotationIcon,
+    icon: DatabaseIcon,
   },
   {
+    id: "api_feature_build_entire_applications",
     name: "Build entire applications",
     description:
       "Simple persistence within Ganymede allows for rapidly building apps, no other backend needed. Turn any interface into a CRUD form for your users.",
-    icon: AnnotationIcon,
+    icon: GlobeIcon,
   },
 ];
 
