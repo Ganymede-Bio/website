@@ -139,7 +139,6 @@ export default function Main() {
                           {" "}
                           your lab's apps and data
                         </span>
-
                         <span className="inline text"> with one</span>
                         <span className="inline text-nathan-orange">
                           {" "}
