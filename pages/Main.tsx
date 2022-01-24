@@ -130,7 +130,7 @@ export default function Main() {
                 <h1 className="mt-4 text-4xl tracking-tight font-bold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
                   <span className="block text-center">
                     <span className="inline text-nathan-orange">Integrate</span>
-                    <span className="inline"> your lab's app and data</span>
+                    <span className="inline"> your lab's apps and data</span>
 
                     <span className="inline text"> with one</span>
                     <span className="inline text-nathan-orange">
