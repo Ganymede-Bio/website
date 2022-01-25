@@ -12,7 +12,7 @@ export default function HeaderDark() {
           className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 pb-4"
           aria-label="Global"
         >
-          <Navigation />
+          <Navigation popover={false} />
           <LoginButton text="Log in" />
         </nav>
       </div>

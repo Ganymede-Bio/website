@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
-import Header from "./headers/Header";
-import prisma from "../lib/prisma";
+import Header from "../headers/Header";
+import prisma from "../../lib/prisma";
 
 export default function Contact() {
   // const user = await prisma.user.create({
@@ -10,8 +10,7 @@ export default function Contact() {
 
   return (
     <>
-      <Header />
-      <div className="relative bg-white">
+      <div id="contact-section" className="relative bg-white">
         <div className="absolute inset-0">
           <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50" />
         </div>
@@ -65,7 +64,7 @@ export default function Contact() {
               </p>
             </div>
           </div>
-          <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
+          <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12 rounded-lg">
             <div className="max-w-lg mx-auto lg:max-w-none">
               <form
                 action="#"

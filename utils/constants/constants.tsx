@@ -5,15 +5,18 @@ import {
   CakeIcon,
   DatabaseIcon,
   GlobeIcon,
+  SwitchVerticalIcon,
+  UserIcon,
+  TrashIcon,
 } from "@heroicons/react/outline";
 
 export const darkMode: boolean = true;
 
 export const navigation = [
-  { name: "Features", href: "Features", current: false },
-  { name: "Platform", href: "Platform", current: false },
+  { name: "Features", href: "#features-section", current: false },
+  { name: "Platform", href: "#platform-section", current: false },
   { name: "About", href: "About", current: false },
-  { name: "Contact", href: "Contact", current: false },
+  { name: "Contact", href: "#contact-section", current: false },
 ];
 
 export const uiFeatures = [
@@ -61,6 +64,30 @@ export const apiFeatures = [
     description:
       "Simple persistence within Ganymede allows for rapidly building apps, no other backend needed. Turn any interface into a CRUD form for your users.",
     icon: GlobeIcon,
+  },
+];
+
+export const transfersFeatures = [
+  {
+    id: "transfer_feature_never_do_data_entry_again",
+    name: "Never do data entry again",
+    description:
+      "Automate ingestion by OCR-ing your PDFs into JSON key:value pairs, parse chart images into tables, and infer data types from CSV contents.",
+    icon: SwitchVerticalIcon,
+  },
+  {
+    id: "transfer_feature_self_serve_human_in_the_loop_tooling",
+    name: "Self-serve human-in-the-loop tooling",
+    description:
+      "Empower scientists and analysts to self-serve fix broken data imports by changing lines of code through a simple web interface.",
+    icon: UserIcon,
+  },
+  {
+    id: "ml_powered_data_cleaning",
+    name: "ML-powered data cleaning",
+    description:
+      "Automatically check for errors, fat-fingers, and scientific process issues with easy out-of-the-box ML tools for file cleaning and monitoring.",
+    icon: TrashIcon,
   },
 ];
 

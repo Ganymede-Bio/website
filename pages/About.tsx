@@ -4,7 +4,6 @@ import Header from "./headers/Header";
 export default function About() {
   return (
     <>
-      <Header />
       <div className="bg-white">
         <div className="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">

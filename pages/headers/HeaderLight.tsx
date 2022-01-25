@@ -30,7 +30,7 @@ export default function HeaderLight() {
                   </Popover.Button>
                 </div>
               </div>
-              <Navigation />
+              <Navigation popover={false} />
             </div>
             <div className="hidden md:flex md:items-center md:space-x-6">
               <a
