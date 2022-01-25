@@ -30,8 +30,9 @@ export default function Contact() {
                 <div>
                   <dt className="sr-only">Postal address</dt>
                   <dd>
-                    <p>742 Evergreen Terrace</p>
-                    <p>Springfield, OR 12345</p>
+                    <p>Ganymede Bio</p>
+                    <p>PO Box 225273</p>
+                    <p>San Francisco, CA 94122</p>
                   </dd>
                 </div>
                 <div className="mt-6">
@@ -41,7 +42,7 @@ export default function Contact() {
                       className="flex-shrink-0 h-6 w-6 text-gray-400"
                       aria-hidden="true"
                     />
-                    <span className="ml-3">+1 (555) 123-4567</span>
+                    <span className="ml-3">+1 (415) 409-9768</span>
                   </dd>
                 </div>
                 <div className="mt-3">
@@ -51,7 +52,7 @@ export default function Contact() {
                       className="flex-shrink-0 h-6 w-6 text-gray-400"
                       aria-hidden="true"
                     />
-                    <span className="ml-3">support@example.com</span>
+                    <span className="ml-3">hello@ganymede.bio</span>
                   </dd>
                 </div>
               </dl>
