@@ -1,5 +1,5 @@
 import { people } from "../utils/constants/constants";
-import Header from "./headers/Header";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -34,11 +34,8 @@ export default function About() {
                         <p className="text-indigo-600">{person.role}</p>
                       </div>
                       <ul role="list" className="flex justify-center space-x-5">
-                        <li>
-                          <a
-                            href={person.githubUrl}
-                            className="text-gray-400 hover:text-gray-500"
-                          >
+                        <li className="text-gray-400 hover:text-gray-500">
+                          <a href={person.githubUrl}>
                             <span className="sr-only">Twitter</span>
                             <svg
                               className="w-5 h-5"
@@ -50,11 +47,8 @@ export default function About() {
                             </svg>
                           </a>
                         </li>
-                        <li>
-                          <a
-                            href={person.linkedinUrl}
-                            className="text-gray-400 hover:text-gray-500"
-                          >
+                        <li className="text-gray-400 hover:text-gray-500">
+                          <a href={person.linkedinUrl}>
                             <span className="sr-only">LinkedIn</span>
                             <svg
                               className="w-5 h-5"

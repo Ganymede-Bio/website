@@ -6,7 +6,6 @@ import Image from "next/image";
 
 import DividerTitleLeft from "../components/dividers/DividerTitleLeft";
 import Navigation from "../layout/navs/Navigation";
-import WaitListForm from "../components/forms/WaitListForm";
 import FeaturesSection from "./section/FeaturesSection";
 import PlatformSection from "./section/PlatformSection";
 import ContactSection from "./section/ContactSection";
@@ -113,7 +112,7 @@ export default function Main() {
                 </div>
               </div>
               <div className="hidden md:flex md:space-x-10">
-                <Navigation popover={true} />
+                <Navigation popover={false} />
               </div>
               <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                 <span className="inline-flex rounded-md shadow">
@@ -159,7 +158,7 @@ export default function Main() {
                   </div>
                 </div>
                 <div className="px-2 pt-2 pb-3">
-                  <Navigation popover={false} />
+                  <Navigation popover={true} />
                 </div>
                 <a
                   href="#"
@@ -198,11 +197,9 @@ export default function Main() {
             </p>
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8 pt-8">
               <div className="rounded-md shadow">
-                <html className="scroll-smooth">
-                  <div className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
-                    <Link href="#features-section ">Get started</Link>
-                  </div>
-                </html>
+                <div className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+                  <Link href="#features-section ">Get started</Link>
+                </div>
               </div>
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                 <a

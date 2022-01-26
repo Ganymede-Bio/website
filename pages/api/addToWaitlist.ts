@@ -9,7 +9,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     .create({
       data: { email: email },
     })
-    .catch((e) => {
+    .catch((e: Error) => {
       throw e;
     })
     .finally(async () => {
