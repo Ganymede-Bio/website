@@ -2,7 +2,7 @@ import {
   DesktopComputerIcon,
   BeakerIcon,
   BriefcaseIcon,
-  CakeIcon,
+  RefreshIcon,
   DatabaseIcon,
   GlobeIcon,
   SwitchVerticalIcon,
@@ -25,7 +25,7 @@ export const uiFeatures = [
     name: "Simple UI-based data mapping",
     description:
       "Visualize your integrations’ data structure for easy point-and-click mapping, or write code for more complex mappings. Build an entire DAG as you go. ",
-    icon: CakeIcon,
+    icon: RefreshIcon,
   },
   {
     id: "ui_feature_biologically_aware_types_and_connectors",

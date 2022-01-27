@@ -26,7 +26,7 @@ export default function Navigation({ popover }: INavigation) {
             <ul key={item.name}>
               <li
                 key={item.name}
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 list-none"
+                className="block px-6 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
               >
                 <Link href={item.href}>{item.name}</Link>
               </li>

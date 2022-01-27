@@ -14,16 +14,16 @@ export default function Main() {
   return (
     <div className="relative bg-gray-50 overflow-hidden">
       <div
-        className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full"
+        className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full "
         aria-hidden="true"
       >
         <div className="relative h-full max-w-7xl mx-auto">
           <svg
-            className="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2"
+            className="absolute right-full transform translate-y-full translate-x-1/4 lg:translate-x-1/2"
             width={404}
-            height={784}
+            height={334}
             fill="none"
-            viewBox="0 0 404 784"
+            viewBox="0 0 404 334"
           >
             <defs>
               <pattern
@@ -87,24 +87,24 @@ export default function Main() {
 
       <div className="relative pt-6 pb-16 sm:pb-24">
         <Popover>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="fixed top-3 left-0 w-full mx-auto px-4 sm:px-6">
             <nav
               className="relative flex items-center justify-between sm:h-10 md:justify-center"
               aria-label="Global"
             >
               <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
-                <div className="flex items-center justify-between w-full md:w-auto">
+                <div className="flex items-center justify-between w-full md:w-auto ">
                   <a href="/">
                     <span className="sr-only">Workflow</span>
                     <Image
-                      src="/logo/ganymede_icon_circle.png"
+                      src="/logo/ganymede_logo_light_mode.png"
                       alt=""
-                      width={35}
+                      width={136}
                       height={35}
                     />
                   </a>
                   <div className="-mr-2 flex items-center md:hidden">
-                    <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-regal-purple">
                       <span className="sr-only">Open main menu</span>
                       <MenuIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
@@ -114,16 +114,16 @@ export default function Main() {
               <div className="hidden md:flex md:space-x-10">
                 <Navigation popover={false} />
               </div>
-              <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
+              {/* <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                 <span className="inline-flex rounded-md shadow">
                   <a
                     href="#"
-                    className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 hidden"
+                    className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-regal-purple bg-white hover:bg-gray-50 hidden"
                   >
                     Log in
                   </a>
                 </span>
-              </div>
+              </div> */}
             </nav>
           </div>
 
@@ -144,14 +144,14 @@ export default function Main() {
                 <div className="px-5 pt-4 flex items-center justify-between">
                   <div className="h-8 w-auto">
                     <Image
-                      src="/logo/ganymede_icon_circle.png"
+                      src="/logo/ganymede_logo_light_mode.png"
                       alt=""
-                      width={35}
+                      width={136}
                       height={35}
                     />
                   </div>
                   <div className="-mr-2">
-                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-regal-purple">
                       <span className="sr-only">Close menu</span>
                       <XIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
@@ -162,7 +162,7 @@ export default function Main() {
                 </div>
                 <a
                   href="#"
-                  className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
+                  className="block w-full px-5 py-3 text-center font-medium text-regal-purple bg-gray-50 hover:bg-gray-100 hidden"
                 >
                   Log in
                 </a>
@@ -197,14 +197,14 @@ export default function Main() {
             </p>
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8 pt-8">
               <div className="rounded-md shadow">
-                <div className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
-                  <Link href="#features-section ">Get started</Link>
+                <div className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-regal-purple hover:bg-regal-purple-dark md:py-4 md:text-lg md:px-10">
+                  <Link href="#features-section ">Learn More</Link>
                 </div>
               </div>
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                 <a
                   href="#contact-section"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-regal-purple bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
                 >
                   Contact Us
                 </a>
@@ -213,7 +213,7 @@ export default function Main() {
           </div>
         </main>
 
-        <div className="pt-80">
+        <div className="pt-60">
           <DividerTitleLeft title="Features" />
           <FeaturesSection />
         </div>

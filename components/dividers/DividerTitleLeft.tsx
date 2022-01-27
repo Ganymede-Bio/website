@@ -9,7 +9,7 @@ export default function DividerTitleLeft({ title }: IDivider) {
         <div className="w-full border-t border-gray-100" />
       </div>
       <div className="relative flex justify-center">
-        <span className="pr-3 text-xl font-medium text-indigo-500">
+        <span className="pr-3 text-xl font-medium text-regal-purple-light">
           {title}
         </span>
       </div>

@@ -9,8 +9,11 @@ module.exports = {
         "hero-pattern": "url('/molecule_constellation.png')",
       },
       colors: {
-        "nathan-orange": "#DD7E6B",
-        "regal-purple": "#352b88ff",
+        "nathan-orange": "#DD7E6Bff",
+        "regal-purple-light": "#736bddff",
+        "regal-purple": "#4339abff",
+        "regal-purple-dark": "#352b88ff",
+        "sea-foam": "#6BDD7Eff",
       },
     },
   },
