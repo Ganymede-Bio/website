@@ -15,7 +15,7 @@ export const darkMode: boolean = true;
 export const navigation = [
   { name: "Features", href: "#features-section", current: false },
   // { name: "Platform", href: "#platform-section", current: false },
-  { name: "About", href: "/About", current: false },
+  { name: "About", href: "#about-section", current: false },
   { name: "Contact", href: "#contact-section", current: false },
 ];
 
@@ -98,6 +98,11 @@ export const people = [
     imageUrl: "/people/headshot_nathan_clark.png",
     linkedinUrl: "https://www.linkedin.com/in/nathan-clark-4b850134",
     githubUrl: "https://github.com/nathanwjclark",
+    focus: "Product | Design",
+    blurb: [
+      "Former: Product at Benchling and Affirm",
+      "Built Affirm Savings product from scratch to 200MM in deposits",
+    ],
   },
   {
     name: "Benson Lee",
@@ -105,6 +110,11 @@ export const people = [
     imageUrl: "/people/headshot_benson_lee.png",
     linkedinUrl: "https://www.linkedin.com/in/benson-lee-69980745",
     githubUrl: "https://github.com/bensonlee5",
+    focus: "Technical | Systems",
+    blurb: [
+      "Former: Head of Quant at Affirm, Wall Street trader",
+      "Built and ran quantitative research & deal structuring at Affirm",
+    ],
   },
 ];
 

@@ -7,7 +7,8 @@ import Image from "next/image";
 import DividerTitleLeft from "../components/dividers/DividerTitleLeft";
 import Navigation from "../layout/navs/Navigation";
 import FeaturesSection from "./section/FeaturesSection";
-import PlatformSection from "./section/PlatformSection";
+import AboutSection from "./section/AboutSection";
+// import PlatformSection from "./section/PlatformSection";
 import ContactSection from "./section/ContactSection";
 
 export default function Main() {
@@ -217,12 +218,16 @@ export default function Main() {
           <DividerTitleLeft title="Features" />
           <FeaturesSection />
         </div>
+        <div className="pt-40">
+          <DividerTitleLeft title="About Us" />
+          <AboutSection />
+        </div>
         {/* <div className="pt-40">
           <DividerTitleLeft title="Platform" />
           <PlatformSection />
         </div> */}
         <DividerTitleLeft title="Contact" />
-        <div className="pt-40">
+        <div className="pt-80">
           <ContactSection />
         </div>
       </div>

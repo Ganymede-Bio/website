@@ -1,20 +1,20 @@
-import { people } from "../utils/constants/constants";
+import { people } from "../../utils/constants/constants";
 import Link from "next/link";
 
-export default function About() {
+export default function AboutSection() {
   return (
     <>
-      <div className="bg-white">
+      <div className="bg-gray-50">
         <div className="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">
             <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
               <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
                 Meet our team
               </h2>
-              {/* <p className="text-xl text-gray-500">
-                Ornare sagittis, suspendisse in hendrerit quis. Sed dui aliquet
-                lectus sit pretium egestas vel mattis neque.
-              </p> */}
+              <p className="text-xl text-gray-500">
+                A team that dreams to improve communication in the life sciences
+                industry.
+              </p>
             </div>
             <ul
               role="list"
@@ -28,12 +28,26 @@ export default function About() {
                       src={person.imageUrl}
                       alt=""
                     />
-                    <div className="space-y-2">
-                      <div className="text-lg leading-6 font-medium space-y-1">
+                    <div>
+                      <div className="text-xl leading-6 font-medium">
                         <h3>{person.name}</h3>
-                        <p className="text-indigo-600">{person.role}</p>
+                        <p className="text-nathan-orange text-lg">
+                          {person.role}
+                        </p>
                       </div>
-                      <ul role="list" className="flex justify-center space-x-5">
+                      <div>
+                        <p className="text-regal-purple-light">
+                          {person.focus}
+                        </p>
+                      </div>
+                      <ul role="list" className="justify-center pt-3">
+                        {person.blurb.map((line) => (
+                          <li className="text-gray-400">
+                            <p>{line}</p>
+                          </li>
+                        ))}
+                      </ul>
+                      {/* <ul role="list" className="flex justify-center space-x-5">
                         <li className="text-gray-400 hover:text-gray-500">
                           <a href={person.githubUrl}>
                             <span className="sr-only">Twitter</span>
@@ -64,7 +78,7 @@ export default function About() {
                             </svg>
                           </a>
                         </li>
-                      </ul>
+                      </ul> */}
                     </div>
                   </div>
                 </li>
