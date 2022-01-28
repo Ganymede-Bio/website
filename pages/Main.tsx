@@ -217,10 +217,10 @@ export default function Main() {
           <DividerTitleLeft title="Features" />
           <FeaturesSection />
         </div>
-        <div className="pt-40">
+        {/* <div className="pt-40">
           <DividerTitleLeft title="Platform" />
           <PlatformSection />
-        </div>
+        </div> */}
         <DividerTitleLeft title="Contact" />
         <div className="pt-40">
           <ContactSection />
