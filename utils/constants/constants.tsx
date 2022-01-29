@@ -112,7 +112,7 @@ export const people = [
     imageUrl: "/people/headshot_benson_lee.png",
     linkedinUrl: "https://www.linkedin.com/in/benson-lee-69980745",
     githubUrl: "https://github.com/bensonlee5",
-    focus: "Technical | Systems",
+    focus: "Science | Analysis | Engineering",
     blurb: [
       "Former Head of Quant at Affirm and Trader at Citigroup",
       "built and ran quantitative research & deal structuring at Affirm",
