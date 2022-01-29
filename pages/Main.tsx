@@ -88,7 +88,7 @@ export default function Main() {
 
       <div className="relative pt-6 pb-16 sm:pb-24">
         <Popover>
-          <div className="fixed top-3 left-0 w-full mx-auto px-4 sm:px-6">
+          <div className="fixed top-0 pb-1 pt-2 border left-0 w-full mx-auto px-4 sm:px-6 z-40 bg-gray-100">
             <nav
               className="relative flex items-center justify-between sm:h-10 md:justify-center"
               aria-label="Global"
@@ -102,17 +102,18 @@ export default function Main() {
                       alt=""
                       width={136}
                       height={35}
+                      quality={100}
                     />
                   </a>
                   <div className="-mr-2 flex items-center md:hidden">
-                    <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-regal-purple">
+                    <Popover.Button className="bg-gray-100 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-250 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-regal-purple">
                       <span className="sr-only">Open main menu</span>
-                      <MenuIcon className="h-6 w-6" aria-hidden="true" />
+                      <MenuIcon className="h-6 w-6"/>
                     </Popover.Button>
                   </div>
                 </div>
               </div>
-              <div className="hidden md:flex md:space-x-10">
+              <div className="fixed hidden md:flex md:space-x-10">
                 <Navigation popover={false} />
               </div>
               {/* <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
@@ -138,53 +139,39 @@ export default function Main() {
             leaveTo="opacity-0 scale-95"
           >
             <Popover.Panel
-              focus
-              className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+              // focus
+              className="fixed z-10 top-0 inset-x-0 p-2 etransform origin-top-right md:hidden"
             >
               <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-                <div className="px-5 pt-4 flex items-center justify-between">
-                  <div className="h-8 w-auto">
-                    <Image
-                      src="/logo/ganymede_logo_light_mode.png"
-                      alt=""
-                      width={136}
-                      height={35}
-                    />
-                  </div>
+                <div className="px-5 pt-12 flex items-center justify-between">
                   <div className="-mr-2">
-                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-regal-purple">
-                      <span className="sr-only">Close menu</span>
-                      <XIcon className="h-6 w-6" aria-hidden="true" />
-                    </Popover.Button>
                   </div>
                 </div>
                 <div className="px-2 pt-2 pb-3">
                   <Navigation popover={true} />
                 </div>
-                <a
+                {/* <a
                   href="#"
                   className="block w-full px-5 py-3 text-center font-medium text-regal-purple bg-gray-50 hover:bg-gray-100 hidden"
                 >
                   Log in
-                </a>
+                </a> */}
               </div>
             </Popover.Panel>
           </Transition>
         </Popover>
 
-        <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
+        <main className="pt-40 mx-auto max-w-7xl px-4 sm:mt-24 align-middle">
           <div className="text-center">
             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-              <span className="block">
+              <span className="block sm:ml-28 sm:mr-28 ml-4 mr-4">
                 <span className="inline xl:inline text-nathan-orange">
                   Integrate
                 </span>{" "}
                 <span className="inline xl:inline">
                   your lab's apps and data
                 </span>
-              </span>
-              <span className="block">
-                <span className="inline xl:inline">with one</span>{" "}
+                <span className="inline xl:inline"> with one</span>{" "}
                 <span className="inline xl:inline text-nathan-orange">
                   lab-as-code
                 </span>{" "}
@@ -214,7 +201,7 @@ export default function Main() {
           </div>
         </main>
 
-        <div className="pt-60">
+        <div className="pt-40">
           <DividerTitleLeft title="Features" />
           <FeaturesSection />
         </div>
@@ -227,7 +214,7 @@ export default function Main() {
           <PlatformSection />
         </div> */}
         <DividerTitleLeft title="Contact" />
-        <div className="pt-80">
+        <div className="pt-10">
           <ContactSection />
         </div>
       </div>

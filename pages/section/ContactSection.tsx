@@ -19,11 +19,15 @@ export default function Contact() {
               <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
                 Get in touch
               </h2>
-              <p className="mt-3 text-lg leading-6 text-gray-500">
-                We'd love to stay in touch. Enter your contact info to get an
-                exclusive early invite to the Ganymede beta when ready, and to
-                keep up with our news.
-              </p>
+              <div className="mt-3 text-lg leading-6 text-gray-500">
+                <p>
+                  We'd love to hear from you. Ask us a question, or just send us a note to keep up with our news as we get close to launching.
+
+                </p>
+                <p className = "mt-3">
+                We may reach out to learn more about how we can help build a great product for you.
+                </p>
+              </div>
               <dl className="mt-8 text-base text-gray-500">
                 <div>
                   <dt className="sr-only">Postal address</dt>
@@ -54,13 +58,13 @@ export default function Contact() {
                   </dd>
                 </div>
               </dl>
-              <p className="mt-6 text-base text-gray-500">
+              {/* <p className="mt-6 text-base text-gray-500">
                 Looking for careers?{" "}
                 <a href="#" className="font-medium text-gray-700 underline">
                   View all job openings
                 </a>
                 .
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12 rounded-lg">

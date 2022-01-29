@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function AboutSection() {
   return (
     <>
-      <div className="bg-gray-50">
+      <div className="bg-gray-50" id="about-section">
         <div className="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">
             <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
@@ -40,12 +40,8 @@ export default function AboutSection() {
                           {person.focus}
                         </p>
                       </div>
-                      <ul role="list" className="justify-center pt-3">
-                        {person.blurb.map((line) => (
-                          <li className="text-gray-400">
-                            <p>{line}</p>
-                          </li>
-                        ))}
+                      <ul role="list" className="justify-center pt-3 text-gray-400" key={person.name}>
+                        {person.blurb}
                       </ul>
                       {/* <ul role="list" className="flex justify-center space-x-5">
                         <li className="text-gray-400 hover:text-gray-500">

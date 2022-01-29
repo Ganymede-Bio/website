@@ -46,7 +46,7 @@ export default function FeaturesSection() {
         </svg>
 
         <div className="relative">
-          <h2 className="text-center text-5xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-5xl">
+          <h2 className="text-center text-4xl leading-14 font-extrabold tracking-tight text-gray-900 sm:text-5xl">
             Bringing the tech to biotech
           </h2>
           {/* <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">

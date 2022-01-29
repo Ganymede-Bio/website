@@ -102,7 +102,7 @@ export const people = [
     githubUrl: "https://github.com/nathanwjclark",
     focus: "Product | Design | Engineering",
     blurb: [
-      "Former product manager at Benchling and Affirm,",
+      "Former product manager at Benchling and Affirm, ",
       "focused on data and machine learning products",
     ],
   },
@@ -114,7 +114,7 @@ export const people = [
     githubUrl: "https://github.com/bensonlee5",
     focus: "Science | Analysis | Engineering",
     blurb: [
-      "Former Head of Quant at Affirm and Trader at Citigroup",
+      "Former Head of Quant at Affirm and Trader at Citigroup, ",
       "built and ran quantitative research & deal structuring at Affirm",
     ],
   },
