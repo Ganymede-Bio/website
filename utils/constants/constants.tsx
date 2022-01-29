@@ -12,6 +12,8 @@ import {
 
 export const darkMode: boolean = true;
 
+export const googleTag: string = "GTM-NB3LHGP";
+
 export const navigation = [
   { name: "Features", href: "#features-section", current: false },
   // { name: "Platform", href: "#platform-section", current: false },
@@ -98,10 +100,10 @@ export const people = [
     imageUrl: "/people/headshot_nathan_clark.png",
     linkedinUrl: "https://www.linkedin.com/in/nathan-clark-4b850134",
     githubUrl: "https://github.com/nathanwjclark",
-    focus: "Product | Design",
+    focus: "Product | Design | Engineering",
     blurb: [
-      "Former: Product at Benchling and Affirm",
-      "Built Affirm Savings product from scratch to 200MM in deposits",
+      "Former product manager at Benchling and Affirm,",
+      "focused on data and machine learning products",
     ],
   },
   {
@@ -112,8 +114,8 @@ export const people = [
     githubUrl: "https://github.com/bensonlee5",
     focus: "Technical | Systems",
     blurb: [
-      "Former: Head of Quant at Affirm, Wall Street trader",
-      "Built and ran quantitative research & deal structuring at Affirm",
+      "Former Head of Quant at Affirm and Trader at Citigroup",
+      "built and ran quantitative research & deal structuring at Affirm",
     ],
   },
 ];
