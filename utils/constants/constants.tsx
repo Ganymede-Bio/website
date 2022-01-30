@@ -103,7 +103,8 @@ export const people = [
     focus: "Product | Design | Engineering",
     blurb: [
       "Former product manager at Benchling and Affirm, ",
-      "focused on data and machine learning products",
+      "focused on data and machine learning. Launched ", 
+      <a href='https://www.affirm.com/savings'>affirm.com/savings</a>,
     ],
   },
   {

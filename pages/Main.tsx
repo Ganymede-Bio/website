@@ -6,9 +6,10 @@ import Image from "next/image";
 
 import DividerTitleLeft from "../components/dividers/DividerTitleLeft";
 import Navigation from "../layout/navs/Navigation";
+import Starfield from "../layout/designs/Starfield";
 import FeaturesSection from "./section/FeaturesSection";
 import AboutSection from "./section/AboutSection";
-// import PlatformSection from "./section/PlatformSection";
+import PlatformSection from "./section/PlatformSection";
 import ContactSection from "./section/ContactSection";
 
 export default function Main() {
@@ -94,7 +95,7 @@ export default function Main() {
               aria-label="Global"
             >
               <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
-                <div className="flex items-center justify-between w-full md:w-auto ">
+                <div className="flex items-center justify-between w-full md:w-auto pt-1">
                   <a href="/">
                     <span className="sr-only">Workflow</span>
                     <Image
@@ -140,7 +141,7 @@ export default function Main() {
           >
             <Popover.Panel
               // focus
-              className="fixed z-10 top-0 inset-x-0 p-2 etransform origin-top-right md:hidden"
+              className="fixed z-30 top-0 inset-x-0 p-2 transform origin-top-right md:hidden"
             >
               <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="px-5 pt-12 flex items-center justify-between">
@@ -161,58 +162,66 @@ export default function Main() {
           </Transition>
         </Popover>
 
-        <main className="pt-40 mx-auto max-w-7xl px-4 sm:mt-24 align-middle">
-          <div className="text-center">
-            <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-              <span className="block sm:ml-28 sm:mr-28 ml-4 mr-4">
-                <span className="inline xl:inline text-nathan-orange">
-                  Integrate
-                </span>{" "}
-                <span className="inline xl:inline">
-                  your lab's apps and data
+
+        <main className = "z-20 pb-80">
+          <div className="pt-40 mx-auto max-w-7xl sm:pt-64 px-4 align-middle">
+            <div className="text-center">
+              <h1 className="text-4xl tracking-normal font-extrabold z-20 text-gray-900 sm:text-5xl md:text-6xl">
+                <span className="block sm:ml-28 sm:mr-28 ml-4 mr-4">
+                  <span className="inline xl:inline text-nathan-orange">
+                    Integrate
+                  </span>{" "}
+                  <span className="inline xl:inline">
+                    your lab's apps and data
+                  </span>
+                  <span className="inline xl:inline"> with one</span>{" "}
+                  <span className="inline xl:inline text-nathan-orange">
+                    lab-as-code
+                  </span>{" "}
+                  <span className="inline xl:inline">platform</span>
                 </span>
-                <span className="inline xl:inline"> with one</span>{" "}
-                <span className="inline xl:inline text-nathan-orange">
-                  lab-as-code
-                </span>{" "}
-                <span className="inline xl:inline">platform</span>
-              </span>
-            </h1>
-            <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              Ganymede is the first PaaS for biotech software engineering.
-              Quickly integrate apps, import data, or design pipelines using a
-              powerful bio-aware low-code platform.
-            </p>
-            <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8 pt-8">
-              <div className="rounded-md shadow">
-                <div className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-regal-purple hover:bg-regal-purple-dark md:py-4 md:text-lg md:px-10">
-                  <Link href="#features-section ">Learn More</Link>
+              </h1>
+              <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                Ganymede is the first PaaS for biotech software engineering.
+                Quickly integrate apps, import data, or design pipelines using a
+                powerful bio-aware low-code platform.
+              </p>
+              <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8 pt-8">
+                <div className="rounded-md shadow">
+                  <div className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-regal-purple-dark hover:bg-regal-purple md:py-4 md:text-lg md:px-10">
+                    <Link href="#features-section ">Learn More</Link>
+                  </div>
                 </div>
-              </div>
-              <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                <a
-                  href="#contact-section"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-regal-purple bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
-                >
-                  Contact Us
-                </a>
+                <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+                  <a
+                    href="#contact-section"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-regal-purple bg-gray-100 hover:bg-gray-200 md:py-4 md:text-lg md:px-10"
+                  >
+                    Contact Us
+                  </a>
+                </div>
               </div>
             </div>
           </div>
+
+          {/* <div id="starfield" className = "z-10 absolute top-0 w-full">
+            <Starfield />
+          </div> */}
+
         </main>
 
-        <div className="pt-40">
+        <div>
           <DividerTitleLeft title="Features" />
           <FeaturesSection />
-        </div>
-        <div className="pt-40">
-          <DividerTitleLeft title="About Us" />
-          <AboutSection />
         </div>
         {/* <div className="pt-40">
           <DividerTitleLeft title="Platform" />
           <PlatformSection />
         </div> */}
+        <div className="pt-40">
+          <DividerTitleLeft title="About Us" />
+          <AboutSection />
+        </div>
         <DividerTitleLeft title="Contact" />
         <div className="pt-10">
           <ContactSection />

@@ -49,11 +49,10 @@ export default function FeaturesSection() {
           <h2 className="text-center text-4xl leading-14 font-extrabold tracking-tight text-gray-900 sm:text-5xl">
             Bringing the tech to biotech
           </h2>
-          {/* <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-            Ganymede is the first PaaS for biotech software engineering. Quickly
-            integrate apps, import data, or design pipelines using a powerful
-            bio-aware low-code platform.
-          </p> */}
+          <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
+          We're working to accelerate biotech by making the perfect PaaS for software engineers, built from the ground up to help you
+          tame the complexity of your data and your science.
+          </p>
         </div>
 
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">

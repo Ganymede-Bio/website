@@ -12,7 +12,7 @@ export default function AboutSection() {
                 Meet our team
               </h2>
               <p className="text-xl text-gray-500">
-                A team that dreams to improve communication in the life sciences
+                A team that dreams to improve data and communication in the life sciences
                 industry.
               </p>
             </div>
