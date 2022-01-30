@@ -1,3 +1,4 @@
+import { json } from "stream/consumers";
 import { people } from "../../utils/constants/constants";
 // import Link from "next/link";
 
@@ -12,42 +13,44 @@ export default function AboutSection() {
                 Meet our team
               </h2>
               <p className="text-xl text-gray-500">
-                A team that dreams to improve data and communication in the life sciences
-                industry.
+                A team that dreams to improve data and communication in the life
+                sciences industry.
               </p>
             </div>
             <ul
               role="list"
               className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-2 lg:max-w-5xl"
             >
-              {people.map((person) => (
-                <li key={person.name}>
-                  <div className="space-y-6">
-                    <img
-                      className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
-                      src={person.imageUrl}
-                      alt=""
-                    />
-                    <div>
-                      <div className="text-xl leading-6 font-medium">
-                        <h3>{person.name}</h3>
-                        <p className="text-nathan-orange text-lg">
-                          {person.role}
-                        </p>
-                      </div>
+              {people.map((person) => {
+                const jsx = (
+                  <li key={person.name}>
+                    <div className="space-y-6">
+                      <img
+                        className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
+                        src={person.imageUrl}
+                        alt=""
+                      />
                       <div>
-                        <p className="text-regal-purple-light">
-                          {person.focus}
-                        </p>
-                      </div>
-                      <ul
-                        role="list"
-                        className="justify-center pt-3 text-gray-400"
-                        key={person.name}
-                      >
-                        {person.blurb}
-                      </ul>
-                      {/* <ul role="list" className="flex justify-center space-x-5">
+                        <div className="text-xl leading-6 font-medium">
+                          <h3>{person.name}</h3>
+                          <p className="text-nathan-orange text-lg">
+                            {person.role}
+                          </p>
+                        </div>
+                        <div>
+                          <p className="text-regal-purple-light">
+                            {person.focus}
+                          </p>
+                        </div>
+                        <ul
+                          role="list"
+                          className="justify-center pt-3 text-gray-400"
+                        >
+                          {person.blurb.map((b, idx) => (
+                            <li key={b + idx.toString()}>{b}</li>
+                          ))}
+                        </ul>
+                        {/* <ul role="list" className="flex justify-center space-x-5">
                         <li className="text-gray-400 hover:text-gray-500">
                           <a href={person.githubUrl}>
                             <span className="sr-only">Twitter</span>
@@ -79,10 +82,13 @@ export default function AboutSection() {
                           </a>
                         </li>
                       </ul> */}
+                      </div>
                     </div>
-                  </div>
-                </li>
-              ))}
+                  </li>
+                );
+
+                return jsx;
+              })}
             </ul>
           </div>
         </div>

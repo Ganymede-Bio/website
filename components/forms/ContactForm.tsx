@@ -18,15 +18,15 @@ interface IContactForm {
 export default function ContactForm() {
   const {
     register,
-    formState: { errors },
+    formState: { errors, isSubmitted },
     handleSubmit,
   } = useForm<IContactForm>();
 
   const onSubmit: SubmitHandler<IContactForm> = async function (item) {
-    // const res = await fetch("../api/addToContact", {
-    //   method: "POST",
-    //   body: JSON.stringify(item),
-    // });
+    const res = await fetch("../api/addToContact", {
+      method: "POST",
+      body: JSON.stringify(item),
+    });
     // const data = await res.json();
     // console.log(data);
   };
@@ -114,6 +114,7 @@ export default function ContactForm() {
           Submit
         </button>
       </div>
+      {isSubmitted ? <p>Thanks for submitting your info!</p> : ""}
     </form>
   );
 }

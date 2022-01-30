@@ -1,12 +1,7 @@
-import { useState } from "react";
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
 import ContactForm from "../../components/forms/ContactForm";
 
 export default function Contact() {
-  // const user = await prisma.user.create({
-  //   data: { email: "alice@prisma.io" },
-  // });
-
   return (
     <>
       <div id="contact-section" className="relative bg-white">
@@ -21,11 +16,12 @@ export default function Contact() {
               </h2>
               <div className="mt-3 text-lg leading-6 text-gray-500">
                 <p>
-                  We'd love to hear from you. Ask us a question, or just send us a note to keep up with our news as we get close to launching.
-
+                  We'd love to hear from you. Ask us a question, or just send us
+                  a note to keep up with our news as we get close to launching.
                 </p>
-                <p className = "mt-3">
-                We may reach out to learn more about how we can help build a great product for you.
+                <p className="mt-3">
+                  We may reach out to learn more about how we can help build a
+                  great product for you.
                 </p>
               </div>
               <dl className="mt-8 text-base text-gray-500">
