@@ -4,25 +4,25 @@ import ContactForm from "../../components/forms/ContactForm";
 export default function Contact() {
   return (
     <>
-      <div id="contact-section" className="relative bg-white">
+      <div id="contact-section" className="relative ">
         <div className="absolute inset-0">
           <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50" />
         </div>
-        <div className="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
-          <div className="bg-gray-50 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
+        <div className="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5 pt-6">
+          <div className="bg-gray-50 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-12 xl:pr-12">
             <div className="max-w-lg mx-auto">
               <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
                 Get in touch
               </h2>
               <div className="mt-3 text-lg leading-6 text-gray-500">
                 <p>
-                  We'd love to hear from you. Ask us a question, or just send us
-                  a note to keep up with our news as we get close to launching.
+                  We'd love to hear from you. Ask us questions, inquire about
+                  openings, or keep up with our developments as we launch.
                 </p>
-                <p className="mt-3">
+                {/* <p className="mt-3">
                   We may reach out to learn more about how we can help build a
                   great product for you.
-                </p>
+                </p> */}
               </div>
               <dl className="mt-8 text-base text-gray-500">
                 <div>
@@ -63,7 +63,7 @@ export default function Contact() {
               </p> */}
             </div>
           </div>
-          <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12 rounded-lg">
+          <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-12 lg:px-8 xl:pl-12 rounded-lg">
             <div className="max-w-lg mx-auto lg:max-w-none">
               <ContactForm />
             </div>

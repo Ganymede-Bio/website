@@ -1,24 +1,17 @@
 import { useForm, SubmitHandler } from "react-hook-form";
 import { ErrorMessage } from "@hookform/error-message";
 import validator from "validator";
-// import PhoneInput from "react-phone-number-input";
-// import InputPhoneNumber from "../inputs/InputPhoneNumber";
-// import {
-//   isValidPhoneNumber,
-//   validatePhoneNumberLength,
-// } from "libphonenumber-js";
 
 interface IContactForm {
   name: String;
   email: String;
-  phone: String;
   message: String;
 }
 
 export default function ContactForm() {
   const {
     register,
-    formState: { errors, isSubmitted },
+    formState: { errors, isSubmitted, isSubmitting },
     handleSubmit,
   } = useForm<IContactForm>();
 
@@ -29,6 +22,17 @@ export default function ContactForm() {
     });
     // const data = await res.json();
     // console.log(data);
+  };
+
+  const showSubmittingMessage = () => {
+    return <p>Submitting...</p>;
+  };
+
+  const showSubmittedMessage = () => {
+    const msg = Object.keys(errors).length === 0 && (
+      <p>Thanks for submitting your info!</p>
+    );
+    return msg;
   };
 
   return (
@@ -63,7 +67,7 @@ export default function ContactForm() {
           type="email"
           autoComplete="email"
           className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
-          placeholder="Email address"
+          placeholder="Work email"
           {...register("email", {
             required: "Please enter your email address",
             validate: (val) =>
@@ -73,7 +77,7 @@ export default function ContactForm() {
         />
         <ErrorMessage errors={errors} name="email" />
       </div>
-      <div>
+      {/* <div>
         <label htmlFor="phone" className="sr-only">
           Phone
         </label>
@@ -91,7 +95,7 @@ export default function ContactForm() {
           })}
         />
         <ErrorMessage errors={errors} name="phone" />
-      </div>
+      </div> */}
       <div>
         <label htmlFor="message" className="sr-only">
           Message
@@ -114,7 +118,9 @@ export default function ContactForm() {
           Submit
         </button>
       </div>
-      {isSubmitted ? <p>Thanks for submitting your info!</p> : ""}
+      {isSubmitting
+        ? showSubmittingMessage()
+        : isSubmitted && showSubmittedMessage()}
     </form>
   );
 }

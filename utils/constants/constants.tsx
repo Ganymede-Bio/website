@@ -103,7 +103,7 @@ export const people = [
     focus: "Product | Design | Engineering",
     blurb: [
       "Former product manager at Benchling and Affirm, ",
-      "focused on data and machine learning. Launched",
+      "focused on data and machine learning. Launched ",
       <span className="inline">
         <p className="text-regal-purple-light inline">
           <a href="https://www.affirm.com/savings">affirm.com/savings</a>
