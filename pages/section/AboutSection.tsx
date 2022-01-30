@@ -1,5 +1,5 @@
 import { people } from "../../utils/constants/constants";
-import Link from "next/link";
+// import Link from "next/link";
 
 export default function AboutSection() {
   return (
@@ -40,7 +40,11 @@ export default function AboutSection() {
                           {person.focus}
                         </p>
                       </div>
-                      <ul role="list" className="justify-center pt-3 text-gray-400" key={person.name}>
+                      <ul
+                        role="list"
+                        className="justify-center pt-3 text-gray-400"
+                        key={person.name}
+                      >
                         {person.blurb}
                       </ul>
                       {/* <ul role="list" className="flex justify-center space-x-5">
