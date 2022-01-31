@@ -16,7 +16,7 @@ export const googleTag: string = "GTM-NB3LHGP";
 
 export const navigation = [
   { name: "Features", href: "#features-section", current: false },
-  // { name: "Platform", href: "#platform-section", current: false },
+  { name: "Platform", href: "#platform-section", current: false },
   { name: "About", href: "#about-section", current: false },
   { name: "Contact", href: "#contact-section", current: false },
 ];
