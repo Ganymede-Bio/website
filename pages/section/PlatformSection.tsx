@@ -4,18 +4,22 @@ import Image from "next/image";
 
 export default function PlatformSection() {
   return (
-    <div className="relative bg-gray-50 overflow-hidden pt-8 sm:pt-12 lg:pt-16">
+    <div
+      id="platform-section"
+      className="relative bg-gray-50 overflow-hidden pt-8 sm:pt-12 lg:pt-16"
+    >
       <div className="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
         <div>
           <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-normal sm:text-4xl">
             Built as a turnkey solution
           </p>
           <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-          Connect to Ganymede over its APIs/SDK; or, connect Ganymede directly to your database. 
-          We provide a powerful React-like library for engineers, synced with a web app for end users.
+            Connect to Ganymede over its APIs/SDK; or, connect Ganymede directly
+            to your database. We provide a powerful React-like library for
+            engineers, synced with a web app for end users.
           </p>
         </div>
-        <div className="mt-12">
+        <div className="mt-12 pb-10">
           <img
             className="object-center static mx-auto lg:max-w-5xl"
             src="/app/new_platform_light.png"
