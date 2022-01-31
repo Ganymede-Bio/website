@@ -18,7 +18,7 @@ export default function PlatformSection() {
         <div className="mt-12">
           <img
             className="object-center static mx-auto lg:max-w-5xl"
-            src="/app/platform_light.png"
+            src="/app/new_platform_light.png"
             alt=""
           />
         </div>
