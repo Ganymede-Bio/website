@@ -99,7 +99,7 @@ export default function Main() {
                   <a href="/">
                     <span className="sr-only">Workflow</span>
                     <Image
-                      src="/logo/ganymede_logo_light_mode.png"
+                      src="/logo/ganymede_logo_new.svg"
                       alt=""
                       width={136}
                       height={35}
@@ -214,11 +214,11 @@ export default function Main() {
           <DividerTitleLeft title="Features" />
           <FeaturesSection />
         </div>
-        {/* <div className="pt-40">
-          <DividerTitleLeft title="Platform" />
+        <div>
+          <DividerTitleLeft title="Platform"/>
           <PlatformSection />
-        </div> */}
-        <div className="pt-40">
+        </div>
+        <div>
           <DividerTitleLeft title="About Us" />
           <AboutSection />
         </div>
