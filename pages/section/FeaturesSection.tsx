@@ -120,7 +120,7 @@ export default function FeaturesSection() {
             <img
               className="relative mx-auto rounded-md shadow-lg"
               width={490}
-              src="/app/x50_assay_run_clean.png"
+              src="/app/dag_new.png"
               alt=""
             />
           </div>
@@ -333,7 +333,7 @@ export default function FeaturesSection() {
             <img
               className="relative mx-auto rounded-md shadow-lg"
               width={490}
-              src="/app/gui_sources_sinks_clean.png"
+              src="/app/jsonlink_new.png"
               alt=""
             />
           </div>

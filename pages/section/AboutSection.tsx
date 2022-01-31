@@ -2,10 +2,48 @@ import { json } from "stream/consumers";
 import { people } from "../../utils/constants/constants";
 // import Link from "next/link";
 
+import {
+  uiFeatures,
+  apiFeatures,
+  transfersFeatures,
+} from "../../utils/constants/constants";
+
 export default function AboutSection() {
   return (
     <>
       <div className="bg-gray-50" id="about-section">
+      <svg
+            className="absolute right-full transform translate-y-full translate-x-1/4 lg:translate-x-1/2"
+            width={404}
+            height={334}
+            fill="none"
+            viewBox="0 0 404 334"
+          >
+            <defs>
+              <pattern
+                id="f210dbf6-a58d-4871-961e-36d5016a0f49"
+                x={0}
+                y={0}
+                width={20}
+                height={20}
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  x={0}
+                  y={0}
+                  width={4}
+                  height={4}
+                  className="text-gray-200"
+                  fill="currentColor"
+                />
+              </pattern>
+            </defs>
+            <rect
+              width={404}
+              height={784}
+              fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)"
+            />
+          </svg>
         <div className="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
           <div className="space-y-12">
             <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
