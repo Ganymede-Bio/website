@@ -14,7 +14,11 @@ module.exports = {
         "regal-purple": "#4339abff",
         "regal-purple-dark": "#352b88ff",
         "sea-foam": "#6BDD7Eff",
+        "twilight": "#3d59ff"
       },
+    },
+    fontFamily: {
+      poppins: ['Poppins', 'sans-serif'],
     },
   },
   plugins: [],

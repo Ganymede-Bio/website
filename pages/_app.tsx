@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import type { AppProps } from "next/app";
+import Head from "next/head";
 
 import * as ga from "../lib/ga";
 
@@ -21,7 +22,15 @@ function MyApp({ Component, pageProps }: AppProps) {
     };
   }, [router.events]);
 
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Head>
+        <title>Ganymede</title>
+        <link rel="shortcut icon" href="/logo/favicon.png" type="image/x-icon"/>
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
 }
 
 export default MyApp;
