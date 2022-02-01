@@ -13,7 +13,7 @@ export default function AboutSection() {
     <>
       <div className="bg-gray-50" id="about-section">
       <svg
-            className="absolute right-full transform translate-y-full translate-x-1/4 lg:translate-x-1/2"
+            className="absolute right-full transform translate-y-full translate-x-1/4 lg:translate-x-1/2 hidden z-0 xl:block"
             width={404}
             height={334}
             fill="none"
@@ -61,7 +61,7 @@ export default function AboutSection() {
             >
               {people.map((person) => {
                 const jsx = (
-                  <li key={person.name}>
+                  <li key={person.name} className = "z-10">
                     <div className="space-y-6">
                       <img
                         className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
