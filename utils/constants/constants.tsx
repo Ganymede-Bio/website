@@ -33,7 +33,7 @@ export const uiFeatures = [
     id: "ui_feature_biologically_aware_types_and_connectors",
     name: "Biologically-aware types and connectors",
     description:
-      "Quickly organize data into bio objects through powerful types, and out-of-the-box connectors to LIMS like Benchling or data formats like FASTA.",
+      "Quickly organize data into bio objects through powerful types, and out-of-the-box connectors to apps like LIMS or data formats like FASTA.",
     icon: BeakerIcon,
   },
   {

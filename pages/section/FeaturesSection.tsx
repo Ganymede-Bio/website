@@ -228,7 +228,7 @@ export default function FeaturesSection() {
               <img
                 className="relative mx-auto rounded-md shadow-lg"
                 width={490}
-                src="/app/demo_api_code.png"
+                src="/app/code_new2.png"
                 alt=""
               />
             </div>
