@@ -24,7 +24,7 @@ export default function Contact() {
                   great product for you.
                 </p> */}
               </div>
-              <dl className="mt-8 text-base text-gray-500">
+              <dl className="mt-4 text-base text-gray-500">
                 <div>
                   <dt className="sr-only">Postal address</dt>
                   <dd>
@@ -33,7 +33,7 @@ export default function Contact() {
                     <p>San Francisco, CA 94122</p>
                   </dd>
                 </div>
-                <div className="mt-6">
+                <div className="mt-4">
                   <dt className="sr-only">Phone number</dt>
                   <dd className="flex">
                     <PhoneIcon
@@ -54,13 +54,15 @@ export default function Contact() {
                   </dd>
                 </div>
               </dl>
-              {/* <p className="mt-6 text-base text-gray-500">
-                Looking for careers?{" "}
-                <a href="#" className="font-medium text-gray-700 underline">
-                  View all job openings
-                </a>
-                .
-              </p> */}
+              <p className="mt-6 text-xl font-bold text-gray-900">
+                Want to work with us?{" "}
+              </p>
+              <p className = "mt-2 text-gray-500">
+                <a href="https://apply.workable.com/ganymede/" className="font-medium text-gray-700 underline">
+                    View all job openings
+                  </a>
+                , or shoot us a note if you think you could contribute and don't see a role that fits you!
+              </p>
             </div>
           </div>
           <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-12 lg:px-8 xl:pl-12 rounded-lg">
