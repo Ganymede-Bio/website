@@ -19,6 +19,11 @@ export const navigation = [
   { name: "Platform", href: "#platform-section", current: false },
   { name: "About", href: "#about-section", current: false },
   { name: "Contact", href: "#contact-section", current: false },
+  {
+    name: "Careers",
+    href: "https://apply.workable.com/ganymede/",
+    current: false,
+  },
 ];
 
 export const uiFeatures = [
