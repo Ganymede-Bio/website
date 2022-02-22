@@ -54,7 +54,7 @@ export default function Contact() {
                   </dd>
                 </div>
               </dl>
-              <p className="mt-6 text-xl font-bold text-gray-900">
+              {/* <p className="mt-6 text-xl font-bold text-gray-900">
                 Want to work with us?{" "}
               </p>
               <p className = "mt-2 text-gray-500">
@@ -62,7 +62,7 @@ export default function Contact() {
                     View all job openings
                   </a>
                 , or shoot us a note if you think you could contribute and don't see a role that fits you!
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-12 lg:px-8 xl:pl-12 rounded-lg">
