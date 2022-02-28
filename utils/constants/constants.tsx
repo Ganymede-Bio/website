@@ -38,16 +38,16 @@ export const careerSortOrder = new Map([
 export const uiFeatures = [
   {
     id: "ui_feature_simple_ui_based_data_mapping",
-    name: "Simple UI-based data mapping",
+    name: "The easiest UI for writing business logic",
     description:
-      "Visualize your integrations’ data structure for easy point-and-click mapping, or write code for more complex mappings. Build an entire DAG as you go. ",
+      "Engineers code integrations' skeletons, then visualize them in an automatically-generated UI for scientists to review and write business logic. Build an entire DAG as you go. ",
     icon: RefreshIcon,
   },
   {
     id: "ui_feature_biologically_aware_types_and_connectors",
     name: "Biologically-aware types and connectors",
     description:
-      "Quickly organize data into bio objects through powerful types, and out-of-the-box connectors to apps like LIMS or data formats like FASTA.",
+      "Quickly organize data into bio objects through powerful types, and out-of-the-box connectors to your hardware and software.",
     icon: BeakerIcon,
   },
   {

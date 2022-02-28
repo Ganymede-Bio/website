@@ -50,19 +50,19 @@ export default function FeaturesSection() {
             Bringing the tech to biotech
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-          We're working to accelerate biotech by making the perfect PaaS for software engineers, built from the ground up to help you
-          tame the complexity of your data and your science.
+          We're working to accelerate medicine and healthcare by making the perfect PaaS for software engineers, built from the ground up to help you
+          tame the complexity of your data and your apps.
           </p>
         </div>
 
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Connect apps and data easily
+              Connect instruments, apps, and data
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Easily integrate your apps and your data and automate your
-              workflows, whether you’re an engineer or a scientist.
+              Integrate everything in your lab from instruments to apps to data, all in a single common platform. Automate your
+              workflows whether you're an engineer or a scientist.
             </p>
 
             <dl className="mt-10 space-y-10">
@@ -164,7 +164,7 @@ export default function FeaturesSection() {
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-                Better than the cloud
+                Built for engineers first
               </h3>
               <p className="mt-3 text-lg text-gray-500">
                 Build complex and stateful tools leveraging the Ganymede

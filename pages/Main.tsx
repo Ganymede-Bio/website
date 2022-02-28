@@ -172,9 +172,9 @@ export default function Main() {
                     Integrate
                   </span>{" "}
                   <span className="inline xl:inline">
-                    your lab's apps and data
+                    apps, data, and hardware
                   </span>
-                  <span className="inline xl:inline"> with one</span>{" "}
+                  <span className="inline xl:inline"> in one</span>{" "}
                   <span className="inline xl:inline text-nathan-orange">
                     lab-as-code
                   </span>{" "}
@@ -182,8 +182,8 @@ export default function Main() {
                 </span>
               </h1>
               <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-                Ganymede is the first PaaS for biotech software engineering.
-                Quickly integrate apps, import data, or design pipelines using a
+                Ganymede is the first PaaS for laboratory software engineering.
+                Quickly connect hardware, integrate apps, transform data using a
                 powerful bio-aware low-code platform.
               </p>
               <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8 pt-8">
