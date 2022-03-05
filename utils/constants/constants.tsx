@@ -27,6 +27,7 @@ export const navigation = [
 
 export const careerSortOrder = new Map([
   ["Software Engineer (Full Stack)", 3],
+  ["Software Engineer (Devices)", 3],
   ["Senior Software Engineer (Full Stack)", 4],
   ["Senior Lab Automation Engineer", 4],
   ["Senior Software Engineer (Backend/Infra)", 5],
