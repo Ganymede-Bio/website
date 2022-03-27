@@ -47,29 +47,27 @@ export default function FeaturesSection() {
 
         <div className="relative">
           <h2 className="text-center text-4xl leading-14 font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-            Bringing the tech to biotech
+            Your lab's data + automation backbone
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
-          We're working to accelerate medicine and healthcare by making the perfect PaaS for software engineers, built from the ground up to help you
-          tame the complexity of your data and your apps.
+          Ganymede makes it as easy as possible for software engineers to write integrations, connect software and hardware, and push data around with intuitive versioning.
           </p>
         </div>
 
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Connect instruments, apps, and data
+              Rapidly develop integrations in code...
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Integrate everything in your lab from instruments to apps to data, all in a single common platform. Automate your
-              workflows whether you're an engineer or a scientist.
+              Quickly write, test, and run integrations between everything in your lab. Develop your own connectors and types, or extend our library.
             </p>
 
             <dl className="mt-10 space-y-10">
-              {uiFeatures.map((item) => (
+              {apiFeatures.map((item) => (
                 <div key={item.id} className="relative">
                   <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-nathan-orange text-white">
+                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-regal-purple-light text-white">
                       <item.icon className="h-6 w-6" aria-hidden="true" />
                     </div>
                     <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
@@ -120,7 +118,7 @@ export default function FeaturesSection() {
             <img
               className="relative mx-auto rounded-md shadow-lg"
               width={490}
-              src="/app/dag_new.png"
+              src="/app/code_bioreactor.png"
               alt=""
             />
           </div>
@@ -164,19 +162,17 @@ export default function FeaturesSection() {
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-                Built for engineers first
+                ...and generate UIs to manage them
               </h3>
               <p className="mt-3 text-lg text-gray-500">
-                Build complex and stateful tools leveraging the Ganymede
-                platform as a backend-in-a-box. Skip figuring out AWS and get
-                your laboratory apps running in hours, not weeks.
+                Create apps and automate your work whether you're an engineer or scientist. Ganymede automatically generates a UI for mapping data that serves engineers' integrations as tables.
               </p>
 
               <dl className="mt-10 space-y-10">
-                {apiFeatures.map((item) => (
+                {uiFeatures.map((item) => (
                   <div key={item.id} className="relative">
                     <dt>
-                      <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-nathan-orange text-white">
+                      <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-regal-purple-light text-white">
                         <item.icon className="h-6 w-6" aria-hidden="true" />
                       </div>
                       <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
@@ -228,7 +224,7 @@ export default function FeaturesSection() {
               <img
                 className="relative mx-auto rounded-md shadow-lg"
                 width={490}
-                src="/app/code_new2.png"
+                src="/app/dag_bioreactor.png"
                 alt=""
               />
             </div>
@@ -282,7 +278,7 @@ export default function FeaturesSection() {
               {transfersFeatures.map((item) => (
                 <div key={item.id} className="relative">
                   <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-nathan-orange text-white">
+                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-regal-purple-light text-white">
                       <item.icon className="h-6 w-6" aria-hidden="true" />
                     </div>
                     <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
