@@ -47,7 +47,7 @@ export default function FeaturesSection() {
 
         <div className="relative">
           <h2 className="text-center text-4xl leading-14 font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-            Your lab's data + automation backbone
+            Your lab's core data + automation backbone
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
           Ganymede makes it as easy as possible for software engineers to write integrations, connect software and hardware, and push data around with intuitive versioning.
