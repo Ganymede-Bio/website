@@ -63,7 +63,7 @@ export const uiFeatures = [
 export const apiFeatures = [
   {
     id: "api_feature_powerful_lab_as_code_tooling_for_engineers",
-    name: "Powerful lab-as-code tooling for engineers",
+    name: "Powerful Terraform-like lab-as-code tooling",
     description:
       "Ganymede offers a declarative library of high-level automation tools and bioinformatic functions so you don’t have to reinvent the wheel.",
     icon: DesktopComputerIcon,
