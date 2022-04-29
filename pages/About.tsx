@@ -1,5 +1,6 @@
 import { json } from "stream/consumers";
 import { people } from "../utils/constants/constants";
+import Image from "next/image";
 // import Link from "next/link";
 
 import {
@@ -63,10 +64,12 @@ export default function About() {
                 const jsx = (
                   <li key={person.name} className="z-10">
                     <div className="space-y-6">
-                      <img
+                      <Image
                         className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
                         src={person.imageUrl}
                         alt=""
+                        width="200"
+                        height="200"
                       />
                       <div>
                         <div className="text-xl leading-6 font-medium">
