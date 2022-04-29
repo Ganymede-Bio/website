@@ -1,13 +1,6 @@
-import { json } from "stream/consumers";
 import { people } from "../utils/constants/constants";
 import Image from "next/image";
 // import Link from "next/link";
-
-import {
-  uiFeatures,
-  apiFeatures,
-  transfersFeatures,
-} from "../utils/constants/constants";
 
 export default function About() {
   return (
