@@ -6,9 +6,9 @@ import Image from "next/image";
 
 import DividerTitleLeft from "../components/dividers/DividerTitleLeft";
 import Navigation from "../layout/navs/Navigation";
-import Starfield from "../layout/designs/Starfield";
+// import Starfield from "../layout/designs/Starfield";
 import FeaturesSection from "./section/FeaturesSection";
-import AboutSection from "./section/AboutSection";
+// import AboutSection from "./About";
 import PlatformSection from "./section/PlatformSection";
 import ContactSection from "./section/ContactSection";
 
@@ -216,10 +216,10 @@ export default function Main() {
           <DividerTitleLeft title="Platform"/>
           <PlatformSection />
         </div>
-        <div>
+        {/* <div>
           <DividerTitleLeft title="About Us" />
           <AboutSection />
-        </div>
+        </div> */}
         <DividerTitleLeft title="Contact" />
         <div className="pt-10">
           <ContactSection />

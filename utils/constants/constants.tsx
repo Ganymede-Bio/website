@@ -20,7 +20,7 @@ export const workableURL: string =
 export const navigation = [
   { name: "Features", href: "#features-section", current: false },
   { name: "Platform", href: "#platform-section", current: false },
-  { name: "About", href: "#about-section", current: false },
+  { name: "About", href: "/About", current: false },
   { name: "Contact", href: "#contact-section", current: false },
   { name: "Careers", href: "/Careers", current: false },
 ];
@@ -111,7 +111,7 @@ export const transfersFeatures = [
 export const people = [
   {
     name: "Nathan Clark",
-    role: "Co-Founder",
+    role: "Founder",
     imageUrl: "/people/headshot_nathan_clark.png",
     linkedinUrl: "https://www.linkedin.com/in/nathan-clark-4b850134",
     githubUrl: "https://github.com/nathanwjclark",
@@ -128,16 +128,56 @@ export const people = [
   },
   {
     name: "Benson Lee",
-    role: "Co-Founder",
+    role: "Founder",
     imageUrl: "/people/headshot_benson_lee.png",
     linkedinUrl: "https://www.linkedin.com/in/benson-lee-69980745",
     githubUrl: "https://github.com/bensonlee5",
-    focus: "Science | Analysis | Engineering",
+    focus: "Science | Eng | Hardware",
     blurb: [
       "Former Head of Quant at Affirm and Trader at Citigroup, ",
       "built and ran quantitative research & deal structuring at Affirm",
     ],
   },
+  {
+    name: "Andy Caruso",
+    role: "Founding Engineer",
+    imageUrl: "/people/headshot_andy_caruso.png",
+    linkedinUrl: "https://www.linkedin.com/in/carusoandy",
+    githubUrl: "https://github.com/carusooo",
+    focus: "Cloud Infra | Quality",
+    blurb: [
+      "Former Software Engineer at Alphabet. ",
+      "Built infrastructure management platform at Verily,",
+      "ran releases at YouTube, Chrome.",
+    ],
+  },
+  {
+    name: "John La",
+    role: "Founding Engineer",
+    imageUrl: "/people/headshot_john_la.png",
+    linkedinUrl: "",
+    githubUrl: "",
+    focus: "Backend Eng | Systems",
+    blurb: [""]
+  },
+  {
+    name: "Sami Belkadi",
+    role: "Founding Engineer",
+    imageUrl: "/people/headshot_sami_belkadi.png",
+    linkedinUrl: "",
+    githubUrl: "",
+    focus: "Lab Auto | Hardware",
+    blurb: [""]
+  },
+  {
+    name: "Alan Chramiec",
+    role: "Founding Scientist",
+    imageUrl: "/people/headshot_alan_chramiec.png",
+    linkedinUrl: "",
+    githubUrl: "",
+    focus: "Sales Ops | Business | People",
+    blurb: [""]
+  }
 ];
 
 export const corporatePrinciples = [
