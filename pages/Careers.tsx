@@ -20,6 +20,9 @@ export async function getStaticProps() {
 
   // sort data by department, and then by seniority within department
   const positions = data.jobs.sort(function (a: IPosition, b: IPosition) {
+    a.department = a.department || "";
+    b.department = b.department || "";
+
     if (a.department == b.department) {
       if (careerSortOrder.get(a.title) == careerSortOrder.get(b.title))
         return 0;

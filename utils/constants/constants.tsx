@@ -33,6 +33,7 @@ export const careerSortOrder = new Map([
   ["Senior Software Engineer (Backend/Infra)", 5],
   ["Staff Software Engineer (Full Stack)", 6],
   ["Staff Software Engineer (Backend/Infra)", 6],
+  ["Forward-Deployed Software Engineer", 5],
   ["Flexible Inquiry", 5],
 ]);
 
