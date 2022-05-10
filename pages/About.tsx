@@ -1,10 +1,37 @@
 import { people } from "../utils/constants/constants";
 import Image from "next/image";
+import Navigation from "../layout/navs/Navigation";
 // import Link from "next/link";
 
 export default function About() {
   return (
     <>
+      {/* <div className="fixed top-0 pb-1 pt-2 border left-0 w-full mx-auto px-4 sm:px-6 z-40 bg-gray-100">
+        <nav
+          className="relative flex items-center justify-between sm:h-10 md:justify-center"
+          aria-label="Global"
+        >
+          <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
+            <div className="flex items-center justify-between w-full md:w-auto pt-1">
+              <a href="/">
+                <span className="sr-only">Workflow</span>
+                <Image
+                  src="/logo/ganymede_logo_new.svg"
+                  alt=""
+                  width={136}
+                  height={35}
+                  quality={100}
+                />
+              </a>
+
+            </div>
+          </div>
+          <div className="fixed hidden md:flex md:space-x-10">
+            <Navigation popover={false} />
+          </div>
+
+        </nav>
+      </div> */}
       <div className="bg-gray-50" id="about-section">
         <svg
           className="absolute right-full transform translate-y-full translate-x-1/4 lg:translate-x-1/2 hidden z-0 xl:block"
