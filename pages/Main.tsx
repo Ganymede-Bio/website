@@ -8,7 +8,7 @@ import DividerTitleLeft from "../components/dividers/DividerTitleLeft";
 import Navigation from "../layout/navs/Navigation";
 // import Starfield from "../layout/designs/Starfield";
 import FeaturesSection from "./section/FeaturesSection";
-// import AboutSection from "./About";
+import AboutSection from "./About";
 import PlatformSection from "./section/PlatformSection";
 import ContactSection from "./section/ContactSection";
 
@@ -109,7 +109,7 @@ export default function Main() {
                   <div className="-mr-2 flex items-center md:hidden">
                     <Popover.Button className="bg-gray-100 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-250 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-regal-purple">
                       <span className="sr-only">Open main menu</span>
-                      <MenuIcon className="h-6 w-6"/>
+                      <MenuIcon className="h-6 w-6" />
                     </Popover.Button>
                   </div>
                 </div>
@@ -163,7 +163,7 @@ export default function Main() {
         </Popover>
 
 
-        <main className = "z-20 pb-80">
+        <main className="z-20 pb-80">
           <div className="pt-40 mx-auto max-w-7xl sm:pt-64 px-4 align-middle">
             <div className="text-center">
               <h1 className="text-4xl tracking-normal font-extrabold z-20 text-gray-900 sm:text-5xl md:text-6xl">
@@ -213,13 +213,13 @@ export default function Main() {
           <FeaturesSection />
         </div>
         <div>
-          <DividerTitleLeft title="Platform"/>
+          <DividerTitleLeft title="Platform" />
           <PlatformSection />
         </div>
-        {/* <div>
+        <div>
           <DividerTitleLeft title="About Us" />
           <AboutSection />
-        </div> */}
+        </div>
         <DividerTitleLeft title="Contact" />
         <div className="pt-10">
           <ContactSection />

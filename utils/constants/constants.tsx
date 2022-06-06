@@ -20,7 +20,7 @@ export const workableURL: string =
 export const navigation = [
   { name: "Features", href: "#features-section", current: false },
   { name: "Platform", href: "#platform-section", current: false },
-  { name: "About", href: "/About", current: false },
+  { name: "About", href: "#about-section", current: false },
   { name: "Contact", href: "#contact-section", current: false },
   { name: "Careers", href: "/Careers", current: false },
 ];
