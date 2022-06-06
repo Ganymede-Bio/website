@@ -7,7 +7,7 @@ import { classNames } from '../../utils/util'
 
 export default function FlyoutMenu({ name, subMenu }: IFlyoutMenu) {
   const buttonRef = useRef(null)
-  const timeoutDuration = 100
+  const timeoutDuration = 10
   let timeout: any
 
   const closePopover = () => {
