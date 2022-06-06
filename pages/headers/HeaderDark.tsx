@@ -4,8 +4,8 @@ import Navigation from "../../layout/navs/Navigation";
 export default function HeaderDark() {
   return (
     <>
-      <header className="fixed top-0 left-0 w-full">
-        <div className="bg-repeat py-6 relative sticky" style={{
+      <header className="fixed top-0 left-0 w-full sticky relative z-10">
+        <div className="bg-repeat py-6" style={{
           backgroundImage: `url('/molecule_constellation.png')`,
           backgroundSize: '250px'
         }}>

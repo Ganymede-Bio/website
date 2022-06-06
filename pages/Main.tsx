@@ -9,9 +9,9 @@ import HeaderDark from "./headers/HeaderDark";
 // import Navigation from "../layout/navs/Navigation";
 // import Starfield from "../layout/designs/Starfield";
 import HeroSection from "./section/HeroSection";
-import FeaturesSection from "./section/FeaturesSection";
+// import FeaturesSection from "./section/FeaturesSection";
 import AboutSection from "./About";
-import PlatformSection from "./section/PlatformSection";
+import ProductSection from "./section/ProductSection";
 import ContactSection from "./section/ContactSection";
 import HeroImageSection from "./section/HeroImageSection";
 import TestimonialSection from "./section/TestimonialSection";
@@ -113,9 +113,13 @@ export default function Main() {
               <TestimonialSection />
             </div>
             <div>
+              <DividerTitleLeft title="Product" />
+              <ProductSection />
+            </div>
+            {/* <div>
               <DividerTitleLeft title="Features" />
               <FeaturesSection />
-            </div>
+            </div> */}
             {/* <div>
               <DividerTitleLeft title="Platform" />
               <PlatformSection />
