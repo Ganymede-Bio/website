@@ -17,14 +17,6 @@ export const googleTag: string = "GTM-NB3LHGP";
 export const workableURL: string =
   "https://ganymede.workable.com/spi/v3/jobs?state=published";
 
-export const navigation = [
-  { name: "Features", href: "#features-section", current: false },
-  { name: "Platform", href: "#platform-section", current: false },
-  { name: "About", href: "#about-section", current: false },
-  { name: "Contact", href: "#contact-section", current: false },
-  { name: "Careers", href: "/Careers", current: false },
-];
-
 export const careerSortOrder = new Map([
   ["Software Engineer (Full Stack)", 3],
   ["Senior Software Engineer (Devices)", 4],

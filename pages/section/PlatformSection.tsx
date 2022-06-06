@@ -15,8 +15,8 @@ export default function PlatformSection() {
       className="relative overflow-hidden pt-8 sm:pt-12 lg:pt-16"
     >
       <div className="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
-        
-      <svg
+
+        {/* <svg
           className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
           width={404}
           height={784}
@@ -48,8 +48,8 @@ export default function PlatformSection() {
             height={784}
             fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)"
           />
-        </svg>
-        
+        </svg> */}
+
         <div>
           <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-normal sm:text-4xl">
             Built as a turnkey solution
@@ -69,38 +69,38 @@ export default function PlatformSection() {
         </div>
 
         <svg
-              className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
-              width={784}
-              height={404}
-              fill="none"
-              viewBox="0 0 784 404"
+          className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+          width={784}
+          height={404}
+          fill="none"
+          viewBox="0 0 784 404"
+        >
+          <defs>
+            <pattern
+              id="ca9667ae-9f92-4be7-abcb-9e3d727f2941"
+              x={0}
+              y={0}
+              width={20}
+              height={20}
+              patternUnits="userSpaceOnUse"
             >
-              <defs>
-                <pattern
-                  id="ca9667ae-9f92-4be7-abcb-9e3d727f2941"
-                  x={0}
-                  y={0}
-                  width={20}
-                  height={20}
-                  patternUnits="userSpaceOnUse"
-                >
-                  <rect
-                    x={0}
-                    y={0}
-                    width={4}
-                    height={4}
-                    className="text-gray-200"
-                    fill="currentColor"
-                  />
-                </pattern>
-              </defs>
               <rect
-                width={784}
-                height={404}
-                fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
+                x={0}
+                y={0}
+                width={4}
+                height={4}
+                className="text-gray-200"
+                fill="currentColor"
               />
-            </svg>
-            
+            </pattern>
+          </defs>
+          <rect
+            width={784}
+            height={404}
+            fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
+          />
+        </svg>
+
       </div>
     </div>
   );

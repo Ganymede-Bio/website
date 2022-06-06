@@ -32,7 +32,7 @@ export default function About() {
 
         </nav>
       </div> */}
-      <div className="bg-gray-50" id="about-section">
+      <div id="about-section">
         <svg
           className="absolute right-full transform translate-y-full translate-x-1/4 lg:translate-x-1/2 hidden z-0 xl:block"
           width={404}
