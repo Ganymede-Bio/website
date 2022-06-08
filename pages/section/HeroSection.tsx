@@ -21,7 +21,7 @@ export default function HeroSection() {
         <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8 pt-8">
           <div className="rounded-md shadow">
             <div className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-regal-purple-dark hover:bg-regal-purple md:py-4 md:text-lg md:px-10">
-              <Link href="#contact-section ">Request demo</Link>
+              <Link href="Contact">Request demo</Link>
             </div>
           </div>
           {/* <div className="mt-3 rounded-md shadow sm:mt-0">

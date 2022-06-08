@@ -110,7 +110,7 @@ export default function Main() {
               </div>
             </div>
             <div id="integration" className="pt-6">
-              <DividerTitleLeft title="Integration" />
+              {/* <DividerTitleLeft title="Integration" /> */}
               <IntegrationSection />
             </div>
             {/* <div id="product" className="pt-6">
