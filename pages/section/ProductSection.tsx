@@ -8,7 +8,7 @@ export default function ProductSection() {
   return (
     <div
       id="product-section"
-      className="py-16 overflow-hidden lg:py-24"
+      className="pt-8 overflow-hidden lg:pt-16"
     >
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
         {/* <svg

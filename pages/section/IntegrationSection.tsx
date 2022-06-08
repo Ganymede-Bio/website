@@ -2,6 +2,7 @@ import {
   schematicBeforeFeatures,
   schematicAfterFeatures
 } from "../../utils/constants/schematic";
+import DividerTitleLeft from "../../components/dividers/DividerTitleLeft";
 
 export default function IntegrationSection() {
   return (
@@ -10,15 +11,16 @@ export default function IntegrationSection() {
       className="py-16 overflow-hidden lg:py-24"
     >
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
-        <div className="relative">
-          <h2 className="text-center text-4xl leading-14 font-extrabold tracking-tight text-gray-900 sm:text-5xl text-regal-purple">
+        <DividerTitleLeft title='What we do' />
+        {/* <div className="relative">
+          <h2 className="text-center text-4xl leading-14 font-bold tracking-tight text-gray-900 sm:text-5xl text-regal-purple">
             Before and After
           </h2>
-        </div>
+        </div> */}
 
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
-            <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
+            <h3 className="text-2xl font-bold text-gray-900 tracking-tight sm:text-3xl">
               <div className="text-regal-purple inline">Before:</div> Scientists perform analysis
               <div className="text-nathan-orange inline">
                 { } locally
@@ -62,7 +64,7 @@ export default function IntegrationSection() {
         <div className="relative mt-12 sm:mt-16 lg:mt-24">
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
-              <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
+              <h3 className="text-2xl font-bold text-gray-900 tracking-tight sm:text-3xl">
                 <div className="text-regal-purple inline">After:</div> Raw experimental data and analysis are holistically
                 <div className="text-nathan-orange inline"> captured</div> and
                 <div className="text-nathan-orange inline"> versioned</div>
