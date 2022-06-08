@@ -1,6 +1,6 @@
 import { people } from "../utils/constants/constants";
 import Image from "next/image";
-import Navigation from "../layout/navs/Navigation";
+// import Navigation from "../layout/navs/Navigation";
 import Header from "./headers/Header";
 // import Link from "next/link";
 

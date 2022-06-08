@@ -75,3 +75,10 @@ export const navigation = [
   { name: "Resources", subMenu: menuResources },
   { name: "Contact Us", subMenu: contactResources }
 ];
+
+export const navigationFooter = [
+  { name: 'About', href: "/About" },
+  { name: 'Platform', href: '/Platform' },
+  { name: 'Careers', href: "/Careers" },
+  { name: 'Press', href: '#' },
+]

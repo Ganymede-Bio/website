@@ -16,6 +16,7 @@ import ContactSection from "./section/ContactSection";
 import HeroImageSection from "./section/HeroImageSection";
 import TestimonialSection from "./section/TestimonialSection";
 import IntegrationSection from "./section/IntegrationSection";
+import FooterSection from "./section/FooterSection";
 
 export default function Main() {
   return (
@@ -137,6 +138,9 @@ export default function Main() {
               <DividerTitleLeft title="Contact" />
               <ContactSection />
             </div> */}
+            <div id="footer">
+              <FooterSection />
+            </div>
           </div>
         </div>
       </div>
