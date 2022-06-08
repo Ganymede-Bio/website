@@ -26,11 +26,11 @@ const menuUseCases = [
 const menuProduct = [
   {
     header: "Platform",
-    href: "/#platform-section"
+    href: "/Platform"
   },
   {
     header: "Integration",
-    href: "#"
+    href: "/#integration"
   }
 ]
 
