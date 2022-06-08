@@ -4,8 +4,8 @@ import ContactSection from "./section/ContactSection";
 export default function Contact() {
   return (
     <>
+      <Header />
       <div className="pt-10">
-        <Header />
         <ContactSection />
       </div>
     </>

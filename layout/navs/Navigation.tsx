@@ -3,7 +3,7 @@ import FlyoutMenu from "../../components/menus/FlyoutMenu";
 import { IFlyoutMenu } from "../../types/MenuInterface";
 import Image from "next/image";
 import { Popover } from "@headlessui/react";
-import { MenuIcon } from "@heroicons/react/outline";
+// import { MenuIcon } from "@heroicons/react/outline";
 // import { IFlyoutMenu } from "../../types/MenuInterface"
 
 // interface INavigation {
@@ -13,13 +13,13 @@ import { MenuIcon } from "@heroicons/react/outline";
 export default function Navigation() {
   return (
     <Popover>
-      <div className="fixed top-0 pt-2 left-0 w-full mx-auto px-4 sm:px-6 z-40 ">
+      <div className="fixed top-0 mt-3 left-0 w-full mx-auto px-4 sm:px-6 z-40 ">
         <nav
           className="relative flex items-center justify-between sm:h-10 md:justify-center"
           aria-label="Global"
         >
           <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
-            <div className="flex items-center justify-between w-full md:w-auto pt-2">
+            <div className="flex items-center justify-between w-full md:w-auto pt-2 relative">
               <a href="/">
                 <span className="sr-only">Workflow</span>
                 <Image

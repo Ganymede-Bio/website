@@ -4,6 +4,7 @@ import { ITestimonial } from "../../types/TestimonialInterface";
 
 export default function TestimonialSection() {
   return (
+
     <section className="py-10">
       {testimonials.map((testimonial: ITestimonial) => (
         <div key={testimonial.company} className="bg-white border mx-10 py-10 rounded-xl shadow-md">

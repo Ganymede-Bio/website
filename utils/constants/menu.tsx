@@ -18,7 +18,8 @@ const menuUseCases = [
   },
   {
     header: "Client case studies",
-    href: "#"
+    description: "Apprentice",
+    href: "#testimonial"
   }
 ]
 
@@ -37,7 +38,7 @@ const menuCompany = [
   {
     header: "About",
     description: "Team, story, principles",
-    href: "/#about-section"
+    href: "/About"
   },
   {
     header: "Careers",
@@ -63,7 +64,7 @@ const menuResources = [
 const contactResources = [
   {
     header: "Contact",
-    href: "/#contact-section"
+    href: "/Contact"
   }
 ]
 

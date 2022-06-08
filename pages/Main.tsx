@@ -15,6 +15,7 @@ import ProductSection from "./section/ProductSection";
 import ContactSection from "./section/ContactSection";
 import HeroImageSection from "./section/HeroImageSection";
 import TestimonialSection from "./section/TestimonialSection";
+import IntegrationSection from "./section/IntegrationSection";
 
 export default function Main() {
   return (
@@ -97,24 +98,28 @@ export default function Main() {
         <div className="bg-repeat"
           style={{
             backgroundImage: `url('/molecule_stars.png')`,
-            backgroundSize: '500px'
+            backgroundSize: '500px',
           }}>
-          <>
+          <div className="opacity-100">
             <div className="flex flex-row">
               <div className="basis-3/5">
                 <HeroSection />
               </div>
-              <div className="basis-1/3 mt-52">
+              <div className="basis-1/3 mt-32">
                 <HeroImageSection />
               </div>
             </div>
-            <div className="pb-24">
-              <DividerTitleLeft title="Testimonials" />
-              <TestimonialSection />
+            <div id="integration" className="pt-6">
+              <DividerTitleLeft title="Integration" />
+              <IntegrationSection />
             </div>
-            <div>
+            {/* <div id="product" className="pt-6">
               <DividerTitleLeft title="Product" />
               <ProductSection />
+            </div> */}
+            <div id="testimonial" className="pb-24 pt-6">
+              <DividerTitleLeft title="Testimonials" />
+              <TestimonialSection />
             </div>
             {/* <div>
               <DividerTitleLeft title="Features" />
@@ -124,15 +129,15 @@ export default function Main() {
               <DividerTitleLeft title="Platform" />
               <PlatformSection />
             </div> */}
-            <div>
+            {/* <div>
               <DividerTitleLeft title="About Us" />
               <AboutSection />
-            </div>
-            <div className="py-12">
+            </div> */}
+            {/* <div className="py-12">
               <DividerTitleLeft title="Contact" />
               <ContactSection />
-            </div>
-          </>
+            </div> */}
+          </div>
         </div>
       </div>
     </div>

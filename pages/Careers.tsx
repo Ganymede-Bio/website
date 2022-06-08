@@ -7,6 +7,7 @@ import Image from "next/image";
 
 import { IPosition, IPositions } from "../types/PositionInterface";
 import JobListing from "../components/lists/JobListing";
+import Header from "./headers/Header";
 
 export async function getStaticProps() {
   const res = await fetch(workableURL, {
@@ -55,6 +56,7 @@ export async function getStaticProps() {
 export default function Careers(positions: IPositions) {
   return (
     <>
+      <Header />
       <div className="bg-gray-50 pb-6">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-8 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">

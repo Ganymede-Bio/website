@@ -7,7 +7,7 @@ import { classNames } from '../../utils/util'
 
 export default function FlyoutMenu({ name, subMenu }: IFlyoutMenu) {
   const buttonRef = useRef(null)
-  const timeoutDuration = 10
+  const timeoutDuration = 50
   let timeout: any
 
   const closePopover = () => {
@@ -73,7 +73,7 @@ export default function FlyoutMenu({ name, subMenu }: IFlyoutMenu) {
                     >
                       <p className="text-base font-medium text-gray-900">{item.header}</p>
                       {item?.description && typeof item.description === "string" &&
-                        <p className="mt-1 text-sm text-gray-500">{item.description}</p>}
+                        <p className="mt-2 text-sm text-gray-500 pl-3">{item.description}</p>}
                       {item?.description && Array.isArray(item.description) &&
                         <p className="relative grid gap-2">
                           {item.description.map((elem: string) => (
