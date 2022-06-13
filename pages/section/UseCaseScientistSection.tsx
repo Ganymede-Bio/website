@@ -68,8 +68,7 @@ export default function UseCaseScientistSection() {
                 Sync your data with your ELN/LIMS of choice
               </h3>
               <p className="mt-3 text-lg text-gray-500">
-                Create apps and automate your work whether you're an engineer or scientist. Ganymede flexibly configures to
-                interact with your preferred analytical environment.
+                Create apps to automate your work; Ganymede flexibly configures to interact with your preferred analytical environment.
               </p>
 
               <dl className="mt-10 space-y-10">
@@ -147,7 +146,7 @@ export default function UseCaseScientistSection() {
                 Centralize your lab data in one spot
               </h3>
               <p className="mt-3 text-lg text-gray-500">
-                Ganymede provides the means for you to synchronize your internal data with your pre-existing databases, pipelines,
+                Ganymede provides the means for you to synchronize your internal data with your existing databases, pipelines,
                 and third party data outputs.
               </p>
 
