@@ -1,12 +1,12 @@
 import {
   UploadIcon,
-  GlobeIcon,
-  SwitchVerticalIcon,
-  UserIcon,
+  BookOpenIcon,
+  SwitchHorizontalIcon,
+  ChatAlt2Icon,
   ArchiveIcon,
   CloudUploadIcon,
   ClipboardCopyIcon,
-  FireIcon,
+  KeyIcon,
   SupportIcon,
   SearchIcon,
   AnnotationIcon,
@@ -46,18 +46,18 @@ export const apiFeatures = [
     icon: ClipboardCopyIcon,
   },
   {
-    id: "api_feature_bidirectional_sync",
-    name: "Sync bi-directionally between your ELN/LIMS and backend systems",
+    id: "api_feature_bidirectional_communication",
+    name: "Communicate bi-directionally between your ELN/LIMS and backend systems",
     description:
       "Update ELN entries as you gather instrument data.  Or enrich your observations with as you update ELN entries",
-    icon: SwitchVerticalIcon,
+    icon: SwitchHorizontalIcon,
   },
   {
     id: "api_feature_tooling_flexibility",
     name: "Maintain tooling flexibility for the future",
     description:
-      "Have trouble settling on one ELN/LIMS?  We can flexibly support different data/analytical software packages, system architectures, and network topologies.",
-    icon: GlobeIcon,
+      "Have trouble settling on one ELN/LIMS?  We can flexibly support different data/analysis software, system architectures, and network topologies.",
+    icon: BookOpenIcon,
   },
 ];
 
@@ -67,20 +67,20 @@ export const analysisFeatures = [
     name: "Free your trapped data",
     description:
       "All your bench side data is organized and available \"at your fingertips\" on your laptop, streamlining your analytical processes",
-    icon: FireIcon,
+    icon: KeyIcon,
   },
   {
     id: "analysis_feature_data_sharing",
     name: "Share your results with corresponding raw data",
     description:
       "Make data and analysis accessible among your team, expanding your capability to innovate and ideate collaboratively",
-    icon: UserIcon,
+    icon: ChatAlt2Icon,
   },
   {
     id: "analysis_feature_analytical_iteration",
-    name: "Iterate on your analytical data processing",
+    name: "Iterate on your pipelined data processing",
     description:
-      "Debug and customize automated workflows in a notebook environment to iterate on analysis methodology",
+      "Debug and customize automated workflows in a notebook environment to iterate quickly on analytical infrastructure.",
     icon: BeakerIcon,
   },
 ];

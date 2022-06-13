@@ -108,7 +108,7 @@ export default function UseCaseScientistSection() {
               Never do data entry again
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Form a clean interface between your internal databases, CRO outputs, and external databases.
+              Ingest your experimental results through clean, modern web interfaces.
             </p>
 
             <dl className="mt-10 space-y-10">
@@ -144,10 +144,11 @@ export default function UseCaseScientistSection() {
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-                ...and generate UIs to manage them
+                Centralize your lab data in one spot
               </h3>
               <p className="mt-3 text-lg text-gray-500">
-                Create apps and automate your work whether you're an engineer or scientist. Ganymede automatically generates a UI for mapping data that serves engineers' integrations as tables.
+                Ganymede provides the means for you to synchronize your internal data with your pre-existing databases, pipelines,
+                and third party data outputs.
               </p>
 
               <dl className="mt-10 space-y-10">
