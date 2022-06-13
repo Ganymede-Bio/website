@@ -2,7 +2,7 @@ const menuUseCases = [
   {
     header: "For Scientists",
     description: ["Lab instruments", "ELN, LIMS, Analysis apps", "Databases"],
-    href: "#"
+    href: "UseCaseScientist"
   },
   {
     header: "For Software Engineers",

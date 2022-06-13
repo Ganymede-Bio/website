@@ -2,7 +2,7 @@ import {
   uiFeatures,
   apiFeatures,
   transfersFeatures,
-} from "../../utils/constants/constants";
+} from "../../utils/content/productContent";
 
 export default function FeaturesSection() {
   return (
