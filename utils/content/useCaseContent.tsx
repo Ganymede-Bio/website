@@ -162,7 +162,7 @@ export const dataIntegrityUseCaseManagement = [
     id: "management_use_case_change_documentation",
     name: "If someone touches the data, it will be documented",
     description:
-      "Maintain complete, searchable data provenance by automating synchronization of all raw data generated, personnel metadata, and versioning from connected instruments and pipelines across your lab operations.",
+      "Maintain complete, searchable data provenance by synchronizing all raw data generated, personnel metadata, and versioning from connected instruments and pipelines across your lab operations.",
     icon: SupportIcon,
   },
   {
