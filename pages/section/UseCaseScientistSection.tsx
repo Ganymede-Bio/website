@@ -1,8 +1,8 @@
 import {
-  connectFeatures,
-  apiFeatures,
-  analysisFeatures,
-  storageFeatures
+  connectFeaturesScientist,
+  apiFeaturesScientist,
+  analysisFeaturesScientist,
+  storageFeaturesScientist
 } from "../../utils/content/useCaseContent";
 
 export default function UseCaseScientistSection() {
@@ -10,19 +10,19 @@ export default function UseCaseScientistSection() {
 
     <div
       id="use-case-scientist-section"
-      className="pt-8 overflow-hidden lg:pt-16"
+      className="py-16 overflow-hidden lg:pt-16"
     >
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
         <div className="relative">
           <h2 className="text-center text-4xl leading-14 font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-            The modern approach to automation
+            The only <div className="inline text-regal-purple-light">entire-lab</div> integration and automation platform
           </h2>
         </div>
 
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              The only <div className="inline text-regal-purple-light">entire-lab</div> integration and automation platform
+              Never do <div className="inline text-regal-purple-light">data entry</div> again
             </h3>
             <h3 className="mt-3 text-lg text-gray-500">
               Connect all your lab instruments to a cloud environment complete with data, metadata, and code versioning
@@ -32,7 +32,7 @@ export default function UseCaseScientistSection() {
             </h3> */}
 
             <dl className="mt-10 space-y-10">
-              {connectFeatures.map((item) => (
+              {connectFeaturesScientist.map((item) => (
                 <div key={item.id} className="relative">
                   <dt>
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-nathan-orange text-white">
@@ -65,14 +65,14 @@ export default function UseCaseScientistSection() {
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-                Sync your data with your ELN/LIMS of choice
+                Sync your data with your <div className="inline text-regal-purple-light">ELN/LIMS</div> of choice
               </h3>
               <p className="mt-3 text-lg text-gray-500">
-                Create apps to automate your work; Ganymede flexibly configures to interact with your preferred analytical environment.
+                Create apps to automate your work; Ganymede flexibly configures to interact with your preferred data storage environment.
               </p>
 
               <dl className="mt-10 space-y-10">
-                {apiFeatures.map((item) => (
+                {apiFeaturesScientist.map((item) => (
                   <div key={item.id} className="relative">
                     <dt>
                       <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-nathan-orange text-white">
@@ -104,14 +104,14 @@ export default function UseCaseScientistSection() {
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Never do data entry again
+              A modern approach to data <div className="inline text-regal-purple-light">analysis</div>
             </h3>
             <p className="mt-3 text-lg text-gray-500">
               Ingest your experimental results through clean, modern web interfaces.
             </p>
 
             <dl className="mt-10 space-y-10">
-              {analysisFeatures.map((item) => (
+              {analysisFeaturesScientist.map((item) => (
                 <div key={item.id} className="relative">
                   <dt>
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-nathan-orange text-white">
@@ -143,7 +143,7 @@ export default function UseCaseScientistSection() {
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-                Centralize your lab data in one spot
+                Centralize your lab data in <div className="inline text-regal-purple-light">one spot</div>
               </h3>
               <p className="mt-3 text-lg text-gray-500">
                 Ganymede provides the means for you to synchronize your internal data with your existing databases, pipelines,
@@ -151,7 +151,7 @@ export default function UseCaseScientistSection() {
               </p>
 
               <dl className="mt-10 space-y-10">
-                {storageFeatures.map((item) => (
+                {storageFeaturesScientist.map((item) => (
                   <div key={item.id} className="relative">
                     <dt>
                       <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-nathan-orange text-white">
