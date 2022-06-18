@@ -16,6 +16,9 @@ module.exports = {
         "sea-foam": "#6BDD7Eff",
         "twilight": "#3d59ff"
       },
+      scale: {
+        '-1': '-1'
+      }
     },
     fontFamily: {
       poppins: ['Poppins', 'sans-serif'],

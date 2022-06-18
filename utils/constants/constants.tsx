@@ -64,7 +64,7 @@ export const people = [
     name: "John La",
     role: "Founding Engineer",
     imageUrl: "/people/headshot_john_la.png",
-    linkedinUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/johnla1/",
     githubUrl: "",
     focus: "Backend Eng | Systems",
     blurb: [""]
@@ -73,7 +73,7 @@ export const people = [
     name: "Sami Belkadi",
     role: "Founding Engineer",
     imageUrl: "/people/headshot_sami_belkadi.png",
-    linkedinUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/sami-belkadi/",
     githubUrl: "",
     focus: "Lab Auto | Hardware",
     blurb: [""]
@@ -82,7 +82,7 @@ export const people = [
     name: "Alan Chramiec",
     role: "Founding Scientist",
     imageUrl: "/people/headshot_alan_chramiec.png",
-    linkedinUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/alan-chramiec/",
     githubUrl: "",
     focus: "Sales Ops | Business | People",
     blurb: [""]
