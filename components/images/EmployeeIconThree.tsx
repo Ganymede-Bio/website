@@ -1,3 +1,4 @@
+import { people } from "../../utils/constants/constants";
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,8 +10,8 @@ export default function EmployeeIcon(person: IEmployee) {
   const onMouseLeave = () => setIsHovered(false);
 
   return (
-    <div className="flex">
-      <div className="mx-auto space-y-2">
+    <div className="flex h-screen mt-6">
+      <div className="mx-auto">
         <div style={{
           display: "flex",
           justifyContent: "center"
@@ -19,7 +20,7 @@ export default function EmployeeIcon(person: IEmployee) {
           <Link href={person.linkedinUrl}>
             <Image
               className="transition ease-in-out duration-100 m-auto h-40 w-40 rounded-full xl:w-56 xl:h-56 
-              hover:ring hover:ring-regal-purple-light hover:ring-4"
+              hover:ring hover:ring-yellow-200"
               src={person.imageUrl}
               alt=""
               width="200"
@@ -33,17 +34,21 @@ export default function EmployeeIcon(person: IEmployee) {
           <p className="text-nathan-orange text-lg">
             {person.role}
           </p>
-          <p className="font-light text-regal-purple-light text-sm">
+        </div>
+        <div>
+          <p className="text-regal-purple-light text-center">
             {person.focus}
           </p>
         </div>
 
-        {isHovering && <div className="mx-auto mt-3">
+        {isHovering && <div className="w-1/2 mx-auto mt-3">
 
           <p className="text-black">
-            {person.blurb}
+            A scientist by training, I have more than a decade of biomedical research experience leading successful collaborations, innovations,
+            and publications with researchers across 10+ world-class research institutions and medical centers.
+            Passionate about innovating biomedical research. Excited to shape its future.
           </p>
-          {/* <ul className="list-disc pl-6 mt-3">
+          <ul className="list-disc pl-6 mt-3">
             <li key="nucleateAC">
               Led the successful launch of the NYC branch of Nucleate, an international organization that facilitates the formation of pioneering life sciences companies
             </li>
@@ -53,7 +58,7 @@ export default function EmployeeIcon(person: IEmployee) {
             <li key="epigeneticsFounderAC">
               Co-founded the Center for Epigenetics Research at Memorial Sloan Kettering Cancer Center
             </li>
-          </ul> */}
+          </ul>
 
         </div>}
       </div>

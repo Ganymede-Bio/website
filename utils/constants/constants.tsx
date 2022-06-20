@@ -65,7 +65,6 @@ export const people = [
     role: "Founding Engineer",
     imageUrl: "/people/headshot_john_la.png",
     linkedinUrl: "https://www.linkedin.com/in/johnla1/",
-    githubUrl: "",
     focus: "Backend Eng | Systems",
     blurb: [""]
   },
@@ -74,7 +73,6 @@ export const people = [
     role: "Founding Engineer",
     imageUrl: "/people/headshot_sami_belkadi.png",
     linkedinUrl: "https://www.linkedin.com/in/sami-belkadi/",
-    githubUrl: "",
     focus: "Lab Auto | Hardware",
     blurb: [""]
   },
@@ -82,10 +80,17 @@ export const people = [
     name: "Alan Chramiec",
     role: "Founding Scientist",
     imageUrl: "/people/headshot_alan_chramiec.png",
-    linkedinUrl: "https://www.linkedin.com/in/alan-chramiec/",
     githubUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/alan-chramiec/",
     focus: "Sales Ops | Business | People",
-    blurb: [""]
+    blurb: ["A scientist by training, I have more than a decade of biomedical research ",
+      "experience leading successful collaborations, innovations, and publications ",
+      "with researchers across 10+ world-class research institutions and medical centers.  ",
+      "Passionate about innovating biomedical research.  Excited to shape its future."],
+    bulletPoints: [
+      "Led the successful launch of the NYC branch of Nucleate, an international organization that facilitates the formation of pioneering life sciences companies",
+      "Received PhD training in intersection of biomedical engineering and cancer under Dr. Gordana Vunjak-Novakovic at Columbia University",
+      "Co-founded the Center for Epigenetics Research at Memorial Sloan Kettering Cancer Center"]
   }
 ];
 

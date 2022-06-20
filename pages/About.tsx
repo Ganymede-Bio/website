@@ -1,3 +1,4 @@
+import EmployeeIcon from "../components/images/EmployeeIcon";
 import { people } from "../utils/constants/constants";
 import Image from "next/image";
 // import Navigation from "../layout/navs/Navigation";
@@ -9,22 +10,27 @@ export default function About() {
     <>
       <Header />
       <div id="about-section">
-        <div className="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
-          <div className="space-y-12 relative z-0">
+        <div className="max-w-7xl mx-auto px-4 text-center sm:px-6 lg:px-8 mt-6">
+          <div className="relative z-0">
             <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
               <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
                 Meet our team
               </h2>
-              <p className="text-xl text-gray-500">
+              <p className="text-xl text-gray-500 pb-8">
                 A team that dreams to improve data and communication in the
                 sciences.
               </p>
             </div>
             <ul
               role="list"
-              className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl"
+              className="mx-auto sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3"
             >
-              {people.map((person) => {
+              {people.map((person) =>
+                <li key={person.name}>
+                  <EmployeeIcon {...person} />
+                </li>
+              )}
+              {/* {people.map((person) => {
                 return (
                   <li key={person.name} className="z-10">
                     <div className="space-y-6">
@@ -51,7 +57,7 @@ export default function About() {
                     </div>
                   </li>
                 );
-              })}
+              })} */}
             </ul>
           </div>
         </div>
