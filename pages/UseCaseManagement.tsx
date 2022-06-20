@@ -1,7 +1,7 @@
 import Header from "./headers/Header";
-import UseCaseScientistSection from "./useCases/UseCaseScientistSection";
+import UseCaseManagementSection from "./useCases/UseCaseManagementSection";
 
-export default function UseCaseScientist() {
+export default function UseCaseManagement() {
   return (
     <div className="bg-repeat"
       style={{
@@ -9,7 +9,7 @@ export default function UseCaseScientist() {
         backgroundSize: '500px',
       }}>
       <Header />
-      <UseCaseScientistSection />
+      <UseCaseManagementSection />
     </div>
   );
 }
