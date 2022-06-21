@@ -1,5 +1,5 @@
 import Navigation from "../../layout/navs/Navigation";
-import LoginButton from "../../components/buttons/LoginButton";
+// import LoginButton from "../../components/buttons/LoginButton";
 
 export default function Header() {
   return (<header className="fixed top-0 left-0 w-full sticky relative z-10">

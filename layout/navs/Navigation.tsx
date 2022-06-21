@@ -21,8 +21,8 @@ export default function Navigation() {
           <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
             <div className="flex items-center justify-between w-full md:w-auto pt-2 relative">
               <a href="/">
-                <span className="sr-only">Workflow</span>
                 <Image
+                  className="border-solid border-white"
                   src="/logo/ganymede_logo_white.png"
                   alt=""
                   width={139}

@@ -3,6 +3,7 @@ import { people } from "../utils/constants/constants";
 import Image from "next/image";
 // import Navigation from "../layout/navs/Navigation";
 import Header from "./headers/Header";
+import FooterSection from "./section/FooterSection";
 // import Link from "next/link";
 
 export default function About() {
@@ -10,7 +11,7 @@ export default function About() {
     <>
       <Header />
       <div id="about-section">
-        <div className="max-w-7xl mx-auto px-4 text-center sm:px-6 lg:px-8 mt-6">
+        <div className="max-w-7xl mx-auto px-4 text-center sm:px-6 lg:px-8 mt-6 mb-36">
           <div className="relative z-0">
             <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
               <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
@@ -62,6 +63,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <FooterSection />
     </>
   );
 }
