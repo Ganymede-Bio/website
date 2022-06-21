@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { motion } from "framer-motion"
 
-export default function AnimatedScale(props: any) {
+export default function AnimateScale(props: any) {
   return (
     <motion.div
       whileHover={{

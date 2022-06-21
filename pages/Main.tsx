@@ -1,4 +1,3 @@
-import DividerTitleLeft from "../components/dividers/DividerTitleLeft";
 import Header from "./headers/Header";
 import HeroSection from "./section/HeroSection";
 import HeroImageSection from "./section/HeroImageSection";
@@ -25,7 +24,6 @@ export default function Main() {
             <IntegrationSection />
           </div>
           <div id="testimonial" className="pb-24 pt-6">
-            <DividerTitleLeft title="Testimonials" />
             <TestimonialSection />
           </div>
           <div id="footer">

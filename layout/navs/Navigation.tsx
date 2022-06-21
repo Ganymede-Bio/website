@@ -3,7 +3,7 @@ import FlyoutMenu from "../../components/menus/FlyoutMenu";
 import { IFlyoutMenu } from "../../types/MenuInterface";
 import Image from "next/image";
 import { Popover } from "@headlessui/react";
-import AnimatedScale from "../../components/animations/AnimatedScale";
+import AnimateScale from "../../components/animations/AnimateScale";
 
 export default function Navigation() {
   return (
@@ -11,7 +11,7 @@ export default function Navigation() {
 
       <div className="flex items-center relative">
         <div className="pt-2">
-          <AnimatedScale scale={1.1}>
+          <AnimateScale scale={1.1}>
             <a href="/">
               {/* <span className="sr-only">Workflow</span> */}
               <Image
@@ -22,7 +22,7 @@ export default function Navigation() {
                 quality={100}
               />
             </a>
-          </AnimatedScale>
+          </AnimateScale>
         </div>
         <div className="relative fixed top-0 ml-16 w-full mx-auto z-40">
           <nav
