@@ -18,8 +18,11 @@ export default function AnimateTranslate(props: any) {
           transition: { duration: props.duration ?? 0.25 }
         }
       }}
+      transition={{
+        type: "easein"
+      }}
     >
       {props.children}
-    </motion.div>
+    </motion.div >
   )
 }
