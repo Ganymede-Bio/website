@@ -9,7 +9,7 @@ export default function Navigation() {
     <Popover>
 
       <div className="flex items-center relative">
-        <div className="flex-initial pt-2">
+        <div className="pt-2">
           <a href="/">
             <span className="sr-only">Workflow</span>
             <Image
@@ -23,7 +23,7 @@ export default function Navigation() {
         </div>
         <div className="relative fixed top-0 ml-16 w-full mx-auto z-40">
           <nav
-            className="relative flex justify-between"
+            className="relative flex"
             aria-label="Global"
           >
             {
@@ -37,7 +37,6 @@ export default function Navigation() {
           </nav>
         </div>
       </div>
-
     </Popover>
   );
 }
