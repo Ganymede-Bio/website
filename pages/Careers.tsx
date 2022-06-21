@@ -9,6 +9,7 @@ import { IPosition, IPositions } from "../types/PositionInterface";
 import JobListing from "../components/lists/JobListing";
 import Header from "./headers/Header";
 import FooterSection from "./section/FooterSection";
+import MoleculeStarsBackground from "../components/backgrounds/MoleculeStarsBackground";
 
 export async function getStaticProps() {
   const res = await fetch(workableURL, {
@@ -58,11 +59,7 @@ export default function Careers(positions: IPositions) {
   return (
     <>
       <Header />
-      <div className="bg-repeat"
-        style={{
-          backgroundImage: `url('/molecule_stars.png')`,
-          backgroundSize: '500px',
-        }}>
+      <MoleculeStarsBackground>
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-8 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <div className="pb-6">
@@ -112,7 +109,7 @@ export default function Careers(positions: IPositions) {
             </ul>
           </div>
         </div>
-      </div>
+      </MoleculeStarsBackground>
       <FooterSection />
     </>
   );

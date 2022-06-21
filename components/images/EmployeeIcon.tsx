@@ -10,7 +10,7 @@ export default function EmployeeIcon(person: IEmployee) {
 
   return (
     <div className="flex">
-      <div className="mx-auto space-y-2">
+      <div className="mx-auto space-y-2 overflow-visible">
         <div style={{
           display: "flex",
           justifyContent: "center"
@@ -19,7 +19,7 @@ export default function EmployeeIcon(person: IEmployee) {
           <Link href={person.linkedinUrl}>
             <Image
               className="transition ease-in-out duration-100 m-auto h-40 w-40 rounded-full xl:w-56 xl:h-56 
-              hover:ring hover:ring-regal-purple-light hover:ring-4"
+              hover:shadow-md hover:shadow-yellow-200"
               src={person.imageUrl}
               alt=""
               width="200"

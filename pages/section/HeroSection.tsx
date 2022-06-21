@@ -19,7 +19,7 @@ export default function HeroSection() {
           Ganymede is the modern platform for software engineers in science. Quickly connect, program, and automate your lab in a low-code hosted PaaS.
         </p>
         <AnimateTranslate startX={-20} startY={20}>
-          <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8 pt-8">
+          <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8 pt-4">
             <div className="rounded-md shadow">
               <div className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-regal-purple-dark hover:bg-regal-purple md:py-4 md:text-lg md:px-10">
 

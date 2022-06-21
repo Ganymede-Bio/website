@@ -1,15 +1,12 @@
+import MoleculeStarsBackground from "../components/backgrounds/MoleculeStarsBackground";
 import Header from "./headers/Header";
 import UseCaseScientistSection from "./useCases/UseCaseScientistSection";
 
 export default function UseCaseScientist() {
   return (
-    <div className="bg-repeat"
-      style={{
-        backgroundImage: `url('/molecule_stars.png')`,
-        backgroundSize: '500px',
-      }}>
+    <MoleculeStarsBackground>
       <Header />
       <UseCaseScientistSection />
-    </div>
+    </MoleculeStarsBackground>
   );
 }

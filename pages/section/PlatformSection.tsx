@@ -1,13 +1,3 @@
-// import Header from "../headers/Header";
-// import { cards } from "../../utils/constants/constants";
-// import Image from "next/image";
-
-// import {
-//   uiFeatures,
-//   apiFeatures,
-//   transfersFeatures,
-// } from "../../utils/constants/constants";
-
 export default function PlatformSection() {
   return (
     <div
