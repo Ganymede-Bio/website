@@ -10,7 +10,7 @@ export default function EmployeeIcon(person: IEmployee) {
 
   return (
     <div className="flex">
-      <div className="mx-auto space-y-2 overflow-visible">
+      <div className="mx-auto space-y-2 overflow-visible text-center">
         <div style={{
           display: "flex",
           justifyContent: "center"
@@ -28,7 +28,7 @@ export default function EmployeeIcon(person: IEmployee) {
           </Link>
         </div>
 
-        <div className="text-xl leading-6 font-medium text-center">
+        <div className="text-xl leading-6 font-medium">
           <h3>{person.name}</h3>
           <p className="text-nathan-orange text-lg">
             {person.role}
@@ -40,7 +40,7 @@ export default function EmployeeIcon(person: IEmployee) {
 
         {isHovering && <div className="mx-auto mt-3">
 
-          <p className="text-black">
+          <p className="text-black text-sm">
             {person.blurb}
           </p>
           {/* <ul className="list-disc pl-6 mt-3">

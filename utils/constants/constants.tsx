@@ -43,8 +43,9 @@ export const people = [
     githubUrl: "https://github.com/bensonlee5",
     focus: "Science | Eng | Hardware",
     blurb: [
-      "Former Head of Quant at Affirm and Trader at Citigroup, ",
-      "built and ran quantitative research & deal structuring at Affirm",
+      "Previously Head of Quantitative Markets at Affirm and a structured finance ",
+      "trader at Citigroup, Benson built and oversaw quantitative research, ",
+      "deal structuring, and model risk management functions at Affirm.",
     ],
   },
   {
@@ -56,8 +57,8 @@ export const people = [
     focus: "Cloud Infra | Quality",
     blurb: [
       "Former Software Engineer at Alphabet. ",
-      "Built infrastructure management platform at Verily,",
-      "ran releases at YouTube, Chrome.",
+      "Andy built infrastructure management platform at Verily, ",
+      "and ran releases at YouTube, Chrome.",
     ],
   },
   {
@@ -66,7 +67,11 @@ export const people = [
     imageUrl: "/people/headshot_john_la.png",
     linkedinUrl: "https://www.linkedin.com/in/johnla1/",
     focus: "Backend Eng | Systems",
-    blurb: [""]
+    blurb: [
+      "Software Engineer with a degree in Electrical Engineering ",
+      "and Computer Science from MIT.  Prior to Ganymede, John was part of Oculus for 4 years, ",
+      "developing systems software for the Oculus Go (first standalone VR headset on the market) ",
+      "and the Oculus Quest line of devices."]
   },
   {
     name: "Sami Belkadi",
@@ -74,7 +79,10 @@ export const people = [
     imageUrl: "/people/headshot_sami_belkadi.png",
     linkedinUrl: "https://www.linkedin.com/in/sami-belkadi/",
     focus: "Lab Auto | Hardware",
-    blurb: [""]
+    blurb: [
+      "Sami was previously an Automation Engineer at HighRes Biosolutions, ",
+      "where he deployed robotic lab automation platforms in pharmaceutical and biotech labs.  ",
+      "He holds a BSE in Mechanical and Aerospace Engineering from Princeton University."]
   },
   {
     name: "Alan Chramiec",
@@ -83,7 +91,7 @@ export const people = [
     githubUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/alan-chramiec/",
     focus: "Sales Ops | Business | People",
-    blurb: ["A scientist by training, I have more than a decade of biomedical research ",
+    blurb: ["A scientist by training, Alan has more than a decade of biomedical research ",
       "experience leading successful collaborations, innovations, and publications ",
       "with researchers across 10+ world-class research institutions and medical centers.  ",
       "Passionate about innovating biomedical research.  Excited to shape its future."],
