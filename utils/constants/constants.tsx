@@ -5,6 +5,9 @@ export const googleTag: string = "GTM-NB3LHGP";
 export const workableURL: string =
   "https://ganymede.workable.com/spi/v3/jobs?state=published";
 
+export const fromEmail: string = "website@ganymede.bio"
+export const toEmail: string = "hello@ganymede.bio"
+
 export const careerSortOrder = new Map([
   ["Software Engineer (Full Stack)", 3],
   ["Senior Software Engineer (Devices)", 4],

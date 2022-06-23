@@ -16,8 +16,8 @@ export default function Contact() {
               </h2>
               <div className="mt-3 text-lg leading-6 text-gray-500">
                 <p>
-                  We'd love to hear from you. Ask us questions, inquire about
-                  openings, or keep up with our developments as we launch.
+                  We'd love to hear from you. Request a demo, ask us questions,
+                  inquire about openings, or keep up with our developments as we launch.
                 </p>
                 {/* <p className="mt-3">
                   We may reach out to learn more about how we can help build a

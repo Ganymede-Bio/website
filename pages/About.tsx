@@ -17,7 +17,7 @@ export default function About() {
               <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
                 Meet our team
               </h2>
-              <p className="text-xl text-gray-500 pb-8">
+              <p className="text-xl text-gray-500 pb-12">
                 A team that dreams to improve data and communication in the
                 sciences.
               </p>
