@@ -17,6 +17,9 @@ export const googleTag: string = "GTM-NB3LHGP";
 export const workableURL: string =
   "https://ganymede.workable.com/spi/v3/jobs?state=published";
 
+export const fromEmail: string = "website@ganymede.bio"
+export const toEmail: string = "hello@ganymede.bio"
+
 export const navigation = [
   { name: "Features", href: "#features-section", current: false },
   { name: "Platform", href: "#platform-section", current: false },

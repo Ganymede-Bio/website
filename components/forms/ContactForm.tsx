@@ -16,10 +16,13 @@ export default function ContactForm() {
   } = useForm<IContactForm>();
 
   const onSubmit: SubmitHandler<IContactForm> = async function (item) {
-    const res = await fetch("../api/addToContact", {
+    const payload = {
       method: "POST",
       body: JSON.stringify(item),
-    });
+    }
+
+    const resSaveDatabase = await fetch('../api/addToContact', payload);
+    const resSendEmail = await fetch("../api/sendEmail", payload);
     // const data = await res.json();
     // console.log(data);
   };
