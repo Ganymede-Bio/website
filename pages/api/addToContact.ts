@@ -1,7 +1,7 @@
 import prisma from "../../lib/prisma";
 import type { NextApiRequest, NextApiResponse } from "next";
 
-const handler = async (req: NextApiRequest, res: NextApiResponse) => {
+const addToContact = async (req: NextApiRequest, res: NextApiResponse) => {
   const { body } = req;
   const { name, email, phone, message } = JSON.parse(body);
 
@@ -30,4 +30,4 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   });
 };
 
-export default handler;
+export default addToContact;

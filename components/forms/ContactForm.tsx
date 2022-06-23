@@ -21,8 +21,8 @@ export default function ContactForm() {
       body: JSON.stringify(item),
     }
 
-    const resSaveDatabase = await fetch("../api/addToContact", payload);
-    const resSendEmail = await fetch("../api/sendEmail", payload);
+    const [resSaveDatabase, resSendEmail] = await Promise.allSettled(
+      [fetch('../api/addToContact', payload), fetch("../api/sendEmail", payload)])
     // const data = await res.json();
     // console.log(data);
   };
