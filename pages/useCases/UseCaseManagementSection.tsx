@@ -8,7 +8,7 @@ import {
 export default function UseCaseManagementSection() {
   return (
 
-    <div
+    <section
       id="use-case-scientist-section"
       className="py-8 overflow-hidden lg:pt-16"
     >
@@ -179,7 +179,7 @@ export default function UseCaseManagementSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
   );
 }

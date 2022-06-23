@@ -6,7 +6,7 @@ import {
 
 export default function FeaturesSection() {
   return (
-    <div
+    <section
       id="features-section"
       className="py-16 overflow-hidden lg:py-24"
     >
@@ -335,6 +335,6 @@ export default function FeaturesSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

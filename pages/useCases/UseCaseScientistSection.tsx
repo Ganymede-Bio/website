@@ -7,7 +7,7 @@ import {
 export default function UseCaseScientistSection() {
   return (
 
-    <div
+    <section
       id="use-case-scientist-section"
       className="py-16 overflow-hidden lg:pt-16"
     >
@@ -136,7 +136,7 @@ export default function UseCaseScientistSection() {
         </div>
 
       </div>
-    </div>
+    </section>
 
   );
 }

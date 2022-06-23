@@ -7,7 +7,7 @@ import { classNames } from '../../utils/util'
 
 export default function FlyoutMenu({ name, subMenu }: IFlyoutMenu) {
   const buttonRef = useRef(null)
-  const timeoutDuration = 50
+  const timeoutDuration = 400
   let timeout: any
 
   const closePopover = () => {
@@ -38,15 +38,15 @@ export default function FlyoutMenu({ name, subMenu }: IFlyoutMenu) {
           <Popover.Button
             ref={buttonRef}
             className={classNames(
-              open ? 'text-gray-900' : 'text-gray-200',
-              'group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none'
+              open ? 'text-gray-900 bg-gray-50' : 'text-gray-200',
+              'group rounded-md inline-flex items-center text-base font-medium focus:outline-none mx-5 px-5 py-2'
             )}
             onMouseEnter={onMouseEnter.bind(null, open)}
             onMouseLeave={onMouseLeave.bind(null, open)}
           >
             <span>{name}</span>
             <ChevronDownIcon
-              className={classNames(open ? 'text-gray-600' : 'text-gray-200', 'ml-2 h-5 w-5 group-hover:text-gray-500')}
+              className={classNames(open ? 'text-gray-600' : 'text-gray-200', 'ml-2 h-5 w-5')}
               aria-hidden="true"
             />
           </Popover.Button>

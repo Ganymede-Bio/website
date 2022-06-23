@@ -1,7 +1,7 @@
 import Link from "next/link";
 import AnimateTranslate from "../../components/animations/AnimateTranslate";
 
-export default function HeroSection() {
+export default function HeroText() {
 
   return (
     <main className="z-20 pb-80">

@@ -8,7 +8,7 @@ import AnimateAppear from "../../components/animations/AnimateAppear";
 export default function IntegrationSection() {
 
   return (
-    <div
+    <section
       id="integration-section"
       className="py-16 overflow-hidden lg:py-24"
     >
@@ -148,7 +148,7 @@ export default function IntegrationSection() {
             />
           </div> */}
       </div>
-    </div>
+    </section>
     // </div >
   );
 }

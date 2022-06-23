@@ -1,6 +1,6 @@
 export default function PlatformSection() {
   return (
-    <div
+    <section
       id="platform-section"
       className="relative overflow-hidden pt-8 sm:pt-12 lg:pt-16"
     >
@@ -57,6 +57,6 @@ export default function PlatformSection() {
         </svg>
 
       </div>
-    </div>
+    </section>
   );
 }

@@ -19,7 +19,7 @@ const menuUseCases = [
   {
     header: "Client case studies",
     description: "Apprentice",
-    href: "#testimonial"
+    href: "/Testimonial"
   }
 ]
 
@@ -64,7 +64,7 @@ const menuResources = [
 const contactResources = [
   {
     header: "Contact",
-    href: "/Contact"
+    href: "/#contact-us"
   }
 ]
 

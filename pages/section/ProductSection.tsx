@@ -6,7 +6,7 @@ import {
 
 export default function ProductSection() {
   return (
-    <div
+    <section
       id="product-section"
       className="pt-8 overflow-hidden lg:pt-16"
     >
@@ -332,6 +332,6 @@ export default function ProductSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
