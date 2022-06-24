@@ -88,16 +88,17 @@ export const people = [
       "He holds a BSE in Mechanical and Aerospace Engineering from Princeton University."]
   },
   {
-    name: "Alan Chramiec",
+    name: "Alan Chramiec PhD",
     role: "Founding Scientist",
     imageUrl: "/people/headshot_alan_chramiec.png",
     githubUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/alan-chramiec/",
     focus: "Sales Ops | Business | People",
     blurb: ["A scientist by training, Alan has more than a decade of biomedical research ",
-      "experience leading successful collaborations, innovations, and publications ",
-      "with researchers across 10+ world-class research institutions and medical centers.  ",
-      "Passionate about innovating biomedical research.  Excited to shape its future."],
+      "experience leading collaborations across 10+ world-class research institutions and ",
+      "medical centers.  Co-founded the Center for Epigenetics Research at Memorial Sloan Kettering ",
+      "Cancer Center, as well as Nucleate NYC.  He received his PhD in biomedical engineering at",
+      "Columbia University, training under Dr. Gordana Vunjak-Novakovic"],
     bulletPoints: [
       "Led the successful launch of the NYC branch of Nucleate, an international organization that facilitates the formation of pioneering life sciences companies",
       "Received PhD training in intersection of biomedical engineering and cancer under Dr. Gordana Vunjak-Novakovic at Columbia University",
