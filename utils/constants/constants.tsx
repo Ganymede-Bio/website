@@ -97,8 +97,8 @@ export const people = [
     blurb: ["A scientist by training, Alan has more than a decade of biomedical research ",
       "experience leading collaborations across 10+ world-class research institutions and ",
       "medical centers.  Co-founded the Center for Epigenetics Research at Memorial Sloan Kettering ",
-      "Cancer Center, as well as Nucleate NYC.  He received his PhD in biomedical engineering at",
-      "Columbia University, training under Dr. Gordana Vunjak-Novakovic"],
+      "Cancer Center, as well as Nucleate NYC.  He received his PhD in biomedical engineering at ",
+      "Columbia University, training under Dr. Gordana Vunjak-Novakovic."],
     bulletPoints: [
       "Led the successful launch of the NYC branch of Nucleate, an international organization that facilitates the formation of pioneering life sciences companies",
       "Received PhD training in intersection of biomedical engineering and cancer under Dr. Gordana Vunjak-Novakovic at Columbia University",
