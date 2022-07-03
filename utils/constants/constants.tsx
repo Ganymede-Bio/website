@@ -46,9 +46,9 @@ export const people = [
     githubUrl: "https://github.com/bensonlee5",
     focus: "Science | Eng | Hardware",
     blurb: [
-      "Previously Head of Quantitative Markets at Affirm and a structured finance ",
-      "trader at Citigroup, Benson built and oversaw quantitative research, ",
-      "deal structuring, and model risk management functions at Affirm.",
+      "Before founding Ganymede, Benson was Head of Quantitative Markets at Affirm, ",
+      "where he built and oversaw quantitative research, deal structuring, and model ",
+      "risk management.  He received BS and MEng degrees in Computer Science from Cornell.",
     ],
   },
   {
