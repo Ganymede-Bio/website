@@ -29,8 +29,9 @@ export default function Contact() {
                   <dt className="sr-only">Postal address</dt>
                   <dd>
                     <p>Ganymede Bio</p>
-                    <p>PO Box 225273</p>
-                    <p>San Francisco, CA 94122</p>
+                    <p>3000 El Camino Real, Building 4</p>
+                    <p>Suite 200, #12608692</p>
+                    <p>Palo Alto, CA 94306</p>
                   </dd>
                 </div>
                 <div className="mt-4">
