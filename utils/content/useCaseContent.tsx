@@ -197,3 +197,69 @@ export const scalabilityUseCaseManagement = [
     icon: AnnotationIcon,
   },
 ];
+
+export const storageUseCaseManufacturing = [
+  {
+    id: "manufacturing_use_case_data_historian",
+    name: "Capture all raw data from your equipment",
+    description:
+      "Ganymede captures all raw and versions instrument data, enabling you to go beyond audit logs in associating systems with processes.",
+    icon: SupportIcon,
+  },
+  {
+    id: "manufacturing_use_case_compliance",
+    name: "Turn your non-compliant machines into compliant ones",
+    description:
+      "By storing instrument data, instrument configuration, user information, and even business logic, Ganymede enables you to meet your audit and compliance needs.",
+    icon: AnnotationIcon,
+  },
+  {
+    id: "manufacturing_use_case_standardization",
+    name: "Observe your data in a single queryable data lake",
+    description:
+      "Ganymede gathers metadata and data is stored in tabular form within a single environment, enabling you to quickly develop insights from data gathered across different data sources.",
+    icon: SearchIcon,
+  },
+];
+
+export const storageUseCaseIntegration = [
+  {
+    id: "manufacturing_use_case_les_mes_integration",
+    name: "Combine your LES and LIMS data with your MES",
+    description: "Sync data between your lab and manufacturing systems, while maintaining the associations between raw data and end results.",
+    icon: SupportIcon
+  },
+  {
+    id: "manufacturing_use_case_data_source_integration",
+    name: "Integrate with your existing databases",
+    description: "Flexibly transit data in and out of the Ganymede cloud to your databases, so you can maintain continuity with your existing processes and ensure flexibility with respect to future software infrastructure you choose to use.",
+    icon: SupportIcon
+  },
+  {
+    id: "manufacturing_use_case_integration_choice",
+    name: "As hands-on or hands-off as you would like",
+    description: "Ganymede can consultatively implement cloud infrastructure and analytics for you, or provide the platform for your engineers to use.",
+    icon: SupportIcon
+  },
+]
+
+export const storageUseCaseModern = [
+  {
+    id: "manufacturing_use_case_modern_infra",
+    name: "Build on modern cloud-native infrastructure",
+    description: "Ganymede is built upon Google Cloud Platform, primarily using serverless architecture.  This ensures resilience through the guarantees provided by GCP, such as its famous \"11 nines\" of data durability and ability to scale across any number of sites through autoscaling.",
+    icon: SupportIcon
+  },
+  {
+    id: "manufacturing_use_case_modular_open",
+    name: "Developed with your needs in mind",
+    description: "The Ganymede cloud is modular, building upon popular open-source software packages to maximize compatibility with existing software systems.",
+    icon: SupportIcon
+  },
+  {
+    id: "manufacturing_use_case_value_scale",
+    name: "Spend more time on higher value-add efforts",
+    description: "With one platform for monitoring and analysis, spend more time optimizing and less time operationalizing your processes.",
+    icon: SupportIcon
+  }
+]

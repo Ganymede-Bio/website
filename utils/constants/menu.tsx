@@ -10,7 +10,7 @@ const menuUseCases = [
   },
   {
     header: "For Manufacturing IoT",
-    href: "#"
+    href: "/UseCaseManufacturing"
   },
   {
     header: "For Management",

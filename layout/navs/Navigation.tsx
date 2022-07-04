@@ -8,7 +8,7 @@ import AnimateScale from "../../components/animations/AnimateScale";
 export default function Navigation() {
   return (
     <Popover>
-      <div className="flex relative align-center">
+      <div className="flex align-center">
         <div className="mt-2">
           <AnimateScale scale={1.1}>
             <a href="/">
