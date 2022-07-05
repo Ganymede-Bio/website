@@ -222,7 +222,7 @@ export const storageUseCaseManufacturing = [
   },
 ];
 
-export const storageUseCaseIntegration = [
+export const integrationUseCaseManufacturing = [
   {
     id: "manufacturing_use_case_les_mes_integration",
     name: "Combine your LES and LIMS data with your MES",
@@ -243,7 +243,7 @@ export const storageUseCaseIntegration = [
   },
 ]
 
-export const storageUseCaseModern = [
+export const modernUseCaseManufacturing = [
   {
     id: "manufacturing_use_case_modern_infra",
     name: "Build on modern cloud-native infrastructure",
@@ -262,4 +262,67 @@ export const storageUseCaseModern = [
     description: "With one platform for monitoring and analysis, spend more time optimizing and less time operationalizing your processes.",
     icon: SupportIcon
   }
+]
+
+export const whatIsGanymedeUseCaseSoftware = [
+  // {
+  //   id: "software_use_case_what_coding",
+  //   name: "Connect your lab data via code",
+  //   description: "Implement SQL or Python to flexibly specify how your instrument data should be related together and processed.",
+  //   icon: SupportIcon
+  // },
+  {
+    id: "software_use_case_what_syncing",
+    name: "Programmatically interact with your ELN/LIMS",
+    description: "Ganymede offers a flexible  how your experimental data should be ",
+    icon: SupportIcon
+  },
+  {
+    id: "software_use_case_what_analysis",
+    name: "Seamlessly move between analysis and pipeline development",
+    description: "Directly modify pipeline operators via notebooks, and orchestrate pipelines via graphical interfaces",
+    icon: SupportIcon
+  },
+]
+
+export const infraUseCaseSoftware = [
+  {
+    id: "software_use_case_communication",
+    name: "Meld your dry and wet labs",
+    description: "Feed your instrument metadata/data to your computational scientists, and empower your bench scientists to contextualize data.",
+    icon: SupportIcon
+  },
+  {
+    id: "software_use_case_infra_focus",
+    name: "Write code for your experimental data, not your coding environment",
+    description: "Manipulate your instrument and LIMS data in one computing environment.  Ganymede supplies serverless cloud infra tailored to your needs.",
+    icon: SupportIcon
+  },
+  {
+    id: "software_use_case_version_control",
+    name: "Souped-up version control",
+    description: "Ganymede cloud versions code, data pipelines, and raw data, so you can revisit what you need, when you need it.",
+    icon: SupportIcon
+  }
+]
+
+export const principlesUseCaseSoftware = [
+  {
+    id: "software_use_case_ergonomics",
+    name: "Developer and scientist-first ergonomics",
+    description: "",
+    icon: SupportIcon
+  },
+  {
+    id: "software_use_case_open_source",
+    name: "Built on open source",
+    description: "Ganymede cloud builds upon established open source software, to maximize compatibility with the breadth of hardware and software interfaces in scientific instrumentation.",
+    icon: SupportIcon
+  },
+  {
+    id: "software_use_case_consistency",
+    name: "Bring your data together",
+    description: "",
+    icon: SupportIcon
+  },
 ]
