@@ -265,22 +265,22 @@ export const modernUseCaseManufacturing = [
 ]
 
 export const whatIsGanymedeUseCaseSoftware = [
-  // {
-  //   id: "software_use_case_what_coding",
-  //   name: "Connect your lab data via code",
-  //   description: "Implement SQL or Python to flexibly specify how your instrument data should be related together and processed.",
-  //   icon: SupportIcon
-  // },
   {
-    id: "software_use_case_what_syncing",
+    id: "software_use_case_what_coding",
     name: "Programmatically interact with your ELN/LIMS",
-    description: "Ganymede offers a flexible  how your experimental data should be ",
+    description: "Write sophisticated logic to associate your experimental results with ELN/LIMS context using configurable Python/SQL environments.",
     icon: SupportIcon
   },
   {
     id: "software_use_case_what_analysis",
-    name: "Seamlessly move between analysis and pipeline development",
-    description: "Directly modify pipeline operators via notebooks, and orchestrate pipelines via graphical interfaces",
+    name: "Seamlessly scale your analytical jobs from analysis and pipelines",
+    description: "Save Devops effort by using Ganymede to directly modify pipeline operators via notebooks.  Your code and pipeline changes are synced with a Git repo so you can move judiciously fast.",
+    icon: SupportIcon
+  },
+  {
+    id: "software_use_case_what_orchestration",
+    name: "Lab-as-code data processing",
+    description: "Monitor and orchestrate workflow pipelines via graphical interfaces, troubleshooting in a user-friendly environment.",
     icon: SupportIcon
   },
 ]
@@ -308,21 +308,21 @@ export const infraUseCaseSoftware = [
 
 export const principlesUseCaseSoftware = [
   {
-    id: "software_use_case_ergonomics",
-    name: "Developer and scientist-first ergonomics",
-    description: "",
-    icon: SupportIcon
-  },
-  {
     id: "software_use_case_open_source",
     name: "Built on open source",
-    description: "Ganymede cloud builds upon established open source software, to maximize compatibility with the breadth of hardware and software interfaces in scientific instrumentation.",
+    description: "Ganymede cloud builds upon established open source software to ensure its components are well-supported, long-lived, and maximally compatible with hardware and software in the life sciences.",
     icon: SupportIcon
   },
   {
     id: "software_use_case_consistency",
-    name: "Bring your data together",
-    description: "",
+    name: "Capture everything",
+    description: "Capture and standardize all of your data/metadata as it's generated in a consistent form, so experimental context is fully preserved.",
     icon: SupportIcon
   },
+  // {
+  //   id: "software_use_case_ergonomics",
+  //   name: "Developer and scientist-first ergonomics",
+  //   description: "Ganymede strives to ",
+  //   icon: SupportIcon
+  // },
 ]
