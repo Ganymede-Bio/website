@@ -200,23 +200,23 @@ export const scalabilityUseCaseManagement = [
 export const storageUseCaseManufacturing = [
   {
     id: "manufacturing_use_case_data_historian",
-    name: "Capture all raw data from your equipment",
+    name: "Capture all raw data from your equipment, forever",
     description:
-      "Ganymede captures all raw and versions instrument data, enabling you to go beyond audit logs in associating systems with processes.",
+      "Ganymede captures and permanently saves all raw data and signals from your instruments, enabling you to go beyond audit logs in associating systems with processes.  Instead, just look at past state directly.",
     icon: SupportIcon,
   },
   {
     id: "manufacturing_use_case_compliance",
     name: "Turn your non-compliant machines into compliant ones",
     description:
-      "By storing instrument data, instrument configuration, user information, and even business logic, Ganymede enables you to meet your audit and compliance needs.",
+      "By storing instrument data, instrument configuration, user information, and even business logic, Ganymede makes compliance a breeze.  Associate raw data through drivers, analyses, and cleaning all the way down to final scientific results and QC checks.",
     icon: AnnotationIcon,
   },
   {
     id: "manufacturing_use_case_standardization",
     name: "Observe your data in a single queryable data lake",
     description:
-      "Ganymede gathers metadata and data is stored in tabular form within a single environment, enabling you to quickly develop insights from data gathered across different data sources.",
+      "Ganymede gathers metadata and data in a tabular form within a single environment, enabling you to quickly develop insights from data gathered across different data sources.",
     icon: SearchIcon,
   },
 ];
@@ -224,7 +224,7 @@ export const storageUseCaseManufacturing = [
 export const integrationUseCaseManufacturing = [
   {
     id: "manufacturing_use_case_les_mes_integration",
-    name: "Combine your LES and LIMS data with your MES",
+    name: "Combine your LIMS data with your MES and LES",
     description: "Sync data between your lab and manufacturing systems, while maintaining the associations between raw data and end results.",
     icon: SupportIcon
   },
@@ -236,8 +236,8 @@ export const integrationUseCaseManufacturing = [
   },
   {
     id: "manufacturing_use_case_integration_choice",
-    name: "As hands-on or hands-off as you would like",
-    description: "Ganymede can consultatively implement cloud infrastructure and analytics for you, or provide the platform for your engineers to use.",
+    name: "Developed with your needs in mind",
+    description: "The Ganymede cloud is modular, building upon popular open-source software packages to maximize compatibility with existing software systems.",
     icon: SupportIcon
   },
 ]
@@ -245,20 +245,20 @@ export const integrationUseCaseManufacturing = [
 export const modernUseCaseManufacturing = [
   {
     id: "manufacturing_use_case_modern_infra",
-    name: "Build on modern cloud-native infrastructure",
+    name: "Built on modern cloud-native infrastructure",
     description: "Ganymede is built upon Google Cloud Platform, primarily using serverless architecture.  This ensures resilience through the guarantees provided by GCP, such as its famous \"11 nines\" of data durability and ability to scale across any number of sites through autoscaling.",
-    icon: SupportIcon
-  },
-  {
-    id: "manufacturing_use_case_modular_open",
-    name: "Developed with your needs in mind",
-    description: "The Ganymede cloud is modular, building upon popular open-source software packages to maximize compatibility with existing software systems.",
     icon: SupportIcon
   },
   {
     id: "manufacturing_use_case_value_scale",
     name: "Spend more time on higher value-add efforts",
     description: "With one platform for monitoring and analysis, spend more time optimizing and less time operationalizing your processes.",
+    icon: SupportIcon
+  },
+  {
+    id: "manufacturing_use_case_hands_on_hands_off",
+    name: "As hands-on or hands-off as you would like",
+    description: "Ganymede can consultatively implement cloud infrastructure and analytics for you, or provide the platform for your engineers to use.",
     icon: SupportIcon
   }
 ]

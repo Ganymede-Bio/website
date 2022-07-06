@@ -14,18 +14,14 @@ export default function UseCaseManufacturingSection() {
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
         <div className="relative">
           <h2 className="text-center text-4xl leading-14 font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-            Store <div className="inline text-regal-purple-light">
-              versioned{" "}
-            </div>
-            data from your equipment
-            on a cloud-native platform
+            Capture, integrate, and <div className="inline text-regal-purple-light">version</div> all equipment and app data in the cloud
           </h2>
         </div>
 
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Save <div className="inline text-regal-purple-light">all</div> of your data, <div className="inline text-regal-purple-light">all</div> of the time
+              Say goodbye to audit logs
             </h3>
             <h3 className="mt-3 text-lg text-gray-500">
               All data is logged, versioned, and normalized in one environment.
@@ -64,10 +60,10 @@ export default function UseCaseManufacturingSection() {
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-                Track data, compute KPIs, and share observations from a single platform
+                Enrich your systems and data with their full context
               </h3>
               <p className="mt-3 text-lg text-gray-500">
-                Standardize and centralize your data observations, streamlining data-driven decisions across your manufacturing operations.
+                Integrate your LIMS with your raw data capture, so you can ensure collected data remains interpretable throughout its lifecycle
               </p>
 
               <dl className="mt-10 space-y-10">
@@ -103,10 +99,10 @@ export default function UseCaseManufacturingSection() {
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div className="relative">
             <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
-              Enrich your systems and control data with its full context
+              Track data, compute KPIs, and share observations from a single platform
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              Integrate your LIMS data with your raw data capture, so you can ensure data collected remains interpretable throughout its lifecycle
+              Standardize and centralize your data observations, streamlining data-driven decisions across your manufacturing operations.
             </p>
 
             <dl className="mt-10 space-y-10">
