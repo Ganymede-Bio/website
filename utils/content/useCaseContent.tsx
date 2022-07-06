@@ -1,6 +1,5 @@
 import {
   UploadIcon,
-  BookOpenIcon,
   SwitchHorizontalIcon,
   ChatAlt2Icon,
   ArchiveIcon,
