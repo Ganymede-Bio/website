@@ -25,7 +25,7 @@ export default function IntegrationSection() {
           <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="relative">
               <h3 className="text-2xl font-bold text-gray-900 tracking-tight sm:text-3xl">
-                <div className="text-regal-purple inline">Before:</div> Scientists perform analysis
+                <div className="text-regal-purple-light inline">Before:</div> Scientists perform analysis
                 <div className="text-nathan-orange inline">
                   { } locally
                 </div> and enter results
@@ -66,12 +66,12 @@ export default function IntegrationSection() {
             </div>
           </div>
         </AnimateAppear>
-        <AnimateAppear threshold={0.1} startY={'5vw'}>
+        <AnimateAppear threshold={0.2} startY={'5vw'}>
           <div className="relative mt-12 sm:mt-16 lg:mt-24">
             <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
               <div className="lg:col-start-2">
                 <h3 className="text-2xl font-bold text-gray-900 tracking-tight sm:text-3xl">
-                  <div className="text-regal-purple inline">After:</div> Raw experimental data and analysis are holistically
+                  <div className="text-regal-purple-light inline">After:</div> Raw experimental data and analysis are holistically
                   <div className="text-nathan-orange inline"> captured</div> and
                   <div className="text-nathan-orange inline"> versioned</div>
                 </h3>

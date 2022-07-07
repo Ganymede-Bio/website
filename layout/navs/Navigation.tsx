@@ -4,27 +4,31 @@ import { IFlyoutMenu } from "../../types/MenuInterface";
 import Image from "next/image";
 import { Popover } from "@headlessui/react";
 import AnimateScale from "../../components/animations/AnimateScale";
+import Link from "next/link";
 
 export default function Navigation() {
   return (
     <Popover>
-      <div className="flex align-center">
-        <div className="mt-2">
-          <AnimateScale scale={1.1}>
-            <a href="/">
-              <Image
-                src="/logo/ganymede_logo_white.png"
-                alt=""
-                width={139}
-                height={28}
-                quality={100}
-              />
-            </a>
+      <div className="flex align-center justify-around">
+        <div className="mt-2 ml-10 flex-shrink-0">
+          <AnimateScale scale={1.04}>
+            <Link href="/">
+              <a>
+                <Image
+                  src="/logo/ganymede_logo_white.png"
+                  alt=""
+                  width={139}
+                  height={28}
+                  quality={100}
+                />
+              </a>
+            </Link>
           </AnimateScale>
         </div>
-        <div className="relative top-0 ml-16 w-full mx-auto z-40">
+
+        <div className="relative z-40 mx-auto">
           <nav
-            className="relative flex"
+            className="align-center flex justify-center"
             aria-label="Global"
           >
             {

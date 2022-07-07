@@ -1,7 +1,7 @@
 const menuUseCases = [
   {
     header: "For Scientists",
-    description: ["Lab instruments", "ELN, LIMS, Analysis apps", "Databases"],
+    // description: ["Lab instruments", "ELN, LIMS, Analysis apps", "Databases"],
     href: "/UseCaseScientist"
   },
   {
@@ -16,11 +16,11 @@ const menuUseCases = [
     header: "For Management",
     href: "/UseCaseManagement"
   },
-  {
-    header: "Client case studies",
-    description: "Apprentice",
-    href: "/Testimonial"
-  }
+  // {
+  //   header: "Client case studies",
+  //   description: "Apprentice",
+  //   href: "/#testimonial"
+  // }
 ]
 
 const menuProduct = [
@@ -72,7 +72,7 @@ export const navigation = [
   { name: "Use Cases", subMenu: menuUseCases },
   { name: "Product", subMenu: menuProduct },
   { name: "Company", subMenu: menuCompany },
-  { name: "Resources", subMenu: menuResources },
+  // { name: "Resources", subMenu: menuResources },
   { name: "Contact Us", subMenu: contactResources }
 ];
 
@@ -80,5 +80,5 @@ export const navigationFooter = [
   { name: 'About', href: "/About" },
   { name: 'Platform', href: '/Platform' },
   { name: 'Careers', href: "/Careers" },
-  { name: 'Press', href: '#' },
+  // { name: 'Press', href: '#' },
 ]

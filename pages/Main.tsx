@@ -21,15 +21,15 @@ export default function Main() {
               <HeroImageSection />
             </div>
           </div>
-          <div id="integration" className="pt-6">
+          <div id="integration" className="pb-24">
             <IntegrationSection />
-          </div>
-          <div id="contact-us" className="pt-6">
-            <ContactSection />
           </div>
           {/* <div id="testimonial" className="pb-24 pt-6">
             <TestimonialSection />
           </div> */}
+          <div id="contact-us" className="pt-6">
+            <ContactSection />
+          </div>
           <div id="footer">
             <FooterSection />
           </div>

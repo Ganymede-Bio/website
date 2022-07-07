@@ -4,7 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 
 
 export default function AnimateAppear(props: any) {
-  const { ref: motionRef, inView } = useInView({ threshold: props.threshold ?? 0.2 })
+  const { ref: motionRef, inView } = useInView({ threshold: props.threshold ?? 0.0 })
   const animation = useAnimation()
 
   useEffect(() => {

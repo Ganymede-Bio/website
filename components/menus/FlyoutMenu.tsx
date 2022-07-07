@@ -38,15 +38,15 @@ export default function FlyoutMenu({ name, subMenu }: IFlyoutMenu) {
           <Popover.Button
             ref={buttonRef}
             className={classNames(
-              open ? 'text-gray-900 bg-gray-50' : 'text-gray-200',
-              'group rounded-md inline-flex items-center text-base font-medium focus:outline-none mx-5 px-5 py-2'
+              open ? 'text-gray-100 bg-gray-600' : 'text-gray-200',
+              'group rounded-md inline-flex items-center text-base font-medium focus:outline-none mx-4 px-4 py-2'
             )}
             onMouseEnter={onMouseEnter.bind(null, open)}
             onMouseLeave={onMouseLeave.bind(null, open)}
           >
             <span>{name}</span>
             <ChevronDownIcon
-              className={classNames(open ? 'text-gray-600' : 'text-gray-200', 'ml-2 h-5 w-5')}
+              className={classNames(open ? 'text-gray-100' : 'text-gray-200', 'ml-2 h-5 w-5')}
               aria-hidden="true"
             />
           </Popover.Button>
