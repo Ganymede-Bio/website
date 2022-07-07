@@ -9,8 +9,8 @@ import Link from "next/link";
 export default function Navigation() {
   return (
     <Popover>
-      <div className="flex align-center justify-around">
-        <div className="mt-2 ml-10 flex-shrink-0">
+      <div className="flex align-center justify-around px-10">
+        <div className="mt-2 flex-shrink-0">
           <AnimateScale scale={1.04}>
             <Link href="/">
               <a>
@@ -26,7 +26,7 @@ export default function Navigation() {
           </AnimateScale>
         </div>
 
-        <div className="relative z-40 mx-auto">
+        <div className="absolute z-40 mx-auto w-screen">
           <nav
             className="align-center flex justify-center"
             aria-label="Global"
