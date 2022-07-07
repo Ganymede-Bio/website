@@ -9,14 +9,15 @@ import Link from "next/link";
 export default function Navigation() {
   return (
     <Popover>
-      <div className="flex align-center justify-around px-10">
-        <div className="mt-2 flex-shrink-0">
+
+      <div className="flex align-center justify-around">
+        <div className="mt-2 pl-10 flex-shrink-0 z-20">
           <AnimateScale scale={1.04}>
             <Link href="/">
               <a>
                 <Image
                   src="/logo/ganymede_logo_white.png"
-                  alt=""
+                  alt="Ganymede main logo"
                   width={139}
                   height={28}
                   quality={100}
@@ -26,7 +27,7 @@ export default function Navigation() {
           </AnimateScale>
         </div>
 
-        <div className="absolute z-40 mx-auto w-screen">
+        <div className="absolute mx-auto w-screen">
           <nav
             className="align-center flex justify-center"
             aria-label="Global"
@@ -42,6 +43,7 @@ export default function Navigation() {
           </nav>
         </div>
       </div>
-    </Popover>
+
+    </Popover >
   );
 }

@@ -15,7 +15,7 @@ export default function EmployeeIcon(person: IEmployee) {
             <a>
               <Image
                 className="transition ease-in-out duration-100 m-auto h-40 w-40 rounded-full xl:w-56 xl:h-56 
-              hover:shadow-sm hover:shadow-gray-200"
+                           hover:shadow-sm hover:shadow-gray-200"
                 src={person.imageUrl}
                 alt=""
                 width="200"
