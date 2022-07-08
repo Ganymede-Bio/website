@@ -29,7 +29,7 @@ export default function Navigation() {
 
         <div className="absolute mx-auto w-screen">
           <nav
-            className="align-center flex justify-center"
+            className="align-center flex justify-center md:hidden"
             aria-label="Global"
           >
             {

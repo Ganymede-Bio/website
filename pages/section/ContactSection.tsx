@@ -25,8 +25,8 @@ export default function Contact() {
                   <dt className="sr-only">Postal address</dt>
                   <dd>
                     <p>Ganymede Bio</p>
-                    <p>3000 El Camino Real, Building 4</p>
-                    <p>Suite 200, #12608692</p>
+                    <p>3000 El Camino Real</p>
+                    <p>Bldg. 4, Suite 200</p>
                     <p>Palo Alto, CA 94306</p>
                   </dd>
                 </div>
