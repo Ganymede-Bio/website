@@ -14,7 +14,7 @@ export default function IntegrationSection() {
     >
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
         <AnimateAppear startY={'5vw'}>
-          <DividerTitleLeft title='What we do' />
+          <DividerTitleLeft title='Let&apos;s look at an example' />
         </AnimateAppear>
         {/* <div className="relative">
           <h2 className="text-center text-4xl leading-14 font-bold tracking-tight text-gray-900 sm:text-5xl text-regal-purple">
@@ -25,16 +25,10 @@ export default function IntegrationSection() {
           <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="relative">
               <h3 className="text-2xl font-bold text-gray-900 tracking-tight sm:text-3xl">
-                <div className="text-regal-purple-light inline">Before:</div> Scientists perform analysis
-                <div className="text-nathan-orange inline">
-                  { } locally
-                </div> and enter results
-                <div className="text-nathan-orange inline">
-                  { } manually
-                </div> into apps
+                <div className="text-regal-purple-light inline">Before:</div> Files and analysis are on local PCs, data entry and file moving is manual
               </h3>
               <p className="mt-3 text-lg text-gray-500">
-                Experimental results are challenging to trace, audit, and replicate.
+                Instruments dump files onto local PCs, and scientists run analysis on the data locally too. Results are then data-entered into ELNs or Excel manually. What problems does this cause?
               </p>
 
               <dl className="mt-10 space-y-10">
@@ -56,10 +50,10 @@ export default function IntegrationSection() {
               </dl>
             </div>
 
-            <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
+            <div className="mt-10 relative lg:mt-0" aria-hidden="true">
               <img
                 className="relative mx-auto rounded-md shadow-lg"
-                width={550}
+                width={750}
                 src="/schematic/before.png"
                 alt=""
               />
@@ -71,12 +65,10 @@ export default function IntegrationSection() {
             <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
               <div className="lg:col-start-2">
                 <h3 className="text-2xl font-bold text-gray-900 tracking-tight sm:text-3xl">
-                  <div className="text-regal-purple-light inline">After:</div> Raw experimental data and analysis are holistically
-                  <div className="text-nathan-orange inline"> captured</div> and
-                  <div className="text-nathan-orange inline"> versioned</div>
+                  <div className="text-regal-purple-light inline">After:</div> No human required. Ganymede saves your data, analyzes it, and pushes it to apps
                 </h3>
                 <p className="mt-3 text-lg text-gray-500">
-                  Data validation, versioning, and workflows are performed in a cloud-native environment prior to syncing with your system of choice.
+                  Raw data is saved in the cloud and analysis is automated, with traceability in between. Data can then go into ELNs/LIMS, Excel, analysis apps, pipelines - anything. We also build a data lake of this as we go.
                 </p>
 
                 <dl className="mt-10 space-y-10">
@@ -98,10 +90,10 @@ export default function IntegrationSection() {
                 </dl>
               </div>
 
-              <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+              <div className="mt-10 relative lg:mt-0 lg:col-start-1">
                 <img
                   className="relative mx-auto rounded-md shadow-lg"
-                  width={550}
+                  width={900}
                   src="/schematic/after.png"
                   alt=""
                 />

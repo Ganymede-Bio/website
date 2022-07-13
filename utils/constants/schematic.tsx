@@ -22,14 +22,14 @@ export const schematicBeforeFeatures = [
     id: "schematic_feature_raw_data_lost",
     name: "Raw data is lost",
     description:
-      "Raw data is lost; analyses cannot be modified later or re-run without substantial effort.",
+      "Raw data is lost; analyses cannot be modified or re-run without substantial effort. Lack of traceability makes meta-analyses difficult.",
     icon: UserIcon,
   },
   {
     id: "schematic_time_is_lost",
-    name: "Process scaling is time-consuming",
+    name: "Data entry is time-consuming",
     description:
-      "Lack of traceability and automation makes meta-analyses and process scaling time-consuming.",
+      "Even just entering the primary analysis results becomes a drag on scientists' productivity.",
     icon: TrashIcon,
   },
 ];
@@ -37,23 +37,23 @@ export const schematicBeforeFeatures = [
 export const schematicAfterFeatures = [
   {
     id: "schematic_data_mapped_versioned",
-    name: "Raw and analyzed data are mapped and versioned",
+    name: "Sync everything into the cloud automatically",
     description:
-      "Raw and analyzed data are versioned and mapped; for each analysis, you know who ran what instrument to product what result when.",
+      "All your raw data, analyzed data, metadata, and even the internal data from your intergrated apps is saved forever in a single cloud data lake.",
     icon: SwitchVerticalIcon,
   },
   {
     id: "schematic_apps_synced",
-    name: "Sources of truth are synced",
+    name: "Do any analysis, add any metadata, push results anywhere",
     description:
-      "Apps like ELN/LIMS or analytical databases are synced so they remain the source of truth.",
+      "Run analyses automatically and add metadata automatically. Push results into any app or pipeline, or even back to instruments for control.",
     icon: UserIcon,
   },
   {
     id: "schematic_rerun_analysis",
-    name: "Analysis can be readily revisited",
+    name: "Compliance is a snap with universal versioning",
     description:
-      "Rerun, debug, or reconfigure analysis as needed by observing data in their captured state",
+      "Go beyond audit logs. Ganymede saves all data and code it ever sees, making GxP easy: rewind time to any point and see who changed things.",
     icon: TrashIcon,
   },
 ];

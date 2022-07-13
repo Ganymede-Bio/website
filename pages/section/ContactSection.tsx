@@ -17,7 +17,7 @@ export default function Contact() {
               <div className="mt-3 text-lg leading-6 text-gray-500">
                 <p>
                   We'd love to hear from you. Request a demo, ask us questions,
-                  inquire about openings, or keep up with our developments as we launch.
+                  inquire about openings, or just send us a note with how we can help!
                 </p>
               </div>
               <dl className="mt-4 text-base text-gray-500">
