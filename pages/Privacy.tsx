@@ -11,9 +11,6 @@ export default function Privacy() {
           <div className="max-w-max lg:max-w-7xl mx-auto">
             <div className="relative z-10 mb-8 md:mb-2 md:px-6">
               <div className="text-base max-w-prose lg:max-w-none">
-                {/* <h2 className="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">
-                  Ganymede Privacy Policy
-                </h2> */}
                 <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                   Ganymede Privacy Policy
                 </h2>
@@ -21,9 +18,10 @@ export default function Privacy() {
             </div>
             <div className="relative md:p-6 text-justify">
               <body className="prose prose-indigo prose-lg text-gray-800 lg:max-w-none space-y-3">
+                <p className="pb-2"><b>Last Updated</b>: July 19, 2022</p>
                 <p>
                   Ganymede Bio, Inc. (“<b>Ganymede</b>,” “<b>we</b>,” “<b>our</b>,” and/or “<b>us</b>”) values the privacy of individuals who use our website, including{" "}
-                  <a href="https://www.google.com/policies/privacy/partners/"
+                  <a href="https://www.ganymede.bio/"
                     className="inline hover:underline hover:text-blue-800 visited:text-regal-purple">
                     https://www.ganymede.bio/
                   </a>{" "} (our “<b>Website</b>”).  This privacy policy (the “<b>Privacy Policy</b>”) explains how we collect, use, and share personal information from users of our Website (“<b>you</b>” or “<b>your”</b>).  By using our Website, you agree to the collection, use, disclosure, and procedures described in this Privacy Policy.
