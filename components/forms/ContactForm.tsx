@@ -27,14 +27,10 @@ export default function ContactForm(
     // console.log(data);
   };
 
-  const showSubmittingMessage = () => {
-    return <p>Submitting...</p>;
-  };
-
   const showSubmittedMessage = () => {
     const msg = Object.keys(errors).length === 0 && (
-      <p>
-        Thank you for reaching out!
+      <p className="text-slate-700">
+        Thank you for reaching out to us!
       </p>
     );
     return msg;
@@ -123,13 +119,10 @@ export default function ContactForm(
           Submit
         </button>
       </div>
-      <div className="text-black text-lg font-light">
+      <div className="text-xl font-light">
         <div className="ml-1">
           <ScaleLoader loading={isSubmitting} width={16} margin={1} />
         </div>
-        {/* <ScaleLoader
-          loading={isSubmitting}
-        /> */}
         {isSubmitted && !isSubmitting && showSubmittedMessage()}
       </div>
     </form>
