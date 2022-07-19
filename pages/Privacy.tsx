@@ -7,7 +7,7 @@ export default function Privacy() {
     <>
       <Header />
       <MoleculeStarsBackground>
-        <div className="py-10 xl:py-36 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
+        <div className="py-10 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
           <div className="max-w-max lg:max-w-7xl mx-auto">
             <div className="relative z-10 mb-8 md:mb-2 md:px-6">
               <div className="text-base max-w-prose lg:max-w-none">
