@@ -48,8 +48,8 @@ export default function UseCaseManufacturingSection() {
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
             <img
               className="relative mx-auto rounded-md shadow-lg"
-              width={490}
-              src="/placeholder_image.png"
+              width={550}
+              src="/useCase/7 - Say goodbye to audit logs.png"
               alt=""
             />
           </div>
@@ -88,8 +88,8 @@ export default function UseCaseManufacturingSection() {
             <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
               <img
                 className="relative mx-auto rounded-md shadow-lg"
-                width={490}
-                src="/placeholder_image.png"
+                width={550}
+                src="/useCase/8 - Enrich your systems and data with their full context.png"
                 alt=""
               />
             </div>
@@ -127,8 +127,8 @@ export default function UseCaseManufacturingSection() {
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
             <img
               className="relative mx-auto rounded-md shadow-lg"
-              width={490}
-              src="/placeholder_image.png"
+              width={550}
+              src="/useCase/9 - Track data, compute KPIs, and share observations from a single platform.png"
               alt=""
             />
           </div>

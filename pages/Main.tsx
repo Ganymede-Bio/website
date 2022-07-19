@@ -14,10 +14,10 @@ export default function Main() {
       <MoleculeStarsBackground>
         <div className="opacity-100 pt-12">
           <div className="flex flex-row align-middle">
-            <div className="basis-1/2 mr-10 md:mt-18 xl:mt-24">
+            <div className="basis-7/12 mr-10 md:mt-18 xl:mt-24">
               <HeroText />
             </div>
-            <div className="basis-1/2 mr-10">
+            <div className="basis-5/12 mr-10">
               <HeroVideoSection />
             </div>
             {/* <div className="basis-2/5 mr-10 sm:pt-24 xl:pt-42">

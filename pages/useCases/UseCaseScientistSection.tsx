@@ -49,8 +49,8 @@ export default function UseCaseScientistSection() {
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
             <img
               className="relative mx-auto rounded-md shadow-lg"
-              width={490}
-              src="/placeholder_image.png"
+              width={550}
+              src="/useCase/1 - Automatically send instrument data into your ELN or LIMS.png"
               alt=""
             />
           </div>
@@ -89,8 +89,8 @@ export default function UseCaseScientistSection() {
             <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
               <img
                 className="relative mx-auto rounded-md shadow-lg"
-                width={490}
-                src="/placeholder_image.png"
+                width={550}
+                src="/useCase/2 - No more data entry.png"
                 alt=""
               />
             </div>
@@ -128,8 +128,8 @@ export default function UseCaseScientistSection() {
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
             <img
               className="relative mx-auto rounded-md shadow-lg"
-              width={490}
-              src="/placeholder_image.png"
+              width={550}
+              src="/useCase/3 - All your data in one place, saved forever.png"
               alt=""
             />
           </div>

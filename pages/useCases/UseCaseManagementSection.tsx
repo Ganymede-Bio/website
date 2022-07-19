@@ -53,8 +53,8 @@ export default function UseCaseManagementSection() {
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
             <img
               className="relative mx-auto rounded-md shadow-lg"
-              width={490}
-              src="/placeholder_image.png"
+              width={550}
+              src="/useCase/10 - Maximize the cost-efficiency of your lab operations.png"
               alt=""
             />
           </div>
@@ -93,8 +93,8 @@ export default function UseCaseManagementSection() {
             <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
               <img
                 className="relative mx-auto rounded-md shadow-lg"
-                width={490}
-                src="/placeholder_image.png"
+                width={550}
+                src="/useCase/11 - All your lab data structured and in one accessible spot.png"
                 alt=""
               />
             </div>
@@ -132,8 +132,8 @@ export default function UseCaseManagementSection() {
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
             <img
               className="relative mx-auto rounded-md shadow-lg"
-              width={490}
-              src="/placeholder_image.png"
+              width={550}
+              src="/useCase/12 - Institutionalize data integrity and pave the way to GxP.png"
               alt=""
             />
           </div>
@@ -171,8 +171,8 @@ export default function UseCaseManagementSection() {
             <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
               <img
                 className="relative mx-auto rounded-md shadow-lg"
-                width={490}
-                src="/placeholder_image.png"
+                width={550}
+                src="/useCase/13 - Handle more data with less people.gif"
                 alt=""
               />
             </div>
