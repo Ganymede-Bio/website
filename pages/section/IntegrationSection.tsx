@@ -13,7 +13,7 @@ export default function IntegrationSection() {
       className="py-16 overflow-hidden lg:py-24"
     >
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
-        <AnimateAppear startY={'5vw'}>
+        <AnimateAppear startY={'5vw'} duration={0.25}>
           <DividerTitleLeft title='Let&apos;s look at an example' />
         </AnimateAppear>
         {/* <div className="relative">
@@ -21,7 +21,7 @@ export default function IntegrationSection() {
             Before and After
           </h2>
         </div> */}
-        <AnimateAppear startY={'5vw'}>
+        <AnimateAppear startY={'5vw'} duration={0.25}>
           <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="relative">
               <h3 className="text-2xl font-bold text-gray-900 tracking-tight sm:text-3xl">
@@ -60,7 +60,7 @@ export default function IntegrationSection() {
             </div>
           </div>
         </AnimateAppear>
-        <AnimateAppear threshold={0.2} startY={'5vw'}>
+        <AnimateAppear startY={'5vw'} duration={0.25}>
           <div className="relative mt-12 sm:mt-16 lg:mt-24">
             <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
               <div className="lg:col-start-2">
