@@ -1,12 +1,12 @@
 import Link from "next/link";
-import AnimateTranslate from "../../components/animations/AnimateTranslate";
+import AnimateTranslate from "../../../components/animations/AnimateTranslate";
 
 export default function HeroText() {
 
   return (
     <main className="z-20 pb-40">
-      <div className="mx-auto max-w-7xl sm:pt-64 px-4 align-middle">
-        <h1 className="text-4xl tracking-normal font-extrabold z-20 text-gray-900 sm:text-5xl md:text-6xl">
+      <div className="mx-auto max-w-7xl px-4 align-middle">
+        <h1 className="text-4xl tracking-normal font-extrabold z-20 text-gray-900 sm:text-2xl md:text-4xl lg:text-6xl">
           <span className="text-center block sm:ml-10 sm:mr-10 ml-4 mr-4">
             <AnimateTranslate duration={0.5}>
               <div className="text-regal-purple-light inline">

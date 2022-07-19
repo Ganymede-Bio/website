@@ -1,5 +1,5 @@
 import Image from "next/image"
-import AnimateTranslate from "../../components/animations/AnimateTranslate"
+import AnimateTranslate from "../../../components/animations/AnimateTranslate"
 
 export default function HeroImageSection() {
   return (

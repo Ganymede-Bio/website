@@ -1,6 +1,6 @@
 import Header from "./headers/Header";
-import HeroText from "./section/HeroSection";
-import HeroImageSection from "./section/HeroImageSection";
+import HeroText from "./section/hero/HeroText";
+import HeroImageSection from "./section/hero/HeroImageSection";
 import TestimonialSection from "./section/TestimonialSection";
 import IntegrationSection from "./section/IntegrationSection";
 import FooterSection from "./section/FooterSection";
@@ -14,10 +14,10 @@ export default function Main() {
       <MoleculeStarsBackground>
         <div className="opacity-100">
           <div className="flex flex-row">
-            <div className="basis-7/12">
+            <div className="basis-7/12 sm:pt-32 xl:pt-56">
               <HeroText />
             </div>
-            <div className="basis-2/5 mt-16 mr-10">
+            <div className="basis-2/5 mr-10 sm:pt-24 xl:pt-42">
               <HeroImageSection />
             </div>
           </div>
