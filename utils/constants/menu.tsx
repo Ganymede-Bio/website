@@ -79,6 +79,7 @@ export const navigation = [
 export const navigationFooter = [
   { name: 'About', href: "/About" },
   { name: 'Platform', href: '/Platform' },
+  { name: 'Privacy', href: '/Privacy' },
   { name: 'Careers', href: "/Careers" },
   // { name: 'Press', href: '#' },
 ]
