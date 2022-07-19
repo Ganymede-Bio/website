@@ -12,7 +12,7 @@ export default function Main() {
     <div className="relative">
       <Header />
       <MoleculeStarsBackground>
-        <div className="opacity-100 sm:pt-32 xl:pt-32">
+        <div className="opacity-100 pt-12">
           <div className="flex flex-row align-middle">
             <div className="basis-1/2 mr-10 md:mt-18 xl:mt-24">
               <HeroText />
