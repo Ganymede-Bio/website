@@ -1,6 +1,7 @@
-import { useForm, SubmitHandler } from "react-hook-form";
+import { SubmitHandler } from "react-hook-form";
 import { ErrorMessage } from "@hookform/error-message";
 import validator from "validator";
+import { ScaleLoader } from "react-spinners"
 
 interface IContactForm {
   name: String;
@@ -8,13 +9,11 @@ interface IContactForm {
   message: String;
 }
 
-export default function ContactForm() {
-  const {
-    register,
+export default function ContactForm(
+  { register,
     formState: { errors, isSubmitted, isSubmitting },
-    handleSubmit,
-  } = useForm<IContactForm>();
-
+    handleSubmit }: any
+) {
   const onSubmit: SubmitHandler<IContactForm> = async function (item) {
     const payload = {
       method: "POST",
@@ -33,7 +32,9 @@ export default function ContactForm() {
 
   const showSubmittedMessage = () => {
     const msg = Object.keys(errors).length === 0 && (
-      <p>Thanks for submitting your info!</p>
+      <p>
+        Thank you for reaching out!
+      </p>
     );
     return msg;
   };
@@ -121,9 +122,15 @@ export default function ContactForm() {
           Submit
         </button>
       </div>
-      {isSubmitting
-        ? showSubmittingMessage()
-        : isSubmitted && showSubmittedMessage()}
+      <div className="text-black text-lg font-light">
+        <div className="ml-1">
+          <ScaleLoader loading={isSubmitting} width={16} margin={1} />
+        </div>
+        {/* <ScaleLoader
+          loading={isSubmitting}
+        /> */}
+        {isSubmitted && !isSubmitting && showSubmittedMessage()}
+      </div>
     </form>
   );
 }

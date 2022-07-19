@@ -34,7 +34,7 @@ export default function Main() {
           <div id="contact-us" className="pt-6">
             <ContactSection />
           </div>
-          <div id="footer">
+          <div id="footer" className="pt-12">
             <FooterSection />
           </div>
         </div>
