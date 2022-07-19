@@ -2,6 +2,7 @@ import { SubmitHandler } from "react-hook-form";
 import { ErrorMessage } from "@hookform/error-message";
 import validator from "validator";
 import { ScaleLoader } from "react-spinners"
+import { HTMLInputTypeAttribute } from "react";
 
 interface IContactForm {
   name: String;
@@ -74,7 +75,7 @@ export default function ContactForm(
           placeholder="Work email"
           {...register("email", {
             required: "Please enter your email address",
-            validate: (val) =>
+            validate: (val: HTMLInputTypeAttribute) =>
               validator.isEmail(val.toString()) ||
               "Please enter a valid email address",
           })}
