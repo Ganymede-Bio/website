@@ -36,11 +36,11 @@ export default function EmployeeIcon(person: IEmployee) {
           </p>
         </div>
 
-        {/* <div className="mx-auto mt-3">
-          <p className="text-black text-sm">
+        <div className="mx-auto mt-3">
+          <div className="text-black text-sm">
             {person.blurb}
-          </p>
-        </div> */}
+          </div>
+        </div>
       </div>
     </div>
 
