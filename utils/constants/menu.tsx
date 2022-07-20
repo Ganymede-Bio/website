@@ -37,7 +37,7 @@ const menuProduct = [
 const menuCompany = [
   {
     header: "About",
-    description: "Team, story, principles",
+    // description: "Team, story, principles",
     href: "/About"
   },
   {
