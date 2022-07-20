@@ -299,13 +299,13 @@ export const whatIsGanymedeUseCaseSoftware = [
   {
     id: "software_use_case_what_analysis",
     name: "Seamlessly scale your analytical jobs from analysis and pipelines",
-    description: "Save Devops effort by using Ganymede to directly modify pipeline operators via notebooks.  Your code and pipeline changes are synced with a Git repo so you can move judiciously fast.",
+    description: "Save Devops effort by using Ganymede to directly modify pipeline operators via a browser-based IDE.  Your code and pipeline changes are synced with a Git repo so you can move fast and make things happen.  View redlines of changed versions and roll back seamlessly.",
     icon: TrendingUpIcon
   },
   {
     id: "software_use_case_what_orchestration",
     name: "Lab-as-code data processing",
-    description: "Monitor and orchestrate workflow pipelines via graphical interfaces, troubleshooting in a user-friendly environment.",
+    description: "Monitor and orchestrate workflow pipelines via graphical interfaces, troubleshooting in a user-friendly environment.  Changes to pipelines are checked before they are committed, so a mis-typed column name won't bring your pipeline down.",
     icon: ViewGridIcon
   },
 ]

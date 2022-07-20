@@ -24,7 +24,7 @@ export default function UseCaseSoftwareEngineerSection() {
               Lab-as-code for engineers
             </h3>
             <h3 className="mt-3 text-lg text-gray-500">
-              Ganymede let's you manage data from your lab instruments, ELN/LIMS, and pipelines on a unified workflow management platform.
+              Ganymede integrates data from your lab instruments, ELN/LIMS, and pipelines on a unified workflow management platform.
             </h3>
 
             <dl className="mt-10 space-y-10">
@@ -64,7 +64,7 @@ export default function UseCaseSoftwareEngineerSection() {
                 Spend less time on cloud plumbing, more time on analysis
               </h3>
               <p className="mt-3 text-lg text-gray-500">
-                Ganymede connects everything from instruments to LIMS to pipelines with cloud-native infrastructure that scales and parallelizes your code.
+                Ganymede extracts data using a library of instrument and SaaS sources with cloud-native infrastructure that scales and parallelizes your code.
               </p>
 
               <dl className="mt-10 space-y-10">
@@ -103,7 +103,7 @@ export default function UseCaseSoftwareEngineerSection() {
               Built for, rather than adapted to, developers and analysts
             </h3>
             <p className="mt-3 text-lg text-gray-500">
-              The Ganymede cloud to provide a common ground for high-code and low-code users, to maximize ergonomics for data-driven workflows.
+              The Ganymede cloud provides a common ground for high-code and low-code users, to maximize ergonomics for data-driven workflows.
             </p>
 
             <dl className="mt-10 space-y-10">
