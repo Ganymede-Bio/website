@@ -128,7 +128,7 @@ export default function UseCaseScientistSection() {
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
             <img
               className="relative mx-auto rounded-md shadow-lg"
-              width={550}
+              width={750}
               src="/useCase/3 - All your data in one place, saved forever.png"
               alt=""
             />

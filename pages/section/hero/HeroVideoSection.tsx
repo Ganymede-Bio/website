@@ -8,15 +8,17 @@ export default function HeroVideoSection() {
 
   return (
     <AnimateTranslate>
-      <div style={{ borderRadius: '10px', overflow: 'hidden' }}>
-        <div className="relative z-0">
-          <video
-            src={'/video/GanymedeHeroVideoTrimmed.mp4'}
-            ref={vidRef}
-            muted
-            autoPlay
-            loop
-          />
+      <div className="shadow shadow-lg rounded-lg">
+        <div style={{ borderRadius: '10px', overflow: 'hidden' }}>
+          <div className="relative z-0">
+            <video
+              src={'/video/GanymedeHeroVideoTrimmed.mp4'}
+              ref={vidRef}
+              muted
+              autoPlay
+              loop
+            />
+          </div>
         </div>
       </div>
     </AnimateTranslate >
