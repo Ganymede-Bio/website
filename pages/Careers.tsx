@@ -7,6 +7,9 @@ import Image from "next/image";
 
 import { IPosition, IPositions } from "../types/PositionInterface";
 import JobListing from "../components/lists/JobListing";
+import Header from "./headers/Header";
+import FooterSection from "./section/FooterSection";
+import MoleculeStarsBackground from "../components/backgrounds/MoleculeStarsBackground";
 
 export async function getStaticProps() {
   const res = await fetch(workableURL, {
@@ -55,7 +58,8 @@ export async function getStaticProps() {
 export default function Careers(positions: IPositions) {
   return (
     <>
-      <div className="bg-gray-50 pb-6">
+      <Header />
+      <MoleculeStarsBackground>
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-8 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <div className="pb-6">
@@ -86,25 +90,27 @@ export default function Careers(positions: IPositions) {
             ))}
           </dl>
         </div>
-      </div>
 
-      <div className="bg-gray-50 pt-4 py-8 border-b border-gray-200 sm:px-6">
-        <h3 className="text-3xl leading-6 font-medium text-gray-900 text-center">
-          Openings
-        </h3>
-      </div>
-      <div className="bg-gray-50 shadow overflow-hidden sm:rounded-md">
-        <div className="text-2xl text-left">
-          <ul role="list" className="divide-y divide-gray-200">
-            {Object.entries(positions).map(([department, pos]) => (
-              <li key={department} className="divide-y divide-gray-200">
-                <p className="py-10 ml-2">{department}</p>
-                <JobListing {...pos} />
-              </li>
-            ))}
-          </ul>
+
+        <div className="pt-4 py-8 border-b border-gray-200 sm:px-6">
+          <h3 className="text-3xl leading-6 font-medium text-gray-900 text-center">
+            Openings
+          </h3>
         </div>
-      </div>
+        <div className="shadow overflow-hidden sm:rounded-md">
+          <div className="text-2xl text-left">
+            <ul role="list" className="divide-y divide-gray-200 pb-2">
+              {Object.entries(positions).map(([department, pos]) => (
+                <li key={department} className="divide-y divide-gray-200">
+                  <p className="py-10 ml-2">{department}</p>
+                  <JobListing {...pos} />
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </MoleculeStarsBackground>
+      <FooterSection />
     </>
   );
 }

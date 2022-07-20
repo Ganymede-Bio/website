@@ -1,6 +1,8 @@
-import { useForm, SubmitHandler } from "react-hook-form";
+import { SubmitHandler } from "react-hook-form";
 import { ErrorMessage } from "@hookform/error-message";
 import validator from "validator";
+import { ScaleLoader } from "react-spinners"
+import { HTMLInputTypeAttribute } from "react";
 
 interface IContactForm {
   name: String;
@@ -8,13 +10,11 @@ interface IContactForm {
   message: String;
 }
 
-export default function ContactForm() {
-  const {
-    register,
+export default function ContactForm(
+  { register,
     formState: { errors, isSubmitted, isSubmitting },
-    handleSubmit,
-  } = useForm<IContactForm>();
-
+    handleSubmit }: any
+) {
   const onSubmit: SubmitHandler<IContactForm> = async function (item) {
     const payload = {
       method: "POST",
@@ -27,13 +27,11 @@ export default function ContactForm() {
     // console.log(data);
   };
 
-  const showSubmittingMessage = () => {
-    return <p>Submitting...</p>;
-  };
-
   const showSubmittedMessage = () => {
     const msg = Object.keys(errors).length === 0 && (
-      <p>Thanks for submitting your info!</p>
+      <p className="text-slate-700">
+        Thank you for reaching out to us!
+      </p>
     );
     return msg;
   };
@@ -73,7 +71,7 @@ export default function ContactForm() {
           placeholder="Work email"
           {...register("email", {
             required: "Please enter your email address",
-            validate: (val) =>
+            validate: (val: HTMLInputTypeAttribute) =>
               validator.isEmail(val.toString()) ||
               "Please enter a valid email address",
           })}
@@ -116,14 +114,17 @@ export default function ContactForm() {
       <div>
         <button
           type="submit"
-          className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-regal-purple-light hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
         >
           Submit
         </button>
       </div>
-      {isSubmitting
-        ? showSubmittingMessage()
-        : isSubmitted && showSubmittedMessage()}
+      <div className="text-xl font-light">
+        <div className="ml-1">
+          <ScaleLoader loading={isSubmitting} width={16} margin={1} />
+        </div>
+        {isSubmitted && !isSubmitting && showSubmittedMessage()}
+      </div>
     </form>
   );
 }
