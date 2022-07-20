@@ -17,15 +17,15 @@ export default function Privacy() {
               </div>
             </div>
             <div className="relative md:p-6 text-justify">
-              <body className="prose prose-indigo prose-lg text-gray-800 lg:max-w-none space-y-3">
+              <div className="prose prose-indigo prose-lg text-gray-800 lg:max-w-none space-y-3">
                 <p className="pb-2"><b>Last Updated</b>: July 19, 2022</p>
-                <p>
+                <div>
                   Ganymede Bio, Inc. (“<b>Ganymede</b>,” “<b>we</b>,” “<b>our</b>,” and/or “<b>us</b>”) values the privacy of individuals who use our website, including{" "}
                   <a href="https://www.ganymede.bio/"
                     className="inline hover:underline hover:text-blue-800 visited:text-regal-purple">
                     https://www.ganymede.bio/
                   </a>{" "} (our “<b>Website</b>”).  This privacy policy (the “<b>Privacy Policy</b>”) explains how we collect, use, and share personal information from users of our Website (“<b>you</b>” or “<b>your”</b>).  By using our Website, you agree to the collection, use, disclosure, and procedures described in this Privacy Policy.
-                </p>
+                </div>
                 <h3 className="font-bold text-xl underline pt-2">
                   Personal Information We Collect
                 </h3>
@@ -50,7 +50,7 @@ export default function Privacy() {
                 <p>
                   <b>Usage Information.</b>  To help us understand how you use our Website and to help us improve it, we automatically receive information about your interactions with our Website like the pages or other content you view and the dates and times of your visits.
                 </p>
-                <p>
+                <div>
                   <b>Information from Cookies and Similar Technologies.</b>
                   <div className="space-y-3 inline">
                     <p className="inline">
@@ -60,7 +60,7 @@ export default function Privacy() {
                       Please review your web browser’s “Help” file to learn the proper way to modify your cookie settings.  Please note that if you delete or choose not to accept cookies from our Website, you may not be able to utilize the features of our Website to their fullest potential.
                     </p>
                   </div>
-                </p>
+                </div>
                 <h3 className="font-bold text-xl underline pt-2">
                   How We Use the Personal Information We Collect
                 </h3>
@@ -85,13 +85,13 @@ export default function Privacy() {
                 <p>
                   <b>Vendors and Service Providers.</b>  We may share any personal information we receive with vendors and service providers retained in connection with the provision of our Website.
                 </p>
-                <p>
+                <div>
                   <b>Analytics Partners.</b>  We use analytics services such as Google Analytics to collect and process certain analytics data.  These services may also collect information about your use of other websites, apps, and online resources.  You can learn more about Google’s practices by visiting{" "}
                   <a href="https://www.google.com/policies/privacy/partners/"
                     className="inline hover:underline hover:text-blue-800 visited:text-regal-purple">
                     https://www.google.com/policies/privacy/partners/
                   </a>.  To help us understand how you use our Website and to help us improve it, we automatically receive information about your interactions with our Website, like the pages or other content you view and the dates and times of your visits.
-                </p>
+                </div>
                 <p>
                   <b>As Required by Law and Similar Disclosures.</b>  We may access, preserve, and disclose your personal information if we believe doing so is required or appropriate to: (a) comply with law enforcement requests and legal process, such as a court order or subpoena; (b) respond to your requests; or (c) protect your, our, or others’ rights, property, or safety.  For the avoidance of doubt, the disclosure of your personal information may occur if you post any objectionable content on or through our Website.
                 </p>
@@ -127,14 +127,14 @@ export default function Privacy() {
                 </p>
                 <h3 className="font-bold text-xl underline pt-2">Contact Information</h3>
                 <div>
-                  <p>
+                  <div>
                     If you have any questions, comments, or concerns about our processing activities, please email us at{" "}
                     <a href="mailto:privacy@ganymede.bio"
                       className="inline hover:underline hover:text-blue-800 visited:text-regal-purple">
                       privacy@ganymede.bio
                     </a>{" "}
                     or write to us at:
-                  </p>
+                  </div>
                   <div className="text-center pt-4">
                     <p>Ganymede Bio</p>
                     <p>3000 El Camino Real</p>
@@ -142,7 +142,7 @@ export default function Privacy() {
                     <p>Palo Alto, CA 94306</p>
                   </div>
                 </div>
-              </body>
+              </div>
             </div>
           </div>
         </div>

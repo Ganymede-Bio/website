@@ -10,6 +10,7 @@ const ProductSection = dynamic(() => import("./section/ProductSection"), {
   suspense: true
 });
 const IntegrationSection = dynamic(() => import("./section/IntegrationSection"), { suspense: true });
+const FooterSection = dynamic(() => import("./section/FooterSection"), { suspense: true });
 
 export default function Main() {
   return (
@@ -42,7 +43,7 @@ export default function Main() {
             <ContactSection />
             {/* </Suspense> */}
           </div>
-
+          <FooterSection />
         </div>
       </MoleculeStarsBackground>
     </div>
