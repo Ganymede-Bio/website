@@ -1,3 +1,4 @@
+import { imageHostURL } from "../../utils/constants/constants";
 import {
   uiFeatures,
   apiFeatures,
@@ -49,7 +50,7 @@ export default function ProductSection() {
             <img
               className="relative mx-auto rounded-md shadow-lg"
               width={490}
-              src="/app/code_bioreactor.png"
+              src={`${imageHostURL}/app/code_bioreactor.png`}
               alt=""
             />
           </div>
@@ -87,7 +88,7 @@ export default function ProductSection() {
               <img
                 className="relative mx-auto rounded-md shadow-lg"
                 width={490}
-                src="/app/dag_bioreactor.png"
+                src={`${imageHostURL}/app/dag_bioreactor.png`}
                 alt=""
               />
             </div>
@@ -126,7 +127,7 @@ export default function ProductSection() {
             <img
               className="relative mx-auto rounded-md shadow-lg"
               width={600}
-              src="/app/flow/GanymedeFlowScreenshot.png"
+              src={`${imageHostURL}/app/flow/GanymedeFlowScreenshot.png`}
               alt=""
             />
           </div>

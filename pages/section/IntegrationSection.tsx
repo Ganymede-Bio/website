@@ -4,6 +4,7 @@ import {
 } from "../../utils/constants/schematic";
 import DividerTitleLeft from "../../components/dividers/DividerTitleLeft";
 import AnimateAppear from "../../components/animations/AnimateAppear";
+import { imageHostURL } from "../../utils/constants/constants";
 
 export default function IntegrationSection() {
 
@@ -54,7 +55,7 @@ export default function IntegrationSection() {
               <img
                 className="relative mx-auto rounded-md shadow-lg"
                 width={750}
-                src="/schematic/before.png"
+                src={`${imageHostURL}/schematic/before.png`}
                 alt=""
               />
             </div>
@@ -94,7 +95,7 @@ export default function IntegrationSection() {
                 <img
                   className="relative mx-auto rounded-md shadow-lg"
                   width={900}
-                  src="/schematic/after.png"
+                  src={`${imageHostURL}/schematic/after.png`}
                   alt=""
                 />
               </div>

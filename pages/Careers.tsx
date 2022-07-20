@@ -2,6 +2,7 @@ import {
   workableURL,
   careerSortOrder,
   corporatePrinciples,
+  imageHostURL,
 } from "../utils/constants/constants";
 import Image from "next/image";
 
@@ -64,7 +65,7 @@ export default function Careers(positions: IPositions) {
           <div className="max-w-3xl mx-auto text-center">
             <div className="pb-6">
               <Image
-                src="/logo/favicon.png"
+                src={`${imageHostURL}/logo/favicon.png`}
                 alt=""
                 width={50}
                 height={50}

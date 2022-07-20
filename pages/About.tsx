@@ -31,34 +31,6 @@ export default function About() {
                   <EmployeeIcon {...person} />
                 </li>
               )}
-              {/* {people.map((person) => {
-                return (
-                  <li key={person.name} className="z-10">
-                    <div className="space-y-6">
-                      <Image
-                        className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
-                        src={person.imageUrl}
-                        alt=""
-                        width="200"
-                        height="200"
-                      />
-                      <div>
-                        <div className="text-xl leading-6 font-medium">
-                          <h3>{person.name}</h3>
-                          <p className="text-nathan-orange text-lg">
-                            {person.role}
-                          </p>
-                        </div>
-                        <div>
-                          <p className="text-regal-purple-light">
-                            {person.focus}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                );
-              })} */}
             </ul>
           </div>
         </div>

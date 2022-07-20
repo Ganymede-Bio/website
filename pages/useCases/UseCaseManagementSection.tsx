@@ -1,3 +1,4 @@
+import { imageHostURL } from "../../utils/constants/constants";
 import {
   costEfficiencyUseCaseManagement,
   structuredDataUseCaseManagement,
@@ -54,7 +55,7 @@ export default function UseCaseManagementSection() {
             <img
               className="relative mx-auto rounded-md shadow-lg"
               width={550}
-              src="/useCase/10 - Maximize the cost-efficiency of your lab operations.png"
+              src={`${imageHostURL}/useCase/10 - Maximize the cost-efficiency of your lab operations.png`}
               alt=""
             />
           </div>
@@ -94,7 +95,7 @@ export default function UseCaseManagementSection() {
               <img
                 className="relative mx-auto rounded-md shadow-lg"
                 width={550}
-                src="/useCase/11 - All your lab data structured and in one accessible spot.png"
+                src={`${imageHostURL}/useCase/11 - All your lab data structured and in one accessible spot.png`}
                 alt=""
               />
             </div>
@@ -133,7 +134,7 @@ export default function UseCaseManagementSection() {
             <img
               className="relative mx-auto rounded-md shadow-lg"
               width={550}
-              src="/useCase/12 - Institutionalize data integrity and pave the way to GxP.png"
+              src={`${imageHostURL}/useCase/12 - Institutionalize data integrity and pave the way to GxP.png`}
               alt=""
             />
           </div>
@@ -172,7 +173,7 @@ export default function UseCaseManagementSection() {
               <img
                 className="relative mx-auto rounded-md shadow-lg"
                 width={550}
-                src="/useCase/13 - Handle more data with less people.gif"
+                src={`${imageHostURL}/useCase/13 - Handle more data with less people.gif`}
                 alt=""
               />
             </div>

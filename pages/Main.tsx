@@ -4,7 +4,6 @@ import HeroText from "./section/hero/HeroText";
 
 import MoleculeStarsBackground from "../components/backgrounds/MoleculeStarsBackground";
 import ContactSection from './section/ContactSection'
-import { Suspense } from "react";
 
 import HeroVideoSection from "./section/hero/HeroVideoSection";
 const ProductSection = dynamic(() => import("./section/ProductSection"), {

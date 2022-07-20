@@ -6,5 +6,8 @@
 
 module.exports = {
   reactStrictMode: true,
+  images: {
+    domains: ['ganymede-bio.mo.cloudinary.net']
+  }
   // withBundleAnalyzer: withBundleAnalyzer({})
 }

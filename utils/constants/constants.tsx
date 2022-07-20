@@ -7,6 +7,7 @@ export const workableURL: string =
 
 export const fromEmail: string = "website@ganymede.bio"
 export const toEmail: string = "hello@ganymede.bio"
+export const imageHostURL: string = "https://ganymede-bio.mo.cloudinary.net"
 
 export const careerSortOrder = new Map([
   ["Software Engineer (Full Stack)", 3],

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { IEmployee } from "../../types/EmployeeInterface";
+import { imageHostURL } from "../../utils/constants/constants";
 
 export default function EmployeeIcon(person: IEmployee) {
 
@@ -16,7 +17,7 @@ export default function EmployeeIcon(person: IEmployee) {
               <Image
                 className="transition ease-in-out duration-100 m-auto h-40 w-40 rounded-full xl:w-56 xl:h-56 
                            hover:shadow-sm hover:shadow-gray-200"
-                src={person.imageUrl}
+                src={imageHostURL + person.imageUrl}
                 alt=""
                 width="200"
                 height="200"
@@ -35,11 +36,11 @@ export default function EmployeeIcon(person: IEmployee) {
           </p>
         </div>
 
-        <div className="mx-auto mt-3">
+        {/* <div className="mx-auto mt-3">
           <p className="text-black text-sm">
             {person.blurb}
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
 

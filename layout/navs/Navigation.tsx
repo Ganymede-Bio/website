@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Popover } from "@headlessui/react";
 import AnimateScale from "../../components/animations/AnimateScale";
 import Link from "next/link";
+import { imageHostURL } from "../../utils/constants/constants";
 
 export default function Navigation() {
   return (
@@ -16,7 +17,7 @@ export default function Navigation() {
             <a>
               <AnimateScale scale={1.04}>
                 <Image
-                  src="/logo/ganymede_logo_white.png"
+                  src={`${imageHostURL}/logo/ganymede_logo_white.png`}
                   alt="Ganymede main logo"
                   priority={true}
                   loading={"eager"}

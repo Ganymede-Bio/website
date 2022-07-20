@@ -4,6 +4,7 @@ import {
   analysisFeaturesScientist,
 } from "../../utils/content/useCaseContent";
 import Image from "next/image";
+import { imageHostURL } from "../../utils/constants/constants";
 
 export default function UseCaseScientistSection() {
   return (
@@ -50,7 +51,7 @@ export default function UseCaseScientistSection() {
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
             <img
               className="relative mx-auto rounded-md shadow-lg"
-              src="/useCase/1 - Automatically send instrument data into your ELN or LIMS.png"
+              src={`${imageHostURL}/useCase/1 - Automatically send instrument data into your ELN or LIMS.png`}
               alt=""
               width={550}
             />
@@ -90,7 +91,7 @@ export default function UseCaseScientistSection() {
             <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
               <img
                 className="relative mx-auto rounded-md shadow-lg"
-                src="/useCase/2 - No more data entry.png"
+                src={`${imageHostURL}/useCase/2 - No more data entry.png`}
                 alt=""
                 width={550}
                 height={420}
@@ -131,7 +132,7 @@ export default function UseCaseScientistSection() {
             <img
               className="relative mx-auto rounded-md shadow-lg"
               width={750}
-              src="/useCase/3 - All your data in one place, saved forever.png"
+              src={`${imageHostURL}/useCase/3 - All your data in one place, saved forever.png`}
               alt=""
             />
           </div>

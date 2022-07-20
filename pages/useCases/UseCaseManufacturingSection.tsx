@@ -1,3 +1,4 @@
+import { imageHostURL } from "../../utils/constants/constants";
 import {
   storageUseCaseManufacturing,
   integrationUseCaseManufacturing,
@@ -49,7 +50,7 @@ export default function UseCaseManufacturingSection() {
             <img
               className="relative mx-auto rounded-md shadow-lg"
               width={550}
-              src="/useCase/7 - Say goodbye to audit logs.png"
+              src={`${imageHostURL}/useCase/7 - Say goodbye to audit logs.png`}
               alt=""
             />
           </div>
@@ -89,7 +90,7 @@ export default function UseCaseManufacturingSection() {
               <img
                 className="relative mx-auto rounded-md shadow-lg"
                 width={550}
-                src="/useCase/8 - Enrich your systems and data with their full context.png"
+                src={`${imageHostURL}/useCase/8 - Enrich your systems and data with their full context.png`}
                 alt=""
               />
             </div>
@@ -128,7 +129,7 @@ export default function UseCaseManufacturingSection() {
             <img
               className="relative mx-auto rounded-md shadow-lg"
               width={550}
-              src="/useCase/9 - Track data, compute KPIs, and share observations from a single platform.png"
+              src={`${imageHostURL}/useCase/9 - Track data, compute KPIs, and share observations from a single platform.png`}
               alt=""
             />
           </div>

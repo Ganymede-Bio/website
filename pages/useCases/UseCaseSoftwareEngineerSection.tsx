@@ -1,3 +1,4 @@
+import { imageHostURL } from "../../utils/constants/constants";
 import {
   infraUseCaseSoftware,
   principlesUseCaseSoftware,
@@ -50,7 +51,7 @@ export default function UseCaseSoftwareEngineerSection() {
             <img
               className="relative mx-auto rounded-md shadow-lg"
               width={550}
-              src="/useCase/4 - Lab-as-code for engineers.png"
+              src={`${imageHostURL}/useCase/4 - Lab-as-code for engineers.png`}
               alt=""
             />
           </div>
@@ -90,7 +91,7 @@ export default function UseCaseSoftwareEngineerSection() {
               <img
                 className="relative mx-auto rounded-md shadow-lg"
                 width={550}
-                src="/useCase/5 - Spend less time on cloud plumbing, more time on analysis.gif"
+                src={`${imageHostURL}/useCase/5 - Spend less time on cloud plumbing, more time on analysis.gif`}
                 alt=""
               />
             </div>
@@ -129,7 +130,7 @@ export default function UseCaseSoftwareEngineerSection() {
             <img
               className="relative mx-auto rounded-md shadow-lg"
               width={550}
-              src="/useCase/6 - Built for, rather than adapted to, developers and analysts.png"
+              src={`${imageHostURL}/useCase/6 - Built for, rather than adapted to, developers and analysts.png`}
               alt=""
             />
           </div>
