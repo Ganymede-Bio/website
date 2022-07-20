@@ -8,6 +8,8 @@ export default function HeroImageSection() {
         <div className="relative z-0 shadow shadow-md">
           <Image src="/schematic/main.png"
             layout='responsive'
+            priority={true}
+            // loading={'eager'}
             width='30'
             height='30'
           />

@@ -3,6 +3,7 @@ import {
   apiFeaturesScientist,
   analysisFeaturesScientist,
 } from "../../utils/content/useCaseContent";
+import Image from "next/image";
 
 export default function UseCaseScientistSection() {
   return (
@@ -49,9 +50,9 @@ export default function UseCaseScientistSection() {
           <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
             <img
               className="relative mx-auto rounded-md shadow-lg"
-              width={550}
               src="/useCase/1 - Automatically send instrument data into your ELN or LIMS.png"
               alt=""
+              width={550}
             />
           </div>
         </div>
@@ -89,9 +90,10 @@ export default function UseCaseScientistSection() {
             <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
               <img
                 className="relative mx-auto rounded-md shadow-lg"
-                width={550}
                 src="/useCase/2 - No more data entry.png"
                 alt=""
+                width={550}
+                height={420}
               />
             </div>
           </div>
@@ -136,7 +138,7 @@ export default function UseCaseScientistSection() {
         </div>
 
       </div>
-    </section>
+    </section >
 
   );
 }

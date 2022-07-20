@@ -1,12 +1,16 @@
+import dynamic from "next/dynamic";
 import Header from "./headers/Header";
 import HeroText from "./section/hero/HeroText";
-import HeroVideoSection from "./section/hero/HeroVideoSection";
-// import TestimonialSection from "./section/TestimonialSection";
-import ProductSection from "./section/ProductSection";
-import IntegrationSection from "./section/IntegrationSection";
-import FooterSection from "./section/FooterSection";
+
 import MoleculeStarsBackground from "../components/backgrounds/MoleculeStarsBackground";
 import ContactSection from './section/ContactSection'
+import { Suspense } from "react";
+
+import HeroVideoSection from "./section/hero/HeroVideoSection";
+const ProductSection = dynamic(() => import("./section/ProductSection"), {
+  suspense: true
+});
+const IntegrationSection = dynamic(() => import("./section/IntegrationSection"), { suspense: true });
 
 export default function Main() {
   return (
@@ -21,25 +25,25 @@ export default function Main() {
             <div className="basis-5/12 mr-10 xl:mt-12">
               <HeroVideoSection />
             </div>
-            {/* <div className="basis-2/5 mr-10 sm:pt-24 xl:pt-42">
-              <HeroImageSection />
-            </div> */}
+
           </div>
           <div id="integration">
+            {/* <Suspense fallback={""}> */}
             <IntegrationSection />
+            {/* </Suspense> */}
           </div>
           <div id="product" className="pb-24">
+            {/* <Suspense fallback={""}> */}
             <ProductSection />
+            {/* </Suspense> */}
           </div>
-          {/* <div id="testimonial" className="pb-24 pt-6">
-            <TestimonialSection />
-          </div> */}
+
           <div id="contact-us" className="pt-6">
+            {/* <Suspense fallback={""}> */}
             <ContactSection />
+            {/* </Suspense> */}
           </div>
-          <div id="footer" className="pt-12">
-            <FooterSection />
-          </div>
+
         </div>
       </MoleculeStarsBackground>
     </div>
