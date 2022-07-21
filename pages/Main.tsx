@@ -17,9 +17,9 @@ export default function Main() {
     <div className="relative">
       <Header />
       <MoleculeStarsBackground>
-        <div className="opacity-100 mt-12 xs:pt-24 md:pt-30">
+        <div className="opacity-100 pt-12 xs:pt-24 md:pt-30">
           <div className="flex flex-row align-middle">
-            <div className="basis-7/12 mr-10 md:mt-18 xl:mt-24">
+            <div className="basis-7/12 mr-10 md:pt-18 xl:pt-24">
               <HeroText />
             </div>
             <div className="basis-5/12 mr-10 xl:mt-12">
@@ -38,7 +38,7 @@ export default function Main() {
             {/* </Suspense> */}
           </div>
 
-          <div id="contact-us" className="pt-6">
+          <div id="contact-us" className="pt-6 pb-12">
             {/* <Suspense fallback={""}> */}
             <ContactSection />
             {/* </Suspense> */}
