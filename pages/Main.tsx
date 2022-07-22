@@ -17,12 +17,12 @@ export default function Main() {
     <div className="relative">
       <Header />
       <MoleculeStarsBackground>
-        <div className="opacity-100 pt-36 xs:pt-24 md:pt-30">
-          <div className="flex flex-row align-middle ">
-            <div className="xs:basis-1 md:basis-7/12 mr-10 md:pt-18 xl:pt-36">
+        <div className="opacity-100 pt-24 xs:pt-12 md:pt-18">
+          <div className="relative lg:grid lg:grid-cols-2 lg:gap-8">
+            <div className="mr-10 md:pt-18 xl:pt-36">
               <HeroText />
             </div>
-            <div className="xs:basis-1 md:basis-5/12 mr-10 xl:mt-12">
+            <div className="mr-10 xl:mt-12">
               <HeroVideoSection />
             </div>
 
