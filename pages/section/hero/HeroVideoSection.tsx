@@ -16,7 +16,7 @@ export default function HeroVideoSection() {
       <div style={{ borderRadius: '10px', overflow: 'hidden' }}>
         <div className="relative z-0">
           <video
-            src={`${imageHostURL}/video/GanymedeHeroVideoTrimmed.mp4`}
+            src={`${imageHostURL}/video/GanymedeHeroVideoTrimmed.webm`}
             ref={vidRef}
             muted
             autoPlay
