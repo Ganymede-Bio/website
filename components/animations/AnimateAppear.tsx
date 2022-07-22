@@ -15,7 +15,7 @@ export default function AnimateAppear(props: any) {
         opacity: 1,
         transition: {
           type: 'easein',
-          duration: props.duration ?? 0.5
+          duration: props.duration ?? 0.25
         }
       })
     }

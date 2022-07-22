@@ -1,6 +1,5 @@
 import { Fragment, useRef } from 'react'
 import { Popover, Transition } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/solid'
 import { IFlyoutMenu, ILink } from '../../types/MenuInterface'
 import { classNames } from '../../utils/util'
 
