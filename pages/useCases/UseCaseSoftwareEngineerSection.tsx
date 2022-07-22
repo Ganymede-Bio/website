@@ -10,7 +10,7 @@ export default function UseCaseSoftwareEngineerSection() {
 
     <section
       id="use-case-software-engineer-section"
-      className="py-16 overflow-hidden lg:pt-16"
+      className="overflow-hidden pt-24 xs:pt-12 md:pt-18 pb-12"
     >
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
         <div className="relative">
