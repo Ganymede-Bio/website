@@ -14,7 +14,7 @@ import { classNames } from "../../utils/util";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="shadow-sm fixed w-full bg-gray-800">
+    <nav className="shadow-sm fixed w-full bg-gray-800 bg-opacity-90">
       <div className="w-full">
         <div className="flex items-center h-16 w-full">
           <div className="flex items-center mx-10 justify-between w-full">
