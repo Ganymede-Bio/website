@@ -12,7 +12,7 @@ import Header from "./headers/Header";
 import FooterSection from "./section/FooterSection";
 import MoleculeStarsBackground from "../components/backgrounds/MoleculeStarsBackground";
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const res = await fetch(workableURL, {
     method: "GET",
     headers: {
