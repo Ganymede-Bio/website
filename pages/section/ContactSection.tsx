@@ -57,7 +57,12 @@ export default function Contact({ title = true }) {
                       className="flex-shrink-0 h-6 w-6 text-gray-400"
                       aria-hidden="true"
                     />
-                    <span className="ml-3">hello@ganymede.bio</span>
+                    <span className="ml-3">
+                      <a href="mailto:hello@ganymede.bio"
+                        className="inline hover:underline hover:text-blue-800 visited:text-regal-purple">
+                        hello@ganymede.bio
+                      </a>
+                    </span>
                   </dd>
                 </div>
               </dl>
