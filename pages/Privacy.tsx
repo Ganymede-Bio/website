@@ -7,8 +7,8 @@ export default function Privacy() {
     <>
       <Header />
       <MoleculeStarsBackground>
-        <div className="py-10 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
-          <div className="max-w-max lg:max-w-7xl mx-auto">
+        <div className="py-8 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
+          <div className="max-w-max lg:max-w-7xl mx-auto pt-16">
             <div className="relative z-10 mb-8 md:mb-2 md:px-6">
               <div className="text-base max-w-prose lg:max-w-none">
                 <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -135,7 +135,7 @@ export default function Privacy() {
                     </a>{" "}
                     or write to us at:
                   </div>
-                  <div className="text-center pt-4">
+                  <div className="text-center pt-8">
                     <p>Ganymede Bio</p>
                     <p>3000 El Camino Real</p>
                     <p>Bldg. 4, Suite 200</p>

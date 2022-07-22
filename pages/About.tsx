@@ -11,9 +11,9 @@ export default function About() {
     <>
       <Header />
       <div id="about-section">
-        <div className="max-w-7xl mx-auto px-4 text-center sm:px-6 lg:px-8 mt-6 mb-36">
+        <div className="max-w-7xl mx-auto px-4 text-center sm:px-6 lg:px-8 mb-36">
           <div className="relative z-0">
-            <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
+            <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl pt-24">
               <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
                 Meet our team
               </h2>
