@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+import React from 'react'
 import { imageHostURL } from "../../utils/constants/constants";
 import {
   costEfficiencyUseCaseManagement,
@@ -26,7 +28,7 @@ export default function UseCaseManagementSection() {
               Maximize the <div className="inline text-regal-purple-light">cost-efficiency</div> of your lab operations
             </h3>
             <h3 className="mt-3 text-lg text-gray-500">
-              Streamline and automate all lab workflows with Ganymede's flexible cloud platform.  We provide lab instrument integration and data/analysis automation that easily fit into any organization, providing scale, more cost-effective operation, and faster iteration time.
+              Streamline and automate all lab workflows with Ganymede&apos;s flexible cloud platform.  We provide lab instrument integration and data/analysis automation that easily fit into any organization, providing scale, more cost-effective operation, and faster iteration time.
             </h3>
             {/* <h3 className="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
               Connect your instruments to the cloud, complete with data versioning

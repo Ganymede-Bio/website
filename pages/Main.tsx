@@ -1,3 +1,4 @@
+import React from 'react'
 import dynamic from "next/dynamic";
 import Header from "./headers/Header";
 import HeroText from "./section/hero/HeroText";
@@ -28,20 +29,14 @@ export default function Main() {
 
           </div>
           <div id="integration">
-            {/* <Suspense fallback={""}> */}
             <IntegrationSection />
-            {/* </Suspense> */}
           </div>
           <div id="product" className="pb-24">
-            {/* <Suspense fallback={""}> */}
             <ProductSection />
-            {/* </Suspense> */}
           </div>
 
           <div id="contact-us" className="pt-6 pb-12">
-            {/* <Suspense fallback={""}> */}
             <ContactSection />
-            {/* </Suspense> */}
           </div>
           <FooterSection />
         </div>

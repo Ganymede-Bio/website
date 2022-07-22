@@ -1,3 +1,4 @@
+import React from 'react'
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
 import ContactForm from "../../components/forms/ContactForm";
 import AnimateAppear from "../../components/animations/AnimateAppear";
@@ -6,12 +7,16 @@ import { classNames } from "../../utils/util";
 import { useForm } from "react-hook-form";
 
 interface IContactForm {
-  name: String;
-  email: String;
-  message: String;
+  name: string;
+  email: string;
+  message: string;
 }
 
-export default function Contact({ title = true }) {
+interface IContactProps {
+  title?: boolean;
+}
+
+export default function Contact({ title = true }: IContactProps) {
   const form = useForm<IContactForm>();
 
   return (
@@ -26,7 +31,7 @@ export default function Contact({ title = true }) {
               </h2>
               <div className="mt-3 text-lg leading-6 text-gray-500">
                 <p>
-                  We'd love to hear from you. Request a demo, ask us questions,
+                  We&apos;d love to hear from you. Request a demo, ask us questions,
                   inquire about openings, or just send us a note with how we can help!
                 </p>
               </div>

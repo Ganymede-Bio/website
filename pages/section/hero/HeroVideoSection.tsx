@@ -1,13 +1,14 @@
-import { useRef, useEffect, useState } from "react"
+import React from 'react'
+import { useRef, useEffect } from "react"
 import { imageHostURL } from "../../../utils/constants/constants";
 
 export default function HeroVideoSection() {
   const vidRef = useRef(null)
-  const [isVideoLoaded, setIsVideoLoaded] = useState(false)
+  // const [isVideoLoaded, setIsVideoLoaded] = useState(false)
 
-  const onLoadedData = () => {
-    setIsVideoLoaded(true);
-  }
+  // const onLoadedData = () => {
+  //   setIsVideoLoaded(true);
+  // }
 
   useEffect(() => { vidRef.current.play(); }, []);
 
@@ -23,7 +24,7 @@ export default function HeroVideoSection() {
             loop
             playsInline
             poster={`${imageHostURL}/schematic/main.png`}
-            onLoadedData={onLoadedData}
+          // onLoadedData={onLoadedData}
           />
         </div>
       </div>

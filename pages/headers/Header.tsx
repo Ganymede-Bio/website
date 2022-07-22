@@ -1,4 +1,4 @@
-// import Navigation from "../../layout/navs/Navigation";
+import React from 'react'
 import Navbar from "../../components/menus/NavBar"
 
 export default function Header() {

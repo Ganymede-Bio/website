@@ -1,3 +1,4 @@
+import React from 'react'
 import Header from "./headers/Header";
 import UseCaseManufacturingSection from "./useCases/UseCaseManufacturingSection";
 import MoleculeStarsBackground from "../components/backgrounds/MoleculeStarsBackground";

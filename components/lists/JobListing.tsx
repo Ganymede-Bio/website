@@ -1,4 +1,5 @@
-import { UsersIcon, LocationMarkerIcon } from "@heroicons/react/outline";
+import React from 'react'
+import { LocationMarkerIcon } from "@heroicons/react/outline";
 import { IPosition } from "../../types/PositionInterface";
 
 export default function JobListing(positions: Array<IPosition>) {

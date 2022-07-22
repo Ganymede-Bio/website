@@ -1,9 +1,8 @@
-import { useState } from "react";
+import React from 'react'
+// import { useState } from "react";
 
 export default function WaitListForm() {
-  const [email, setEmail] = useState(null);
-
-  const storeEmail = function () {};
+  // const [email, setEmail] = useState(null);
 
   return (
     <div className="bg-white shadow sm:rounded-lg">

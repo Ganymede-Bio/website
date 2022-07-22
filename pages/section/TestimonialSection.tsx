@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+import React from 'react'
 import { testimonials } from "../../utils/constants/clients"
 import { ITestimonial } from "../../types/TestimonialInterface";
 // import AnimateAppear from "../../components/animations/AnimateAppear";
@@ -12,7 +14,7 @@ export default function TestimonialSection() {
           <div key={testimonial.company} className="bg-white border mx-10 py-10 rounded-xl shadow-md">
             <div className="flex flex-row">
               <div className="basis-1/3 pl-3 inline-block align-middle pt-12">
-                <img src={testimonial.logo} width={300} />
+                <img src={testimonial.logo} alt={testimonial.company} width={300} />
               </div>
               <div className="basis-2/3 pl-10">
                 <div className="flex-col">

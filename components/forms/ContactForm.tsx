@@ -1,3 +1,4 @@
+import React from 'react'
 import { SubmitHandler } from "react-hook-form";
 import { ErrorMessage } from "@hookform/error-message";
 import validator from "validator";
@@ -5,9 +6,9 @@ import { ScaleLoader } from "react-spinners"
 import { HTMLInputTypeAttribute } from "react";
 
 interface IContactForm {
-  name: String;
-  email: String;
-  message: String;
+  name: string;
+  email: string;
+  message: string;
 }
 
 export default function ContactForm(
@@ -21,7 +22,7 @@ export default function ContactForm(
       body: JSON.stringify(item),
     }
 
-    const [resSaveDatabase, resSendEmail] = await Promise.allSettled(
+    await Promise.allSettled(
       [fetch('../api/addToContact', payload), fetch("../api/sendEmail", payload)])
     // const data = await res.json();
     // console.log(data);

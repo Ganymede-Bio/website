@@ -1,3 +1,4 @@
+import React from 'react'
 import { navigationFooter } from "../../utils/constants/menu"
 
 export default function FooterSection() {

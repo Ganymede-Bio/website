@@ -1,3 +1,4 @@
+import React from 'react'
 import { Fragment, useRef } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { IFlyoutMenu, ILink } from '../../types/MenuInterface'
@@ -7,15 +8,15 @@ import { classNames } from '../../utils/util'
 export default function MobileFlyoutMenu({ name, subMenu }: IFlyoutMenu) {
   const buttonRef = useRef(null)
 
-  const closePopover = () => {
-    return buttonRef.current?.dispatchEvent(
-      new KeyboardEvent("keydown", {
-        key: "Escape",
-        bubbles: true,
-        cancelable: true
-      })
-    )
-  }
+  // const closePopover = () => {
+  //   return buttonRef.current?.dispatchEvent(
+  //     new KeyboardEvent("keydown", {
+  //       key: "Escape",
+  //       bubbles: true,
+  //       cancelable: true
+  //     })
+  //   )
+  // }
 
   return (
     <Popover className="relative">

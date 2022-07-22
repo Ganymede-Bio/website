@@ -1,13 +1,15 @@
-export const darkMode: boolean = true;
+import React from "react";
 
-export const googleTag: string = "GTM-NB3LHGP";
+export const darkMode = true;
 
-export const workableURL: string =
+export const googleTag = "GTM-NB3LHGP";
+
+export const workableURL =
   "https://ganymede.workable.com/spi/v3/jobs?state=published";
 
-export const fromEmail: string = "website@ganymede.bio"
-export const toEmail: string = "hello@ganymede.bio"
-export const imageHostURL: string = "https://ganymede-bio.mo.cloudinary.net"
+export const fromEmail = "website@ganymede.bio"
+export const toEmail = "hello@ganymede.bio"
+export const imageHostURL = "https://ganymede-bio.mo.cloudinary.net"
 
 export const careerSortOrder = new Map([
   ["Software Engineer (Full Stack)", 3],
@@ -32,11 +34,12 @@ export const people = [
     blurb: [
       "Former product manager at Benchling and Affirm, ",
       "focused on data and machine learning. Launched ",
-      <span className="inline">
-        <p className="text-regal-purple-light inline">
-          <a href="https://www.affirm.com/savings">affirm.com/savings</a>
-        </p>
-      </span>,
+      // eslint-disable-next-line react/jsx-key
+      <div className="text-regal-purple-light inline">
+        <a href="https://www.affirm.com/savings">
+          affirm.com/savings
+        </a>
+      </div>,
     ],
   },
   {

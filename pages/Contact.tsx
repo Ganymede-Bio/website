@@ -1,3 +1,4 @@
+import React from 'react'
 import MoleculeStarsBackground from "../components/backgrounds/MoleculeStarsBackground";
 import Header from "./headers/Header";
 import ContactSection from "./section/ContactSection";

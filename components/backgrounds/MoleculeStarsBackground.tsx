@@ -1,11 +1,16 @@
+import React from 'react'
 import { imageHostURL } from "../../utils/constants/constants";
 
-export default function MoleculeStarsBackground(props: any) {
+interface IChildren {
+  children?: JSX.Element | JSX.Element[]
+}
+
+export default function MoleculeStarsBackground({ children }: IChildren) {
   return (<div className="bg-repeat"
     style={{
       backgroundImage: `url('${imageHostURL}/molecule_stars.png')`,
       backgroundSize: '500px'
     }}>
-    {props.children}
+    {children}
   </div>)
 }

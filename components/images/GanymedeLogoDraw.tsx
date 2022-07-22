@@ -1,4 +1,5 @@
-import Image from "next/image";
+import React from 'react'
+// import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function GanymedeLogoDraw() {
@@ -25,7 +26,7 @@ export default function GanymedeLogoDraw() {
         width="7.41111in" height="7.41111in"
         viewBox="0 0 667 667">
         <path id="Imported Path"
-          fill="none" stroke="black" stroke-width="1"
+          fill="none" stroke="black" strokeWidth="1"
           d="M 48.75,507.12
            C 47.75,505.51 46.78,503.91 45.77,502.27
              45.95,502.52 46.15,502.79 46.35,503.06

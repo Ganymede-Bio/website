@@ -5,7 +5,7 @@ const addToContact = async (req: NextApiRequest, res: NextApiResponse) => {
   const { body } = req;
   const { name, email, phone, message } = JSON.parse(body);
 
-  const user = await prisma.userContact
+  await prisma.userContact
     .create({
       data: {
         name: name,

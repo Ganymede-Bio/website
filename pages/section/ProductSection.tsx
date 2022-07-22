@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+import React from 'react'
 import AnimateAppear from "../../components/animations/AnimateAppear";
 import { imageHostURL } from "../../utils/constants/constants";
 import {
@@ -68,7 +70,7 @@ export default function ProductSection() {
                   ...and generate UIs to manage them
                 </h3>
                 <p className="mt-3 text-lg text-gray-500">
-                  Create apps and automate your work whether you're an engineer or scientist. Ganymede automatically generates a UI for mapping data that serves engineers' integrations as tables.
+                  Create apps and automate your work whether you&apos;re an engineer or scientist. Ganymede automatically generates a UI for mapping data that serves engineers&apos; integrations as tables.
                 </p>
 
                 <dl className="mt-10 space-y-10">

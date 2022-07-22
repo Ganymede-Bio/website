@@ -1,3 +1,4 @@
+import React from 'react'
 import { Fragment, useRef } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/solid'
@@ -8,7 +9,7 @@ import { classNames } from '../../utils/util'
 export default function FlyoutMenu({ name, subMenu }: IFlyoutMenu) {
   const buttonRef = useRef(null)
   const timeoutDuration = 400
-  let timeout: any
+  let timeout: ReturnType<typeof setTimeout>
 
   const closePopover = () => {
     return buttonRef.current?.dispatchEvent(

@@ -1,3 +1,4 @@
+import React from 'react'
 // import { people } from "../utils/constants/constants";
 // import EmployeeIcon from "../components/images/EmployeeIcon";
 // import EmployeeIconTwo from "../components/images/EmployeeIconTwo";

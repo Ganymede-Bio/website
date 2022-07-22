@@ -1,6 +1,7 @@
+import React from 'react'
 import EmployeeIcon from "../components/images/EmployeeIcon";
 import { people } from "../utils/constants/constants";
-import Image from "next/image";
+// import Image from "next/image";
 // import Navigation from "../layout/navs/Navigation";
 import Header from "./headers/Header";
 import FooterSection from "./section/FooterSection";

@@ -1,3 +1,4 @@
+import React from 'react'
 import { classNames } from "../../utils/util"
 
 export default function RoundedImage(props: any) {

@@ -1,9 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
+import React from 'react'
 import {
   connectFeaturesScientist,
   apiFeaturesScientist,
   analysisFeaturesScientist,
 } from "../../utils/content/useCaseContent";
-import Image from "next/image";
+// import Image from "next/image";
 import { imageHostURL } from "../../utils/constants/constants";
 
 export default function UseCaseScientistSection() {

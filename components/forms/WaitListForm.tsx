@@ -1,17 +1,24 @@
+import React from 'react'
 import { useForm, SubmitHandler } from "react-hook-form";
 
 interface IWaitListForm {
-  email: String;
+  email: string;
 }
 
 export default function WaitListForm() {
   const { register, handleSubmit } = useForm<IWaitListForm>();
 
   const onSubmit: SubmitHandler<IWaitListForm> = async function (item) {
-    const res = await fetch("../api/addToWaitlist", {
+    await fetch("../api/addToWaitlist", {
       method: "POST",
       body: JSON.stringify(item),
     });
+
+
+    // const res = await fetch("../api/addToWaitlist", {
+    //   method: "POST",
+    //   body: JSON.stringify(item),
+    // });
 
     // const data = await res.json();
     // console.log(data);

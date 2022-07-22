@@ -1,3 +1,4 @@
+import React from 'react'
 import {
   workableURL,
   careerSortOrder,
@@ -42,7 +43,7 @@ export async function getStaticProps() {
     new Set(positions.map((position: IPosition) => position.department.trim()))
   );
 
-  let positionsOutput = new Map<string, IPosition[]>();
+  const positionsOutput = new Map<string, IPosition[]>();
 
   for (const category of jobCategories) {
     positionsOutput.set(

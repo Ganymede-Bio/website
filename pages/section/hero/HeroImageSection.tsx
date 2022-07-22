@@ -1,3 +1,4 @@
+import React from 'react'
 import Image from "next/image"
 import AnimateTranslate from "../../../components/animations/AnimateTranslate"
 
@@ -10,6 +11,7 @@ export default function HeroImageSection() {
             layout='responsive'
             priority={true}
             // loading={'eager'}
+            alt="Ganymede hero image"
             width='30'
             height='30'
           />

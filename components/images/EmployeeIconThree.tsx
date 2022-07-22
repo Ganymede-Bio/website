@@ -1,5 +1,5 @@
-import { people } from "../../utils/constants/constants";
-import { useState } from "react";
+// import { people } from "../../utils/constants/constants";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { IEmployee } from "../../types/EmployeeInterface";

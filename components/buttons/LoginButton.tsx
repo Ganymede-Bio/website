@@ -1,11 +1,11 @@
-import { useState } from "react";
+import React from "react";
 
 interface IButton {
   text: string;
 }
 
 export default function LoginButton({ text }: IButton) {
-  const [state, setState] = useState(false);
+  // const [state, setState] = useState(false);
 
   return (
     <button
