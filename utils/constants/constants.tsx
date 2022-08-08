@@ -26,35 +26,15 @@ export const careerSortOrder = new Map([
 
 export const people = [
   {
-    name: "Nathan Clark",
-    role: "Founder",
-    imageUrl: "/people/headshot_nathan_clark.png",
-    linkedinUrl: "https://www.linkedin.com/in/nathan-clark-4b850134",
-    githubUrl: "https://github.com/nathanwjclark",
-    focus: "Product | Design | Engineering",
+    name: "Sami Belkadi",
+    role: "Founding Engineer",
+    imageUrl: "/people/headshot_sami_belkadi.png",
+    linkedinUrl: "https://www.linkedin.com/in/sami-belkadi/",
+    focus: "Lab Auto | Hardware",
     blurb: [
-      "Former product manager at Benchling and Affirm, ",
-      "focused on data and machine learning. Launched ",
-      // eslint-disable-next-line react/jsx-key
-      <div className="text-regal-purple-light inline">
-        <a href="https://www.affirm.com/savings">
-          affirm.com/savings
-        </a>
-      </div>,
-    ],
-  },
-  {
-    name: "Benson Lee",
-    role: "Founder",
-    imageUrl: "/people/headshot_benson_lee.png",
-    linkedinUrl: "https://www.linkedin.com/in/benson-lee-69980745",
-    githubUrl: "https://github.com/bensonlee5",
-    focus: "Science | Eng | Hardware",
-    blurb: [
-      "Before founding Ganymede, Benson was Head of Quantitative Markets at Affirm, ",
-      "where he built and oversaw quantitative research, deal structuring, and model ",
-      "risk management.  He received BS and MEng degrees in Computer Science from Cornell.",
-    ],
+      "Sami was previously an Automation Engineer at HighRes Biosolutions, ",
+      "where he deployed robotic lab automation platforms in pharmaceutical and biotech labs.  ",
+      "He holds a BSE in Mechanical and Aerospace Engineering from Princeton University."]
   },
   {
     name: "Andy Caruso",
@@ -68,29 +48,6 @@ export const people = [
       "Andy built infrastructure management platform at Verily, ",
       "and ran releases at YouTube, Chrome.",
     ],
-  },
-  {
-    name: "John La",
-    role: "Founding Engineer",
-    imageUrl: "/people/headshot_john_la.png",
-    linkedinUrl: "https://www.linkedin.com/in/johnla1/",
-    focus: "Backend Eng | Systems",
-    blurb: [
-      "Software Engineer with a degree in Electrical Engineering ",
-      "and Computer Science from MIT.  Prior to Ganymede, John was part of Oculus for 4 years, ",
-      "developing systems software for the Oculus Go (first standalone VR headset on the market) ",
-      "and the Oculus Quest line of devices."]
-  },
-  {
-    name: "Sami Belkadi",
-    role: "Founding Engineer",
-    imageUrl: "/people/headshot_sami_belkadi.png",
-    linkedinUrl: "https://www.linkedin.com/in/sami-belkadi/",
-    focus: "Lab Auto | Hardware",
-    blurb: [
-      "Sami was previously an Automation Engineer at HighRes Biosolutions, ",
-      "where he deployed robotic lab automation platforms in pharmaceutical and biotech labs.  ",
-      "He holds a BSE in Mechanical and Aerospace Engineering from Princeton University."]
   },
   {
     name: "Alan Chramiec PhD",
@@ -110,6 +67,24 @@ export const people = [
       "Co-founded the Center for Epigenetics Research at Memorial Sloan Kettering Cancer Center"]
   },
   {
+    name: "Nathan Clark",
+    role: "Founder",
+    imageUrl: "/people/headshot_nathan_clark.png",
+    linkedinUrl: "https://www.linkedin.com/in/nathan-clark-4b850134",
+    githubUrl: "https://github.com/nathanwjclark",
+    focus: "Product | Design | Engineering",
+    blurb: [
+      "Former product manager at Benchling and Affirm, ",
+      "focused on data and machine learning. Launched ",
+      // eslint-disable-next-line react/jsx-key
+      <div className="text-regal-purple-light inline">
+        <a href="https://www.affirm.com/savings">
+          affirm.com/savings
+        </a>
+      </div>,
+    ],
+  },
+  {
     name: "Danielle Kuhn",
     role: "Founding Engineer",
     imageUrl: "/people/headshot_danielle_kuhn.png",
@@ -121,7 +96,32 @@ export const people = [
       "Danielle also co-founded a global payments company where she scaled the company from zero to billions ",
       "in total payment volume. Prior to entering the software industry, she worked on analytics as a ",
       "credentialed Actuary for over six years."],
-  }
+  },
+  {
+    name: "John La",
+    role: "Founding Engineer",
+    imageUrl: "/people/headshot_john_la.png",
+    linkedinUrl: "https://www.linkedin.com/in/johnla1/",
+    focus: "Backend Eng | Systems",
+    blurb: [
+      "Software Engineer with a degree in Electrical Engineering ",
+      "and Computer Science from MIT.  Prior to Ganymede, John was part of Oculus for 4 years, ",
+      "developing systems software for the Oculus Go (first standalone VR headset on the market) ",
+      "and the Oculus Quest line of devices."]
+  },
+  {
+    name: "Benson Lee",
+    role: "Founder",
+    imageUrl: "/people/headshot_benson_lee.png",
+    linkedinUrl: "https://www.linkedin.com/in/benson-lee-69980745",
+    githubUrl: "https://github.com/bensonlee5",
+    focus: "Science | Eng | Hardware",
+    blurb: [
+      "Before founding Ganymede, Benson was Head of Quantitative Markets at Affirm, ",
+      "where he built and oversaw quantitative research, deal structuring, and model ",
+      "risk management.  He received BS and MEng degrees in Computer Science from Cornell.",
+    ],
+  },
 ];
 
 export const corporatePrinciples = [
