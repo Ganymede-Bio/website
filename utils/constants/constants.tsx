@@ -115,11 +115,11 @@ export const people = [
     imageUrl: "/people/headshot_danielle_kuhn.png",
     githubUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/danielle-kuhn/",
-    focus: "Full Stack | Eng",
-    blurb: ["Danielle has spent the past seven years in the software industry, the last three",
-      "as a software engineer focusing on full stack development at early stage companies.",
-      "Danielle also cofounded a global payments company where she scaled the company from zero to billions",
-      "in total payment volume. Prior to entering the software industry, she worked on analytics as a",
+    focus: "Full Stack | Software",
+    blurb: ["Danielle has spent the past seven years in the software industry, the last three ",
+      "as a software engineer focusing on full stack development at early stage companies.  ",
+      "Danielle also co-founded a global payments company where she scaled the company from zero to billions ",
+      "in total payment volume. Prior to entering the software industry, she worked on analytics as a ",
       "credentialed Actuary for over six years."],
   }
 ];
