@@ -108,6 +108,19 @@ export const people = [
       "Led the successful launch of the NYC branch of Nucleate, an international organization that facilitates the formation of pioneering life sciences companies",
       "Received PhD training in intersection of biomedical engineering and cancer under Dr. Gordana Vunjak-Novakovic at Columbia University",
       "Co-founded the Center for Epigenetics Research at Memorial Sloan Kettering Cancer Center"]
+  },
+  {
+    name: "Danielle Kuhn",
+    role: "Founding Engineer",
+    imageUrl: "/people/headshot_danielle_kuhn.png",
+    githubUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/danielle-kuhn/",
+    focus: "Full Stack | Eng",
+    blurb: ["Danielle has spent the past seven years in the software industry, the last three",
+      "as a software engineer focusing on full stack development at early stage companies.",
+      "Danielle also cofounded a global payments company where she scaled the company from zero to billions",
+      "in total payment volume. Prior to entering the software industry, she worked on analytics as a",
+      "credentialed Actuary for over six years."],
   }
 ];
 
