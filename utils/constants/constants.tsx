@@ -122,6 +122,21 @@ export const people = [
       "risk management.  He received BS and MEng degrees in Computer Science from Cornell.",
     ],
   },
+  {
+    name: "Josh Sharpe",
+    role: "Founding Engineer",
+    imageUrl: "/people/headshot_josh_sharpe.png",
+    linkedinUrl: "https://www.linkedin.com/in/joshasharpe/",
+    githubUrl: "https://github.com/",
+    focus: "Full Stack | Software",
+    blurb: [
+      "Josh started off his career as a software engineer for IBM Watson where he worked ",
+      "on virtual assistant technologies.He then moved into the space industry, working ",
+      "on software and systems design for technologies that included lunar landers, radio ",
+      "interferometry telescopes, and small electric propulsion vehicles.He graduated from ",
+      "the University of Alabama with a BS in Computer Science and an MBA."
+    ],
+  },
 ];
 
 export const corporatePrinciples = [
