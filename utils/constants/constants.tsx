@@ -127,7 +127,7 @@ export const people = [
     role: "Founding Engineer",
     imageUrl: "/people/headshot_josh_sharpe.png",
     linkedinUrl: "https://www.linkedin.com/in/joshasharpe/",
-    githubUrl: "https://github.com/",
+    githubUrl: "https://github.com/joshasharpe",
     focus: "Full Stack | Software",
     blurb: [
       "Josh started off his career as a software engineer for IBM Watson where he worked ",
