@@ -27,7 +27,7 @@ export default function About() {
               </div>
               <ul
                 role="list"
-                className="mx-auto sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4"
+                className="mx-auto sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3"
               >
                 {people.map((person) =>
                   <li key={person.name}>

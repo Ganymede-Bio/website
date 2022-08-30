@@ -128,7 +128,7 @@ export const people = [
     imageUrl: "/people/headshot_allison_murdoch.png",
     linkedinUrl: "https://www.linkedin.com/in/allison-murdoch-2816a21b/",
     githubUrl: "",
-    focus: "Business Development | CSM",
+    focus: "Sales | CSM",
     blurb: [
       "Allison has over five years of experience in the software industry and has spent ", 
       "the past three in B2B enterprise SaaS sales. Prior to joining Ganymede she led customer ", 
