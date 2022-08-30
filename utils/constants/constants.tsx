@@ -27,7 +27,7 @@ export const careerSortOrder = new Map([
 export const people = [
   {
     name: "Sami Belkadi",
-    role: "Founding Engineer",
+    role: "Product Manager",
     imageUrl: "/people/headshot_sami_belkadi.png",
     linkedinUrl: "https://www.linkedin.com/in/sami-belkadi/",
     focus: "Lab Auto | Hardware",
@@ -50,7 +50,7 @@ export const people = [
     ],
   },
   {
-    name: "Alan Chramiec PhD",
+    name: "Alan Chramiec, PhD",
     role: "Founding Scientist",
     imageUrl: "/people/headshot_alan_chramiec.png",
     githubUrl: "",
@@ -86,7 +86,7 @@ export const people = [
   },
   {
     name: "Danielle Kuhn",
-    role: "Founding Engineer",
+    role: "Software Engineer",
     imageUrl: "/people/headshot_danielle_kuhn.png",
     githubUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/danielle-kuhn/",
@@ -123,8 +123,24 @@ export const people = [
     ],
   },
   {
+    name: "Allison Murdoch",
+    role: "Head of Business Development",
+    imageUrl: "/people/headshot_allison_murdoch.png",
+    linkedinUrl: "https://www.linkedin.com/in/allison-murdoch-2816a21b/",
+    githubUrl: "",
+    focus: "Business Development | CSM",
+    blurb: [
+      "Allison has over five years of experience in the software industry and has spent ", 
+      "the past three in B2B enterprise SaaS sales. Prior to joining Ganymede she led customer ", 
+      "success at MobStac and was an early member of the commercial team for HCP365, a healthcare ",
+      "provider measurement tool at Pulsepoint/Internet Brands. She holds a BA in Economics from ", 
+      "Barnard College, Columbia University and a MSc with Distinction in Organizational Behavior ",
+      "from the London School of Economics."
+    ],
+  },
+  {
     name: "Josh Sharpe",
-    role: "Founding Engineer",
+    role: "Software Engineer",
     imageUrl: "/people/headshot_josh_sharpe.png",
     linkedinUrl: "https://www.linkedin.com/in/joshasharpe/",
     githubUrl: "https://github.com/joshasharpe",
