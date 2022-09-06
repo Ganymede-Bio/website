@@ -1,5 +1,5 @@
 import React from 'react'
-import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
+import { MailIcon, PhoneIcon, UsersIcon } from "@heroicons/react/outline";
 import ContactForm from "../../components/forms/ContactForm";
 import AnimateAppear from "../../components/animations/AnimateAppear";
 import DividerTitleLeft from "../../components/dividers/DividerTitleLeft";
@@ -31,7 +31,8 @@ export default function Contact({ title = true }: IContactProps) {
               </h2>
               <div className="mt-3 text-lg leading-6 text-gray-500">
                 <p>
-                  We&apos;d love to hear from you. Request a demo, ask us questions,
+                  We&apos;d love to hear from you. <a href="https://calendly.com/alan_ganymedebio/30min-1"
+                    className="inline hover:font-semibold hover:text-blue-800 visited:text-regal-purple">Request a demo</a>, ask us questions,
                   inquire about openings, or just send us a note with how we can help!
                 </p>
               </div>
@@ -39,33 +40,53 @@ export default function Contact({ title = true }: IContactProps) {
                 <div>
                   <dt className="sr-only">Postal address</dt>
                   <dd>
-                    <p>Ganymede Bio</p>
-                    <p>3000 El Camino Real</p>
-                    <p>Bldg. 4, Suite 200</p>
-                    <p>Palo Alto, CA 94306</p>
+                    <div className="flex flex-col items-center pb-1">
+                      <p>Ganymede Bio</p>
+                      <p>3000 El Camino Real</p>
+                      <p>Bldg. 4, Suite 200</p>
+                      <p>Palo Alto, CA 94306</p>
+                    </div>
                   </dd>
                 </div>
                 <div className="mt-4">
                   <dt className="sr-only">Phone number</dt>
                   <dd className="flex">
                     <PhoneIcon
-                      className="flex-shrink-0 h-6 w-6 text-gray-400"
+                      className="flex-shrink-0 h-6 w-6 text-gray-600"
                       aria-hidden="true"
                     />
-                    <span className="ml-3">+1 (415) 409-9768</span>
+                    <span className="ml-3 text-gray-600 font-medium hover:font-semibold hover:text-blue-800">
+                      <a href="tel:+14154099768">
+                        +1 (415) 409-9768
+                      </a></span>
                   </dd>
                 </div>
                 <div className="mt-3">
                   <dt className="sr-only">Email</dt>
                   <dd className="flex">
                     <MailIcon
-                      className="flex-shrink-0 h-6 w-6 text-gray-400"
+                      className="flex-shrink-0 h-6 w-6 text-gray-600"
                       aria-hidden="true"
                     />
-                    <span className="ml-3">
+                    <span className="ml-3 text-gray-600 font-medium">
                       <a href="mailto:hello@ganymede.bio"
-                        className="inline hover:underline hover:text-blue-800 visited:text-regal-purple">
+                        className="inline hover:font-semibold hover:text-blue-800 visited:text-regal-purple">
                         hello@ganymede.bio
+                      </a>
+                    </span>
+                  </dd>
+                </div>
+                <div className="mt-3">
+                  <dt className="sr-only">Schedule a demo</dt>
+                  <dd className="flex">
+                    <UsersIcon
+                      className="flex-shrink-0 h-6 w-6 text-gray-600"
+                      aria-hidden="true"
+                    />
+                    <span className="ml-3 text-gray-600 font-medium">
+                      <a href="https://calendly.com/alan_ganymedebio/30min-1"
+                        className="inline hover:font-semibold hover:text-blue-800 visited:text-regal-purple">
+                        Schedule a demo
                       </a>
                     </span>
                   </dd>
@@ -81,7 +102,7 @@ export default function Contact({ title = true }: IContactProps) {
             </div>
           </div>
         </div>
-      </AnimateAppear>
-    </section>
+      </AnimateAppear >
+    </section >
   );
 }
