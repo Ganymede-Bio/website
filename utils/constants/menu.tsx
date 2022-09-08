@@ -61,10 +61,12 @@ const menuResources = [
   }
 ]
 
+export const contactLink = "/#contact-us"
+
 const contactResources = [
   {
     header: "Contact",
-    href: "/#contact-us"
+    href: contactLink
   }
 ]
 
