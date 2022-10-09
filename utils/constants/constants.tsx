@@ -12,16 +12,25 @@ export const toEmail = "hello@ganymede.bio"
 export const imageHostURL = "https://ganymede-bio.mo.cloudinary.net"
 
 export const careerSortOrder = new Map([
-  ["Software Engineer (Full Stack)", 3],
+  ["Executive Assistant to the Founders", 3],
+  ["Business Development Associate", 3],
+  ["Software Engineer (Full-Stack)", 3],
   ["Senior Software Engineer (Devices)", 4],
   ["Senior Software Engineer (Full Stack)", 4],
   ["Senior Lab Automation Engineer", 4],
+  ["Implementation Manager", 4],
+  ["Manager, Technical Writing", 5],
+  ["Senior Manager, Content Strategy", 6],
+  ["Senior Account Executive, Biopharma", 7],
   ["Senior Software Engineer (Backend/Infra)", 5],
   ["Staff Software Engineer (Full Stack)", 6],
   ["Staff Software Engineer (Backend/Infra)", 6],
   ["Forward-Deployed Software Engineer", 5],
   ["Customer Solutions Engineer", 5],
   ["Flexible Inquiry", 5],
+  ["Senior Product Designer", 4],
+  ["Staff Customer Solutions Engineer", 6],
+  ["Staff Data Engineer", 6],
 ]);
 
 export const people = [
@@ -130,10 +139,10 @@ export const people = [
     githubUrl: "",
     focus: "Sales | CSM",
     blurb: [
-      "Allison has over five years of experience in the software industry and has spent ", 
-      "the past three in B2B enterprise SaaS sales. Prior to joining Ganymede she led customer ", 
+      "Allison has over five years of experience in the software industry and has spent ",
+      "the past three in B2B enterprise SaaS sales. Prior to joining Ganymede she led customer ",
       "success at MobStac and was an early member of the commercial team for HCP365, a healthcare ",
-      "provider measurement tool at Pulsepoint/Internet Brands. She holds a BA in Economics from ", 
+      "provider measurement tool at Pulsepoint/Internet Brands. She holds a BA in Economics from ",
       "Barnard College, Columbia University and a MSc with Distinction in Organizational Behavior ",
       "from the London School of Economics."
     ],
