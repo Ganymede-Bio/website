@@ -39,6 +39,7 @@ export const people = [
     role: "Client Solutions Engineer",
     imageUrl: "/people/headshot_nathan_ballou.png",
     linkedinUrl: "https://www.linkedin.com/in/nathan-ballou/",
+    githubUrl: "https://github.com/nathanballou",
     focus: "Solutions | Analytics",
     blurb: [
       "Nathan brings with him years of experience as an operations research analyst, a data scientist, ",
@@ -114,6 +115,20 @@ export const people = [
           affirm.com/savings
         </a>
       </div>,
+    ],
+  },
+  {
+    name: "Matthew Co",
+    role: "Client Solutions Engineer",
+    imageUrl: "/people/headshot_matthew_co.png",
+    linkedinUrl: "https://www.linkedin.com/in/matt-co/",
+    githubUrl: "https://github.com/mattcoganymede",
+    focus: "Solutions | Implementations",
+    blurb: [
+      "Prior to joining Ganymede, Matt worked as a Software Engineer, where he contributed to healthcare ",
+      "infrastructure commercialization, servicing hundreds of thousands of daily active users. He holds ",
+      "a BSA in Biology with a Business Certificate from the University of Texas at Austin, and has ",
+      "experience executing biological research in the fields of antibiotics, oncology, and hematology.",
     ],
   },
   {
