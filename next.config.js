@@ -8,10 +8,7 @@ module.exports = {
   reactStrictMode: true,
   images: {
     domains: ['ganymede-bio.mo.cloudinary.net']
-  },
-  extends: [
-    'plugin:@next/next/recommended',
-  ]
+  }
 
   // withBundleAnalyzer: withBundleAnalyzer({})
 }

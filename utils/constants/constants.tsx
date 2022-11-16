@@ -35,6 +35,18 @@ export const careerSortOrder = new Map([
 
 export const people = [
   {
+    name: "Nathan Ballou",
+    role: "Client Solutions Engineer",
+    imageUrl: "/people/headshot_nathan_ballou.png",
+    linkedinUrl: "https://www.linkedin.com/in/nathan-ballou/",
+    focus: "Solutions | Analytics",
+    blurb: [
+      "Nathan brings with him years of experience as an operations research analyst, a data scientist, ",
+      "and software engineer.  In these roles, he implemented machine learning solutions, optimization algorithms, ",
+      "and multi-agent simulations to solve complex analysis problems.  Outside his career in engineering and data ",
+      "science, he was head coach of youth, masters, and adaptive rowing teams in Washington, DC, and Baltimore, Maryland."]
+  },
+  {
     name: "Sami Belkadi",
     role: "Product Manager",
     imageUrl: "/people/headshot_sami_belkadi.png",
@@ -44,6 +56,17 @@ export const people = [
       "Sami was previously an Automation Engineer at HighRes Biosolutions, ",
       "where he deployed robotic lab automation platforms in pharmaceutical and biotech labs.  ",
       "He holds a BSE in Mechanical and Aerospace Engineering from Princeton University."]
+  },
+  {
+    name: "James Cahoon",
+    role: "Implementation Manager",
+    imageUrl: "/people/headshot_james_cahoon.png",
+    linkedinUrl: "https://www.linkedin.com/in/james-cahoon-49b353135/",
+    focus: "Client Management | Solutions",
+    blurb: [
+      "Prior to joining Ganymede, James was a member of the Customer Experience team at Benchling, ",
+      "managing implementations and ongoing support for some of the largest companies in biotech.  ",
+      "He received his BS in Biomedical Engineering from NC State University and UNC Chapel Hill."]
   },
   {
     name: "Andy Caruso",
