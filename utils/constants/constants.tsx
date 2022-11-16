@@ -165,7 +165,7 @@ export const people = [
     focus: "Science | Eng | Hardware",
     blurb: [
       "Before founding Ganymede, Benson was Head of Quantitative Markets at Affirm, ",
-      "where he built and oversaw quantitative research, deal structuring, and model ",
+      "where he built and oversaw quantitative research, capital markets deal structuring, and model ",
       "risk management.  He received BS and MEng degrees in Computer Science from Cornell.",
     ],
   },
