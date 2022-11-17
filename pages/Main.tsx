@@ -20,10 +20,10 @@ export default function Main() {
       <MoleculeStarsBackground>
         <div className="opacity-100 pt-24 xs:pt-12 md:pt-24">
           <div className="relative lg:grid lg:grid-cols-2 lg:gap-8">
-            <div className="mr-10 md:pt-24 xl:pt-36">
+            <div className="mx-10 md:pt-24 xl:pt-36">
               <HeroText />
             </div>
-            <div className="mr-10 md:mt-24">
+            <div className="mx-10 md:mt-24">
               <HeroVideoSection />
             </div>
 
@@ -35,7 +35,7 @@ export default function Main() {
             <ProductSection />
           </div>
 
-          <div id="contact-us" className="pt-6 pb-12">
+          <div id="contact-us" className="pb-12">
             <ContactSection />
           </div>
           <FooterSection />

@@ -112,12 +112,12 @@ export default function Navbar() {
           <div className="md:hidden" id="mobile-menu">
             <div
               ref={ref}
-              className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3"
+              className="bg-white"
             >
               {
                 navigation.map((menuItem: IFlyoutMenu) => (
                   <div key={menuItem.name}
-                    className="block text-base font-medium leading-relaxed bg-gray-800 text-gray-200 rounded-sm">
+                    className="block text-base font-medium leading-relaxed bg-gray-800 text-gray-200">
                     < MobileFlyoutMenu name={menuItem.name} subMenu={menuItem.subMenu} />
                   </div>
                 ))

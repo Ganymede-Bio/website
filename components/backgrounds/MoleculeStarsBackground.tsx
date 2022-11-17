@@ -6,7 +6,7 @@ interface IChildren {
 }
 
 export default function MoleculeStarsBackground({ children }: IChildren) {
-  return (<div className="bg-repeat"
+  return (<div className="bg-repeat bg-clip-padding"
     style={{
       backgroundImage: `url('${imageHostURL}/molecule_stars.png')`,
       backgroundSize: '500px'

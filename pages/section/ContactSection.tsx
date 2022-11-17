@@ -24,9 +24,16 @@ export default function Contact({ title = true }: IContactProps) {
       {title && <DividerTitleLeft title='Contact Us' />}
       <AnimateAppear startY={'5vw'}>
         <div className="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5 pt-6">
-          <div className=" py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-12 xl:pr-12">
+          <div className={classNames(
+            form.formState.isSubmitting || !form.formState.isSubmitted ? "bg-white" : "bg-stone-300",
+            "rounded-lg py-16 px-4 sm:px-6 lg:col-span-3 lg:py-12 lg:px-8 xl:pl-12")}>
+            <div className="max-w-lg mx-auto lg:max-w-none">
+              <ContactForm register={form.register} formState={form.formState} handleSubmit={form.handleSubmit} />
+            </div>
+          </div>
+          <div className=" py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-2 xl:pr-12">
             <div className="max-w-lg mx-auto">
-              <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
+              <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl flex justify-center">
                 Get in touch
               </h2>
               <div className="mt-3 text-lg leading-6 text-gray-500">
@@ -36,11 +43,11 @@ export default function Contact({ title = true }: IContactProps) {
                   inquire about openings, or just send us a note with how we can help!
                 </p>
               </div>
-              <dl className="mt-4 text-base text-gray-500">
+              <dl className="mt-6 text-base text-gray-500">
                 <div>
                   <dt className="sr-only">Postal address</dt>
                   <dd>
-                    <div className="flex flex-col items-center pb-1">
+                    <div className="flex flex-col items-center mb-6">
                       <p>Ganymede Bio</p>
                       <p>3000 El Camino Real</p>
                       <p>Bldg. 4, Suite 200</p>
@@ -92,13 +99,6 @@ export default function Contact({ title = true }: IContactProps) {
                   </dd>
                 </div>
               </dl>
-            </div>
-          </div>
-          <div className={classNames(
-            form.formState.isSubmitting || !form.formState.isSubmitted ? "bg-white" : "bg-stone-300",
-            "rounded-lg py-16 px-4 sm:px-6 lg:col-span-3 lg:py-12 lg:px-8 xl:pl-12")}>
-            <div className="max-w-lg mx-auto lg:max-w-none">
-              <ContactForm register={form.register} formState={form.formState} handleSubmit={form.handleSubmit} />
             </div>
           </div>
         </div>
