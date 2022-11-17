@@ -34,12 +34,12 @@ export default function MobileFlyoutMenu({ name, subMenu }: IFlyoutMenu) {
 
           <Transition
             as={Fragment}
-            enter="transition ease-out duration-100"
-            enterFrom="opacity-0 translate-y-1"
+            enter="transition ease-out duration-50"
+            enterFrom="opacity-50 translate-y-1"
             enterTo="opacity-100 translate-y-0"
-            leave="transition ease-in duration-100"
+            leave="transition ease-in duration-50"
             leaveFrom="opacity-100 translate-y-0"
-            leaveTo="opacity-0 translate-y-1"
+            leaveTo="opacity-50 translate-y-1"
           >
             <Popover.Panel className="">
               <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">

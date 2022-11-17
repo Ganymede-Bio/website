@@ -101,12 +101,12 @@ export default function Navbar() {
 
       <Transition
         show={isOpen}
-        enter="transition ease-out duration-100 transform"
-        enterFrom="opacity-0 scale-95"
+        enter="transition ease-out duration-50 transform"
+        enterFrom="opacity-50 scale-95"
         enterTo="opacity-100 scale-100"
-        leave="transition ease-in duration-75 transform"
+        leave="transition ease-in duration-50 transform"
         leaveFrom="opacity-100 scale-100"
-        leaveTo="opacity-0 scale-95"
+        leaveTo="opacity-50 scale-95"
       >
         {(ref) => (
           <div className="md:hidden" id="mobile-menu">
