@@ -99,6 +99,7 @@ export default function Navbar() {
         </div>
       </div>
 
+
       <Transition
         show={isOpen}
         enter="transition ease-out duration-50 transform"

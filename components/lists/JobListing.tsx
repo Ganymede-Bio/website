@@ -1,5 +1,5 @@
 import React from 'react'
-import { LocationMarkerIcon } from "@heroicons/react/outline";
+import { MapPinIcon } from "@heroicons/react/24/outline";
 import { IPosition } from "../../types/PositionInterface";
 
 export default function JobListing(positions: Array<IPosition>) {
@@ -30,7 +30,7 @@ export default function JobListing(positions: Array<IPosition>) {
                       {position.department}
                     </p> */}
                     <p className="flex items-center text-sm text-gray-500">
-                      <LocationMarkerIcon
+                      <MapPinIcon
                         className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400"
                         aria-hidden="true"
                       />

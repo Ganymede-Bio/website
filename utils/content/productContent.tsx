@@ -1,14 +1,14 @@
 import {
-  DesktopComputerIcon,
+  ComputerDesktopIcon,
   BeakerIcon,
   BriefcaseIcon,
-  RefreshIcon,
-  DatabaseIcon,
-  GlobeIcon,
-  SwitchVerticalIcon,
+  ArrowPathIcon,
+  CircleStackIcon,
+  GlobeAltIcon,
+  ArrowsUpDownIcon,
   UserIcon,
   TrashIcon,
-} from "@heroicons/react/outline";
+} from "@heroicons/react/24/outline";
 
 export const uiFeatures = [
   {
@@ -16,7 +16,7 @@ export const uiFeatures = [
     name: "The easiest UI for writing business logic",
     description:
       "Engineers code integrations' skeletons, then visualize them in an automatically-generated UI for scientists to review and write business logic. Build an entire DAG as you go. ",
-    icon: RefreshIcon,
+    icon: ArrowPathIcon,
   },
   {
     id: "ui_feature_biologically_aware_types_and_connectors",
@@ -40,21 +40,21 @@ export const apiFeatures = [
     name: "Powerful Terraform-like lab-as-code tooling",
     description:
       "Ganymede offers a declarative library of high-level automation tools and bioinformatic functions so you don’t have to reinvent the wheel.",
-    icon: DesktopComputerIcon,
+    icon: ComputerDesktopIcon,
   },
   {
     id: "api_feature_an_orm_over_your_integrations",
     name: "An ORM over your integrations",
     description:
       "Virtualize your integrations to build using their internal schema within Ganymede. Inherit structure from apps, open public databases, ontologies, etc.",
-    icon: DatabaseIcon,
+    icon: CircleStackIcon,
   },
   {
     id: "api_feature_build_entire_applications",
     name: "Build entire applications",
     description:
       "Simple persistence within Ganymede allows for rapidly building apps, no other backend needed. Turn any interface into a CRUD form for your users.",
-    icon: GlobeIcon,
+    icon: GlobeAltIcon,
   },
 ];
 
@@ -64,7 +64,7 @@ export const transfersFeatures = [
     name: "Never do data entry again",
     description:
       "Automate ingestion by OCR-ing your PDFs into JSON key:value pairs, parse chart images into tables, and infer data types from CSV contents.",
-    icon: SwitchVerticalIcon,
+    icon: ArrowsUpDownIcon,
   },
   {
     id: "transfer_feature_self_serve_human_in_the_loop_tooling",

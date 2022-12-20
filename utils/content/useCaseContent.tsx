@@ -1,41 +1,41 @@
 import {
-  UploadIcon,
-  SwitchHorizontalIcon,
-  ChatAlt2Icon,
-  ArchiveIcon,
-  CloudUploadIcon,
-  ClipboardCopyIcon,
+  ArrowUpOnSquareIcon,
+  ArrowsRightLeftIcon,
+  ChatBubbleOvalLeftIcon,
+  ArchiveBoxIcon,
+  CloudArrowUpIcon,
+  ClipboardDocumentIcon,
   KeyIcon,
-  SupportIcon,
-  SearchIcon,
-  AnnotationIcon,
+  InformationCircleIcon,
+  MagnifyingGlassIcon,
+  PencilSquareIcon,
   BeakerIcon,
   MapIcon,
-  LibraryIcon,
+  BuildingLibraryIcon,
   ServerIcon,
-  InboxInIcon,
-  CollectionIcon,
+  InboxArrowDownIcon,
+  InboxStackIcon,
   DocumentTextIcon,
   BriefcaseIcon,
-  ClipboardCheckIcon,
-  ChipIcon,
+  ClipboardDocumentCheckIcon,
+  CpuChipIcon,
   ClockIcon,
   SparklesIcon,
   CloudIcon,
   FingerPrintIcon,
   IdentificationIcon,
-  TemplateIcon,
-  RefreshIcon,
-  TableIcon,
+  ClipboardIcon,
+  ArrowPathIcon,
+  TableCellsIcon,
   CubeTransparentIcon,
-  AdjustmentsIcon,
+  AdjustmentsVerticalIcon,
   AcademicCapIcon,
-  TrendingUpIcon,
-  ViewGridIcon,
+  ArrowTrendingUpIcon,
+  ViewColumnsIcon,
   UsersIcon,
-  TerminalIcon,
+  CommandLineIcon,
   SunIcon
-} from "@heroicons/react/outline";
+} from "@heroicons/react/24/outline";
 
 
 export const connectFeaturesScientist = [
@@ -44,21 +44,21 @@ export const connectFeaturesScientist = [
     name: "Connect any instrument or data source",
     description:
       "Bring any instrument online to sync its data into Ganymede or your apps, from sequencers to flow cytometers, and everything in between.",
-    icon: CloudUploadIcon,
+    icon: CloudArrowUpIcon,
   },
   {
     id: "connect_feature_data_upload",
     name: "Upload and analyze data automatically",
     description:
       "Ganymede can automatically process files in the cloud with easy file uploads, entering the result into your ELN or LIMS for you while performing validation and analysis along the way.",
-    icon: UploadIcon,
+    icon: ArrowUpOnSquareIcon,
   },
   {
     id: "connect_feature_data_tracking",
     name: "Never lose data or history",
     description:
       "We save a copy of everything we see into a cloud database for you, so you have a traceable and versioned record of all data, experiment results, code, and metadata in your lab, wherever they live.",
-    icon: ArchiveIcon,
+    icon: ArchiveBoxIcon,
   },
 ];
 
@@ -68,14 +68,14 @@ export const apiFeaturesScientist = [
     name: "Populate any app automatically",
     description:
       "Automatically populate any application, from your ELN/LIMS, to analysis software like JMP/Graphpad, to web apps like Airtable or Notion.  Ganymede acts as the backend glue for data management so you can let each app do what it does best with your data.",
-    icon: ClipboardCopyIcon,
+    icon: ClipboardDocumentIcon,
   },
   {
     id: "api_feature_control_eln_directly",
     name: "Directly control your ELN",
     description:
       "Automatically enter data directly into ELN entries with Ganymede.  Save time on working with data, avoid human error, and capture more data than ever before.",
-    icon: SwitchHorizontalIcon,
+    icon: ArrowsRightLeftIcon,
   }
 ];
 
@@ -92,7 +92,7 @@ export const analysisFeaturesScientist = [
     name: "Crowdsource your results and analytics",
     description:
       "Make data and analysis to anyone, expanding your capability to innovate and ideate collaboratively.  Share data from any source using completely customizable permissioning, within your team or outside your company.",
-    icon: ChatAlt2Icon,
+    icon: ChatBubbleOvalLeftIcon,
   },
   {
     id: "analysis_feature_analytical_iteration",
@@ -109,21 +109,21 @@ export const storageFeaturesScientist = [
     name: "Never lose track of your lab's raw data again.",
     description:
       "Automatically sync all data and metadata from connected instruments and pipelines into a tabular form.",
-    icon: SupportIcon,
+    icon: InformationCircleIcon,
   },
   {
     id: "storage_feature_rollback",
     name: "Easily compare results between different experiment iterations",
     description:
       "Toggle workflow pipelines to flexibly process data collected on a given instrument over different experimental runs.",
-    icon: SearchIcon,
+    icon: MagnifyingGlassIcon,
   },
   {
     id: "storage_feature_crossreferencing",
     name: "Cross-reference external data sources",
     description:
       "Cross-reference your findings with data queried from public databases and received from CROs.",
-    icon: AnnotationIcon,
+    icon: PencilSquareIcon,
   },
 ];
 
@@ -133,14 +133,14 @@ export const costEfficiencyUseCaseManagement = [
     name: "Fully customized and fully implemented solutions",
     description:
       "Whether integrating a single instrument into your LIMS, or automating your entire lab data infrastructure, we can address a wide range of data challenges and offer end-to-end installation of our platform.",
-    icon: LibraryIcon,
+    icon: BuildingLibraryIcon,
   },
   {
     id: "management_use_case_bridge_physical_lab_and_lims",
     name: "Bridge gaps between physical lab operations and ELN/LIMS",
     description:
       "We can bring any device online, from scales to sequencers, connecting them with existing data pipelines and LIMS to unify your infrastructure and increase your hardware and software ROI.",
-    icon: SwitchHorizontalIcon,
+    icon: ArrowsRightLeftIcon,
   },
   {
     id: "management_use_case_eliminate_data_bottleneck",
@@ -164,14 +164,14 @@ export const structuredDataUseCaseManagement = [
     name: "Easily integrate data from outside organizations",
     description:
       "Tired of getting emailed data files from CROs? Connect your data pipeline to your collaborators directly to allow them to directly upload data into any app via Ganymede.",
-    icon: InboxInIcon,
+    icon: InboxArrowDownIcon,
   },
   {
     id: "management_use_case_ml_ready",
     name: "Make your data machine learning ready",
     description:
       "Structure your data so that it’s queryable and clean, so that you can rapidly incorporate popular statistics and machine learning libraries to expand your lab's analytical insights and efficiencies.",
-    icon: CollectionIcon,
+    icon: InboxStackIcon,
   },
 ];
 
@@ -195,7 +195,7 @@ export const dataIntegrityUseCaseManagement = [
     name: "Limit manual mistakes via data automation",
     description:
       "Reduce your organization’s risk of human error and non-compliance by automating lab data management.  Capture more data, more reliably than ever before.",
-    icon: ClipboardCheckIcon,
+    icon: ClipboardDocumentCheckIcon,
   },
 ];
 
@@ -205,7 +205,7 @@ export const scalabilityUseCaseManagement = [
     name: "Straightforward and customizable coding environment",
     description:
       "Ganymede's low-code platform requires limited training to operationalize data processing or analysis.",
-    icon: ChipIcon,
+    icon: CpuChipIcon,
   },
   {
     id: "management_use_case_reduce_human_effort",
@@ -243,7 +243,7 @@ export const storageUseCaseManufacturing = [
     name: "Observe your data in a single queryable data lake",
     description:
       "Ganymede gathers metadata and data in a tabular form within a single environment, enabling you to quickly develop insights from data gathered across different data sources.",
-    icon: TableIcon,
+    icon: TableCellsIcon,
   },
 ];
 
@@ -252,19 +252,19 @@ export const integrationUseCaseManufacturing = [
     id: "manufacturing_use_case_les_mes_integration",
     name: "Combine your LIMS data with your MES and LES",
     description: "Sync data between your lab and manufacturing systems, while maintaining the associations between raw data and end results.",
-    icon: RefreshIcon
+    icon: ArrowPathIcon
   },
   {
     id: "manufacturing_use_case_data_source_integration",
     name: "Integrate with your existing databases",
     description: "Flexibly transit data in and out of the Ganymede cloud to your databases, so you can maintain continuity with your existing processes and ensure flexibility with respect to future software infrastructure you choose to use.",
-    icon: CollectionIcon
+    icon: DocumentTextIcon
   },
   {
     id: "manufacturing_use_case_integration_choice",
     name: "Developed with your needs in mind",
     description: "The Ganymede cloud is modular, building upon popular open-source software packages to maximize compatibility with existing software systems.",
-    icon: TemplateIcon
+    icon: ClipboardIcon
   },
 ]
 
@@ -285,7 +285,7 @@ export const modernUseCaseManufacturing = [
     id: "manufacturing_use_case_hands_on_hands_off",
     name: "As hands-on or hands-off as you would like",
     description: "Ganymede can consultatively implement cloud infrastructure and analytics for you, or provide the platform for your engineers to use.",
-    icon: AdjustmentsIcon
+    icon: AdjustmentsVerticalIcon
   }
 ]
 
@@ -300,13 +300,13 @@ export const whatIsGanymedeUseCaseSoftware = [
     id: "software_use_case_what_analysis",
     name: "Seamlessly scale your analytical jobs from analysis and pipelines",
     description: "Save Devops effort by using Ganymede to directly modify pipeline operators via a browser-based IDE.  Your code and pipeline changes are synced with a Git repo so you can move fast and make things happen.  View redlines of changed versions and roll back seamlessly.",
-    icon: TrendingUpIcon
+    icon: ArrowTrendingUpIcon
   },
   {
     id: "software_use_case_what_orchestration",
     name: "Lab-as-code data processing",
     description: "Monitor and orchestrate workflow pipelines via graphical interfaces, troubleshooting in a user-friendly environment.  Changes to pipelines are checked before they are committed, so a mis-typed column name won't bring your pipeline down.",
-    icon: ViewGridIcon
+    icon: ViewColumnsIcon
   },
 ]
 
@@ -321,13 +321,13 @@ export const infraUseCaseSoftware = [
     id: "software_use_case_infra_focus",
     name: "Write code for your experimental data, not your coding environment",
     description: "Manipulate your instrument and LIMS data in one computing environment.  Ganymede supplies serverless cloud infra tailored to your needs.",
-    icon: TerminalIcon
+    icon: CommandLineIcon
   },
   {
     id: "software_use_case_version_control",
     name: "Souped-up version control",
     description: "Ganymede cloud versions code, data pipelines, and raw data, so you can revisit what you need, when you need it.",
-    icon: ArchiveIcon
+    icon: ArchiveBoxIcon
   }
 ]
 

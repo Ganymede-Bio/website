@@ -1,14 +1,10 @@
 import {
-  DesktopComputerIcon,
   BeakerIcon,
   BriefcaseIcon,
-  RefreshIcon,
-  DatabaseIcon,
-  GlobeIcon,
-  SwitchVerticalIcon,
+  ArrowsUpDownIcon,
   UserIcon,
   TrashIcon,
-} from "@heroicons/react/outline";
+} from "@heroicons/react/24/outline";
 
 export const schematicBeforeFeatures = [
   {
@@ -16,7 +12,7 @@ export const schematicBeforeFeatures = [
     name: "Metadata is lost",
     description:
       "Metadata such as instrument settings, last date of service, which user performed the analysis, and experiment time is not tracked",
-    icon: SwitchVerticalIcon,
+    icon: ArrowsUpDownIcon,
   },
   {
     id: "schematic_feature_raw_data_lost",
@@ -40,7 +36,7 @@ export const schematicAfterFeatures = [
     name: "Sync everything into the cloud automatically",
     description:
       "All your raw data, analyzed data, metadata, and even the internal data from your intergrated apps is saved forever in a single cloud data lake.",
-    icon: SwitchVerticalIcon,
+    icon: ArrowsUpDownIcon,
   },
   {
     id: "schematic_apps_synced",

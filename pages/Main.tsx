@@ -7,6 +7,7 @@ import MoleculeStarsBackground from "../components/backgrounds/MoleculeStarsBack
 import ContactSection from './section/ContactSection'
 
 import HeroVideoSection from "./section/hero/HeroVideoSection";
+import Announcement from './headers/Announcement';
 const ProductSection = dynamic(() => import("./section/ProductSection"), {
   suspense: true
 });
@@ -16,6 +17,7 @@ const FooterSection = dynamic(() => import("./section/FooterSection"), { suspens
 export default function Main() {
   return (
     <div className="relative">
+      <Announcement />
       <Header />
       <MoleculeStarsBackground>
         <div className="opacity-100 pt-24 xs:pt-12 md:pt-24">

@@ -1,5 +1,5 @@
 import React from 'react'
-import { MailIcon, PhoneIcon, UsersIcon } from "@heroicons/react/outline";
+import { EnvelopeIcon, PhoneIcon, UsersIcon } from "@heroicons/react/24/outline";
 import ContactForm from "../../components/forms/ContactForm";
 import AnimateAppear from "../../components/animations/AnimateAppear";
 import DividerTitleLeft from "../../components/dividers/DividerTitleLeft";
@@ -71,7 +71,7 @@ export default function Contact({ title = true }: IContactProps) {
                 <div className="mt-3">
                   <dt className="sr-only">Email</dt>
                   <dd className="flex">
-                    <MailIcon
+                    <EnvelopeIcon
                       className="flex-shrink-0 h-6 w-6 text-gray-600"
                       aria-hidden="true"
                     />
