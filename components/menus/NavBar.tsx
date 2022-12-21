@@ -13,6 +13,7 @@ import { classNames } from "../../utils/util";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <nav className="shadow-sm fixed w-full bg-gray-800 bg-opacity-90">
       <div className="w-full">
