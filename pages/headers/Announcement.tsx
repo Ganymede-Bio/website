@@ -22,7 +22,7 @@ export default function Announcement() {
             <div className="absolute inset-y-0 right-0 flex items-start pt-1 pr-1 sm:items-start sm:pt-1 sm:pr-2">
               <button
                 type="button"
-                className="flex rounded-md p-1 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white"
+                className="flex rounded-md p-1 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white invisible md:visible"
               >
                 <span className="sr-only">Dismiss</span>
                 <XMarkIcon className="h-6 w-6 text-white" aria-hidden="true" onClick={() => setShowBanner(!showBanner)} />
