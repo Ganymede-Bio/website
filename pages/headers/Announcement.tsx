@@ -8,7 +8,7 @@ export default function Announcement() {
   return (
     <>
       {!showBanner &&
-        (<div className="relative bg-regal-purple">
+        (<div className="relative bg-regal-purple hidden md:block">
           <div className="mx-auto max-w-7xl py-2 px-3 sm:px-6 lg:px-8">
             <div className="pr-16 sm:px-16 sm:text-center">
               <p className="font-medium text-white">
