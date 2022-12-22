@@ -10,10 +10,10 @@ export default function Announcement() {
       {!showBanner &&
         (<div className="relative bg-regal-purple">
           <div className="mx-auto max-w-7xl py-2 px-3 sm:px-6 lg:px-8">
-            <div className="pr-16 sm:px-16 sm:text-center">
+            <div className="text-center">
               <p className="font-medium text-white">
                 <span className="block sm:ml-2 sm:inline-block">
-                  <a href={announcements.href} className="font-bold text-white hover:underline">
+                  <a href={announcements.href} className="font-bold text-white hover:underline truncate">
                     {announcements.name}
                   </a>
                 </span>
