@@ -39,7 +39,7 @@ export const people = [
   {
     name: "Nathan Ballou",
     role: "Client Solutions Engineer",
-    imageUrl: "/people/headshot_nathan_ballou.png",
+    imageUrl: "/people/headshot202212/headshot_nathan_ballou.png",
     linkedinUrl: "https://www.linkedin.com/in/nathan-ballou/",
     githubUrl: "https://github.com/nathanballou",
     focus: "Solutions | Analytics",
@@ -52,7 +52,7 @@ export const people = [
   {
     name: "Sami Belkadi",
     role: "Product Manager",
-    imageUrl: "/people/headshot_sami_belkadi.png",
+    imageUrl: "/people/headshot202212/headshot_sami_belkadi.png",
     linkedinUrl: "https://www.linkedin.com/in/sami-belkadi/",
     focus: "Lab Auto | Hardware",
     blurb: [
@@ -63,7 +63,7 @@ export const people = [
   {
     name: "James Cahoon",
     role: "Implementation Manager",
-    imageUrl: "/people/headshot_james_cahoon.png",
+    imageUrl: "/people/headshot202212/headshot_james_cahoon.png",
     linkedinUrl: "https://www.linkedin.com/in/james-cahoon-49b353135/",
     focus: "Client Management | Solutions",
     blurb: [
@@ -74,7 +74,7 @@ export const people = [
   {
     name: "Andy Caruso",
     role: "Founding Engineer",
-    imageUrl: "/people/headshot_andy_caruso.png",
+    imageUrl: "/people/headshot202212/headshot_andy_caruso.png",
     linkedinUrl: "https://www.linkedin.com/in/carusoandy",
     githubUrl: "https://github.com/carusooo",
     focus: "Cloud Infra | Quality",
@@ -87,7 +87,7 @@ export const people = [
   {
     name: "Alan Chramiec, PhD",
     role: "Founding Scientist",
-    imageUrl: "/people/headshot_alan_chramiec.png",
+    imageUrl: "/people/headshot202212/headshot_alan_chramiec.png",
     githubUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/alan-chramiec/",
     focus: "Sales Ops | Business | People",
@@ -104,7 +104,7 @@ export const people = [
   {
     name: "Nathan Clark",
     role: "Founder",
-    imageUrl: "/people/headshot_nathan_clark.png",
+    imageUrl: "/people/headshot202212/headshot_nathan_clark.png",
     linkedinUrl: "https://www.linkedin.com/in/nathan-clark-4b850134",
     githubUrl: "https://github.com/nathanwjclark",
     focus: "Product | Design | Engineering",
@@ -122,7 +122,7 @@ export const people = [
   {
     name: "Matthew Co",
     role: "Client Solutions Engineer",
-    imageUrl: "/people/headshot_matthew_co.png",
+    imageUrl: "/people/headshot202212/headshot_matthew_co.png",
     linkedinUrl: "https://www.linkedin.com/in/matt-co/",
     githubUrl: "https://github.com/mattcoganymede",
     focus: "Solutions | Implementations",
@@ -134,9 +134,22 @@ export const people = [
     ],
   },
   {
+    name: "Paul Hao",
+    role: "Executive Assistant",
+    imageUrl: "/people/headshot202212/headshot_paul_hao.png",
+    githubUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/paul-hao-b23815252/",
+    focus: "Business Operations",
+    blurb: [
+      "Paul has a bachelor's degree in Aeronautical Engineering, which he leveraged to work as a Technical ",
+      "Representative for Cebu Pacific's Aircraft Maintenance and Engineering department. He is currently ",
+      "pursuing additional studies in veterinary medicine at the University of the Philippines Los Banos ",
+      "while employed with Ganymede."],
+  },
+  {
     name: "Danielle Kuhn",
     role: "Software Engineer",
-    imageUrl: "/people/headshot_danielle_kuhn.png",
+    imageUrl: "/people/headshot202212/headshot_danielle_kuhn.png",
     githubUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/danielle-kuhn/",
     focus: "Full Stack | Software",
@@ -149,7 +162,7 @@ export const people = [
   {
     name: "John La",
     role: "Founding Engineer",
-    imageUrl: "/people/headshot_john_la.png",
+    imageUrl: "/people/headshot202212/headshot_john_la.png",
     linkedinUrl: "https://www.linkedin.com/in/johnla1/",
     focus: "Backend Eng | Systems",
     blurb: [
@@ -161,7 +174,7 @@ export const people = [
   {
     name: "Benson Lee",
     role: "Founder",
-    imageUrl: "/people/headshot_benson_lee.png",
+    imageUrl: "/people/headshot202212/headshot_benson_lee.png",
     linkedinUrl: "https://www.linkedin.com/in/benson-lee-69980745",
     githubUrl: "https://github.com/bensonlee5",
     focus: "Science | Eng | Hardware",
@@ -174,7 +187,7 @@ export const people = [
   {
     name: "Allison Murdoch",
     role: "Head of Business Development",
-    imageUrl: "/people/headshot_allison_murdoch.png",
+    imageUrl: "/people/headshot202212/headshot_allison_murdoch.png",
     linkedinUrl: "https://www.linkedin.com/in/allison-murdoch-2816a21b/",
     githubUrl: "",
     focus: "Sales | CSM",
@@ -190,7 +203,7 @@ export const people = [
   {
     name: "Josh Sharpe",
     role: "Software Engineer",
-    imageUrl: "/people/headshot_josh_sharpe.png",
+    imageUrl: "/people/headshot202212/headshot_josh_sharpe.png",
     linkedinUrl: "https://www.linkedin.com/in/joshasharpe/",
     githubUrl: "https://github.com/joshasharpe",
     focus: "Full Stack | Software",
@@ -205,7 +218,7 @@ export const people = [
   {
     name: "Gavin Smith",
     role: "Account Executive",
-    imageUrl: "/people/headshot_gavin_smith.png",
+    imageUrl: "/people/headshot202212/headshot_gavin_smith.png",
     linkedinUrl: "https://www.linkedin.com/in/gavin-smith-788b6593/",
     focus: "Sales | Account Management",
     blurb: [
@@ -217,7 +230,7 @@ export const people = [
   {
     name: "Ray Wang",
     role: "Senior Product Designer",
-    imageUrl: "/people/headshot_ray_wang.png",
+    imageUrl: "/people/headshot202212/headshot_ray_wang.png",
     linkedinUrl: "https://www.linkedin.com/in/ray-wang-942b8aa7/",
     focus: "Product Design | User Research",
     blurb: [
