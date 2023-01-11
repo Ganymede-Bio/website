@@ -202,6 +202,31 @@ export const people = [
       "the University of Alabama with a BS in Computer Science and an MBA."
     ],
   },
+  {
+    name: "Gavin Smith",
+    role: "Account Executive",
+    imageUrl: "/people/headshot_gavin_smith.png",
+    linkedinUrl: "https://www.linkedin.com/in/gavin-smith-788b6593/",
+    focus: "Sales | Account Management",
+    blurb: [
+      "Prior to joining Ganymede, Gavin was an Account Executive at Benchling and Dotmatics. ",
+      "He received his BS in Molecular, Cell and Developmental Biology from The University of ",
+      "Washington."
+    ],
+  },
+  {
+    name: "Ray Wang",
+    role: "Senior Product Designer",
+    imageUrl: "/people/headshot_ray_wang.png",
+    linkedinUrl: "https://www.linkedin.com/in/ray-wang-942b8aa7/",
+    focus: "Product Design | User Research",
+    blurb: [
+      "Ray was previously a UX Designer for three years at Bio-Rad Laboratories where he researched, ",
+      "designed, and tested features for a Quality Control SaaS intended for labs worldwide.  He has a ",
+      "BS degree in Cognitive Science at UCSD and a Master of Professional Studies in Information Science ",
+      "at Cornell."
+    ],
+  },
 ];
 
 export const corporatePrinciples = [
