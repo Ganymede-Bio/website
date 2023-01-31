@@ -31,6 +31,10 @@ const menuProduct = [
   {
     header: "Integration",
     href: "/#integration"
+  },
+  {
+    header: "Blog",
+    href: "https://blog.ganymede.bio"
   }
 ]
 
