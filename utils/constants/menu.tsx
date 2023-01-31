@@ -87,6 +87,7 @@ export const navigationFooter = [
   { name: 'Platform', href: '/#product' },
   { name: 'Privacy', href: '/Privacy' },
   { name: 'Careers', href: "/Careers" },
+  { name: 'Blog', href: "https://blog.ganymede.bio" }
   // { name: 'Press', href: '#' },
 ]
 
