@@ -14,7 +14,7 @@ export default function EmployeeIconTwo() {
   return (
     <div className="p-12">
       <div className="relative" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-        <Link href={person.linkedinUrl}>
+        <Link href={person.linkedinUrl} legacyBehavior>
           {isHovering ?
             <Image
               className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
@@ -46,6 +46,5 @@ export default function EmployeeIconTwo() {
         </p>
       </div>
     </div>
-
-  )
+  );
 }

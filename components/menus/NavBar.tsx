@@ -22,19 +22,19 @@ export default function Navbar() {
             <div className="justify-center items-center flex-shrink-0">
               <div className="absolute inset-y-4">
                 <Link href="/">
-                  <a>
-                    <AnimateScale scale={1.04}>
-                      <Image
-                        src={`${imageHostURL}/logo/ganymede_logo_white.png`}
-                        alt="Ganymede main logo"
-                        priority={true}
-                        loading={"eager"}
-                        width={146}
-                        height={30}
-                        quality={100}
-                      />
-                    </AnimateScale>
-                  </a>
+
+                  <AnimateScale scale={1.04}>
+                    <Image
+                      src={`${imageHostURL}/logo/ganymede_logo_white.png`}
+                      alt="Ganymede main logo"
+                      priority={true}
+                      loading={"eager"}
+                      width={146}
+                      height={30}
+                      quality={100}
+                    />
+                  </AnimateScale>
+
                 </Link>
               </div>
             </div>

@@ -14,19 +14,19 @@ export default function Navigation() {
       <div className="flex align-center justify-around">
         <div className="mt-2 pl-10 flex-shrink-0 z-20">
           <Link href="/">
-            <a>
-              <AnimateScale scale={1.04}>
-                <Image
-                  src={`${imageHostURL}/logo/ganymede_logo_white.png`}
-                  alt="Ganymede main logo"
-                  priority={true}
-                  loading={"eager"}
-                  width={139}
-                  height={28}
-                  quality={100}
-                />
-              </AnimateScale>
-            </a>
+
+            <AnimateScale scale={1.04}>
+              <Image
+                src={`${imageHostURL}/logo/ganymede_logo_white.png`}
+                alt="Ganymede main logo"
+                priority={true}
+                loading={"eager"}
+                width={139}
+                height={28}
+                quality={100}
+              />
+            </AnimateScale>
+
           </Link>
 
         </div>

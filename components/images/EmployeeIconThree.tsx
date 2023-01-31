@@ -17,7 +17,7 @@ export default function EmployeeIcon(person: IEmployee) {
           justifyContent: "center"
         }}
           onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-          <Link href={person.linkedinUrl}>
+          <Link href={person.linkedinUrl} legacyBehavior>
             <Image
               className="transition ease-in-out duration-100 m-auto h-40 w-40 rounded-full xl:w-56 xl:h-56 
               hover:ring hover:ring-yellow-200"
@@ -63,6 +63,5 @@ export default function EmployeeIcon(person: IEmployee) {
         </div>}
       </div>
     </div>
-
-  )
+  );
 }
