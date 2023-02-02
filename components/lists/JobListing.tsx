@@ -22,35 +22,15 @@ export default function JobListing(positions: Array<IPosition>) {
                 </div>
                 <div className="mt-2 sm:flex sm:justify-between">
                   <div className="sm:flex text-sm">
-                    {/* <p className="flex items-center text-md text-gray-500">
-                      <UsersIcon
-                        className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400"
-                        aria-hidden="true"
-                      />
-                      {position.department}
-                    </p> */}
                     <p className="flex items-center text-sm text-gray-500">
                       <MapPinIcon
                         className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400"
                         aria-hidden="true"
                       />
-                      {position.location.city}
+                      {position.location.city}, {position.location.region_code}
                       {position.location.telecommuting && "; Remote US"}
-                      {/* SF Bay Area or NYC Preferred; Remote Available */}
                     </p>
                   </div>
-                  {/* <div className="mt-2 flex items-center text-sm text-gray-500 sm:mt-0">
-                        <CalendarIcon
-                          className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400"
-                          aria-hidden="true"
-                        />
-                        <p>
-                          Closing on{" "}
-                          <time dateTime={position.created_at}>
-                            {position.created_at}
-                          </time>
-                        </p> 
-                      </div> */}
                 </div>
               </div>
             </a>
