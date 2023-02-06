@@ -1,7 +1,9 @@
+import { imageHostURL } from "../../utils/constants/constants";
+
 export const testimonials = [{
   company: 'Apprentice',
-  speaker: 'John Doe',
+  speaker: 'Angelo Stracquatanio',
   speaker_title: 'CEO',
-  blurb: '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis. Nemo expedita voluptas culpa sapiente alias molestiae."',
-  logo: '/client/apprentice.png'
-}]
+  blurb: "Ganymede's speed and flexibility in integrating instruments through Lab-as-Code has been incredibly powerful for us",
+  logo: `${imageHostURL}/client/apprentice.png`
+},]

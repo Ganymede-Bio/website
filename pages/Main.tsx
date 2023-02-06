@@ -8,6 +8,7 @@ import ContactSection from './section/ContactSection'
 
 import HeroVideoSection from "./section/hero/HeroVideoSection";
 import Announcement from './headers/Announcement';
+import TestimonialSection from './section/TestimonialSection';
 const ProductSection = dynamic(() => import("./section/ProductSection"), {
   suspense: true
 });
@@ -35,6 +36,9 @@ export default function Main() {
           </div>
           <div id="product" className="pb-24">
             <ProductSection />
+          </div>
+          <div id="testimonial">
+            <TestimonialSection />
           </div>
 
           <div id="contact-us" className="pb-12">

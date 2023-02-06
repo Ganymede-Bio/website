@@ -9,22 +9,19 @@ export default function TestimonialSection() {
   return (
     <>
       <DividerTitleLeft title='Testimonials' />
-      <section className="pt-10 pb-32">
+      <section className="pt-12 pb-32">
         {testimonials.map((testimonial: ITestimonial) => (
           <div key={testimonial.company} className="bg-white border mx-10 py-10 rounded-xl shadow-md">
             <div className="flex flex-row">
-              <div className="basis-1/3 pl-3 inline-block align-middle pt-12">
+              <div className="basis-1/3 px-12 inline-block align-middle pt-6">
                 <img src={testimonial.logo} alt={testimonial.company} width={300} />
               </div>
-              <div className="basis-2/3 pl-10">
+              <div className="basis-2/3">
                 <div className="flex-col">
                   <div className="basis-1">
                     <p className="text-gray-900 mr-10 mt-3">
                       <div className="font-bold text-lg inline">
-                        Featured Client:
-                      </div>
-                      <div className="inline text-lg">
-                        {" "} {testimonial.company}
+                        Featured Client: {testimonial.company}
                       </div>
                     </p>
                   </div>
