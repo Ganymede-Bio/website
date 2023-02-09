@@ -23,7 +23,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, [router.events]);
 
   return (
-    <Component {...pageProps} />
+    <div>
+      <Component {...pageProps} />
+    </div>
   );
 }
 

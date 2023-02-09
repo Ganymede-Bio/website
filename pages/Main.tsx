@@ -19,7 +19,7 @@ const FooterSection = dynamic(() => import("./section/FooterSection"), { suspens
 export default function Main() {
   return (
     <>
-      <GanymedeTitle title='Comprehensive Instrument, Data, and Lab Integration Platform' />
+      <GanymedeTitle title='Enterprise Instrument, Data, and Lab Integration Platform' />
       <div className="relative">
         <Announcement />
         <Header />
