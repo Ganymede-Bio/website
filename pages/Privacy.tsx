@@ -1,11 +1,14 @@
 import React from 'react'
 import MoleculeStarsBackground from "../components/backgrounds/MoleculeStarsBackground";
+import GanymedeTitle from '../components/titles/GanymedeTitle';
 import Header from "./headers/Header";
 import FooterSection from "./section/FooterSection";
+
 
 export default function Privacy() {
   return (
     <>
+      <GanymedeTitle title='Privacy Policy' />
       <Header />
       <MoleculeStarsBackground>
         <div className="py-8 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">

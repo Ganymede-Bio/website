@@ -3,10 +3,8 @@ import "../styles/globals.css";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import type { AppProps } from "next/app";
-import Head from "next/head";
 
 import * as ga from "../lib/ga";
-import { imageHostURL } from "../utils/constants/constants";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -25,13 +23,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, [router.events]);
 
   return (
-    <>
-      <Head>
-        <title>Ganymede</title>
-        <link rel="shortcut icon" href={`${imageHostURL}/logo/favicon.png`} type="image/x-icon" />
-      </Head>
-      <Component {...pageProps} />
-    </>
+    <Component {...pageProps} />
   );
 }
 

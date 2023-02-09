@@ -1,3 +1,4 @@
+import GanymedeTitle from '../components/titles/GanymedeTitle';
 import React from 'react'
 import {
   workableURL,
@@ -60,6 +61,7 @@ export async function getStaticProps() {
 export default function Careers(positions: IPositions) {
   return (
     <>
+      <GanymedeTitle title='Careers' />
       <Header />
       <MoleculeStarsBackground>
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-8 lg:px-8">

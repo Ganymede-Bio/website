@@ -1,5 +1,6 @@
 import React from 'react'
 import dynamic from "next/dynamic";
+
 import Header from "./headers/Header";
 import HeroText from "./section/hero/HeroText";
 
@@ -8,6 +9,7 @@ import ContactSection from './section/ContactSection'
 
 import HeroVideoSection from "./section/hero/HeroVideoSection";
 import Announcement from './headers/Announcement';
+import GanymedeTitle from '../components/titles/GanymedeTitle';
 const ProductSection = dynamic(() => import("./section/ProductSection"), {
   suspense: true
 });
@@ -16,33 +18,36 @@ const FooterSection = dynamic(() => import("./section/FooterSection"), { suspens
 
 export default function Main() {
   return (
-    <div className="relative">
-      <Announcement />
-      <Header />
-      <MoleculeStarsBackground>
-        <div className="opacity-100 pt-24 xs:pt-12 md:pt-24">
-          <div className="relative lg:grid lg:grid-cols-2 lg:gap-8">
-            <div className="mx-10 md:pt-24 xl:pt-36">
-              <HeroText />
+    <>
+      <GanymedeTitle title='Comprehensive Instrument, Data, and Lab Integration Platform' />
+      <div className="relative">
+        <Announcement />
+        <Header />
+        <MoleculeStarsBackground>
+          <div className="opacity-100 pt-24 xs:pt-12 md:pt-24">
+            <div className="relative lg:grid lg:grid-cols-2 lg:gap-8">
+              <div className="mx-10 md:pt-24 xl:pt-36">
+                <HeroText />
+              </div>
+              <div className="mx-10 md:mt-24">
+                <HeroVideoSection />
+              </div>
+
             </div>
-            <div className="mx-10 md:mt-24">
-              <HeroVideoSection />
+            <div id="integration">
+              <IntegrationSection />
+            </div>
+            <div id="product" className="pb-24">
+              <ProductSection />
             </div>
 
+            <div id="contact-us" className="pb-12">
+              <ContactSection />
+            </div>
+            <FooterSection />
           </div>
-          <div id="integration">
-            <IntegrationSection />
-          </div>
-          <div id="product" className="pb-24">
-            <ProductSection />
-          </div>
-
-          <div id="contact-us" className="pb-12">
-            <ContactSection />
-          </div>
-          <FooterSection />
-        </div>
-      </MoleculeStarsBackground>
-    </div>
+        </MoleculeStarsBackground>
+      </div>
+    </>
   );
 }

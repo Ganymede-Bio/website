@@ -1,16 +1,16 @@
+import GanymedeTitle from '../components/titles/GanymedeTitle';
 import React from 'react'
 import EmployeeIcon from "../components/images/EmployeeIcon";
 import { people } from "../utils/constants/constants";
-// import Image from "next/image";
-// import Navigation from "../layout/navs/Navigation";
 import Header from "./headers/Header";
 import FooterSection from "./section/FooterSection";
 import MoleculeStarsBackground from "../components/backgrounds/MoleculeStarsBackground";
-// import Link from "next/link";
+
 
 export default function About() {
   return (
     <>
+      <GanymedeTitle title='About Us' />
       <Header />
       <MoleculeStarsBackground>
         <div id="about-section">
