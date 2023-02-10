@@ -22,7 +22,7 @@ export default function GanymedeLogoSpinning3D() {
     >
       <Image
         src="/logo/ganymede_ball.svg"
-        alt=""
+        alt="Ganymede ball logo"
         width={50}
         height={50}
         quality={100}

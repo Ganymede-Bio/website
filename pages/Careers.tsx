@@ -69,7 +69,7 @@ export default function Careers(positions: IPositions) {
             <div className="pb-6">
               <Image
                 src={`${imageHostURL}/logo/favicon.png`}
-                alt=""
+                alt="Ganymede logo"
                 width={50}
                 height={50}
                 quality={100}

@@ -19,14 +19,14 @@ export default function EmployeeIconTwo() {
             <Image
               className="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
               src={person.imageUrl}
-              alt=""
+              alt={person.name}
               width="200"
               height="200"
             /> :
             <Image
               className="inset-0 z-0 mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56"
               src={person2.imageUrl}
-              alt=""
+              alt={person2.name}
               width="200"
               height="200"
             />}

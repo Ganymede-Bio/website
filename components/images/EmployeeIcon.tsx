@@ -19,7 +19,7 @@ export default function EmployeeIcon(person: IEmployee) {
               className="transition ease-in-out duration-100 m-auto h-40 w-40 rounded-full xl:w-56 xl:h-56 
                          hover:shadow-sm hover:shadow-gray-200"
               src={imageHostURL + person.imageUrl}
-              alt=""
+              alt={person.name}
               width="200"
               height="200"
             />
