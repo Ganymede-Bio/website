@@ -57,7 +57,7 @@ export default function ProductSection() {
                 className="relative mx-auto rounded-md shadow-lg"
                 width={490}
                 src={`${imageHostURL}/app/code_bioreactor.png`}
-                alt=""
+                alt="Bioreactor connector code"
               />
             </div>
           </div>
@@ -97,7 +97,7 @@ export default function ProductSection() {
                   className="relative mx-auto rounded-md shadow-lg"
                   width={490}
                   src={`${imageHostURL}/app/dag_bioreactor.png`}
-                  alt=""
+                  alt="Bioreactor flow example"
                 />
               </div>
             </div>
@@ -138,7 +138,7 @@ export default function ProductSection() {
                 className="relative mx-auto rounded-md shadow-lg"
                 width={600}
                 src={`${imageHostURL}/app/flow/GanymedeFlowScreenshot.png`}
-                alt=""
+                alt="Flow cytometry data export to Ganymede"
               />
             </div>
           </div>

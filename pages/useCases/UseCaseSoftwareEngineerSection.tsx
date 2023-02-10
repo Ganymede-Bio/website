@@ -54,7 +54,7 @@ export default function UseCaseSoftwareEngineerSection() {
               className="relative mx-auto rounded-md shadow-lg"
               width={550}
               src={`${imageHostURL}/useCase/4 - Lab-as-code for engineers.png`}
-              alt=""
+              alt="Lab-as-code for engineers"
             />
           </div>
         </div>
@@ -94,7 +94,7 @@ export default function UseCaseSoftwareEngineerSection() {
                 className="relative mx-auto rounded-md shadow-lg"
                 width={550}
                 src={`${imageHostURL}/useCase/5 - Spend less time on cloud plumbing, more time on analysis.gif`}
-                alt=""
+                alt="Spend less time on cloud plumbing, more time on analysis"
               />
             </div>
           </div>
@@ -133,7 +133,7 @@ export default function UseCaseSoftwareEngineerSection() {
               className="relative mx-auto rounded-md shadow-lg"
               width={550}
               src={`${imageHostURL}/useCase/6 - Built for, rather than adapted to, developers and analysts.png`}
-              alt=""
+              alt="Built for, rather than adapted to, developers and analysts"
             />
           </div>
         </div>

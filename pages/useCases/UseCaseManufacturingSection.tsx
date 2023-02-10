@@ -53,7 +53,7 @@ export default function UseCaseManufacturingSection() {
               className="relative mx-auto rounded-md shadow-lg"
               width={550}
               src={`${imageHostURL}/useCase/7 - Say goodbye to audit logs.png`}
-              alt=""
+              alt="Say goodbye to audit logs"
             />
           </div>
         </div>
@@ -93,7 +93,7 @@ export default function UseCaseManufacturingSection() {
                 className="relative mx-auto rounded-md shadow-lg"
                 width={550}
                 src={`${imageHostURL}/useCase/8 - Enrich your systems and data with their full context.png`}
-                alt=""
+                alt="Enrich your systems and data with their full context"
               />
             </div>
           </div>
@@ -132,7 +132,7 @@ export default function UseCaseManufacturingSection() {
               className="relative mx-auto rounded-md shadow-lg"
               width={550}
               src={`${imageHostURL}/useCase/9 - Track data, compute KPIs, and share observations from a single platform.png`}
-              alt=""
+              alt="Track data, compute KPIs, and share observations from a single platform"
             />
           </div>
         </div>

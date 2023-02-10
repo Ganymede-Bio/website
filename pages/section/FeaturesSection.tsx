@@ -55,7 +55,7 @@ export default function FeaturesSection() {
               className="relative mx-auto rounded-md shadow-lg"
               width={490}
               src="/app/code_bioreactor.png"
-              alt=""
+              alt="Bioreactor connector code"
             />
           </div>
         </div>
@@ -94,7 +94,7 @@ export default function FeaturesSection() {
                 className="relative mx-auto rounded-md shadow-lg"
                 width={490}
                 src="/app/dag_bioreactor.png"
-                alt=""
+                alt="Bioreactor flow"
               />
             </div>
           </div>
@@ -199,7 +199,7 @@ export default function FeaturesSection() {
               className="relative mx-auto rounded-md shadow-lg"
               width={490}
               src="/app/jsonlink_new.png"
-              alt=""
+              alt="Flow cytometry dag"
             />
           </div>
         </div>

@@ -58,7 +58,7 @@ export default function IntegrationSection() {
                 className="relative mx-auto rounded-md shadow-lg"
                 width={750}
                 src={`${imageHostURL}/schematic/before.png`}
-                alt=""
+                alt="Schematic - before Ganymede"
               />
             </div>
           </div>
@@ -98,7 +98,7 @@ export default function IntegrationSection() {
                   className="relative mx-auto rounded-md shadow-lg"
                   width={900}
                   src={`${imageHostURL}/schematic/after.png`}
-                  alt=""
+                  alt="Schematic - after Ganymede"
                 />
               </div>
             </div>

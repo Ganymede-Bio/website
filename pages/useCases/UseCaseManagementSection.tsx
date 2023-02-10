@@ -58,7 +58,7 @@ export default function UseCaseManagementSection() {
               className="relative mx-auto rounded-md shadow-lg"
               width={550}
               src={`${imageHostURL}/useCase/10 - Maximize the cost-efficiency of your lab operations.png`}
-              alt=""
+              alt="Maximize the cost-efficiency of your lab operations"
             />
           </div>
         </div>
@@ -98,7 +98,7 @@ export default function UseCaseManagementSection() {
                 className="relative mx-auto rounded-md shadow-lg"
                 width={550}
                 src={`${imageHostURL}/useCase/11 - All your lab data structured and in one accessible spot.png`}
-                alt=""
+                alt="All your lab data structured and in one accessible spot"
               />
             </div>
           </div>
@@ -137,7 +137,7 @@ export default function UseCaseManagementSection() {
               className="relative mx-auto rounded-md shadow-lg"
               width={550}
               src={`${imageHostURL}/useCase/12 - Institutionalize data integrity and pave the way to GxP.png`}
-              alt=""
+              alt="Institutionalize data integrity and pave the way to GxP"
             />
           </div>
         </div>
@@ -176,7 +176,7 @@ export default function UseCaseManagementSection() {
                 className="relative mx-auto rounded-md shadow-lg"
                 width={550}
                 src={`${imageHostURL}/useCase/13 - Handle more data with less people.gif`}
-                alt=""
+                alt="Handle more data with less people"
               />
             </div>
           </div>

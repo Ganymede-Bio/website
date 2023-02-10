@@ -22,7 +22,7 @@ export default function PlatformSection() {
           <img
             className="object-center static mx-auto lg:max-w-5xl"
             src="/app/new_platform_light.png"
-            alt=""
+            alt="Ganymede platform"
           />
         </div>
 

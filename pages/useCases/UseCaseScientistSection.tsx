@@ -54,7 +54,7 @@ export default function UseCaseScientistSection() {
             <img
               className="relative mx-auto rounded-md shadow-lg"
               src={`${imageHostURL}/useCase/1 - Automatically send instrument data into your ELN or LIMS.png`}
-              alt=""
+              alt="Automatically send instrument data into your ELN or LIMS"
               width={550}
             />
           </div>
@@ -94,7 +94,7 @@ export default function UseCaseScientistSection() {
               <img
                 className="relative mx-auto rounded-md shadow-lg"
                 src={`${imageHostURL}/useCase/2 - No more data entry.png`}
-                alt=""
+                alt="No more data entry"
                 width={550}
                 height={420}
               />
@@ -135,7 +135,7 @@ export default function UseCaseScientistSection() {
               className="relative mx-auto rounded-md shadow-lg"
               width={750}
               src={`${imageHostURL}/useCase/3 - All your data in one place, saved forever.png`}
-              alt=""
+              alt="All your data in one place, saved forever"
             />
           </div>
         </div>
