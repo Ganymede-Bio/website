@@ -166,10 +166,9 @@ export const people = [
     linkedinUrl: "https://www.linkedin.com/in/johnla1/",
     focus: "Backend Eng | Systems",
     blurb: [
-      "Software Engineer with a degree in Electrical Engineering ",
-      "and Computer Science from MIT.  Prior to Ganymede, John was part of Oculus for 4 years, ",
-      "developing systems software for the Oculus Go (first standalone VR headset on the market) ",
-      "and the Oculus Quest line of devices."]
+      "Software Engineer with a degree in Electrical Engineering and Computer Science from MIT.  ",
+      "Prior to Ganymede, John was part of Oculus for 4 years, developing systems software for the ",
+      "Oculus Go(first standalone VR headset on the market) and the Oculus Quest line of devices."]
   },
   {
     name: "Benson Lee",
