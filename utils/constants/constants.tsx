@@ -195,7 +195,7 @@ export const people = [
       "Allison has over five years of experience in the software industry and has spent ",
       "the past three in B2B enterprise SaaS sales. Prior to joining Ganymede she led customer ",
       "success at MobStac and was an early member of the commercial team for HCP365, a healthcare ",
-      "provider measurement tool at Pulsepoint/Internet Brands. She holds a BA in Economics from ",
+      "provider measurement tool at Pulsepoint/Internet Brands.  She holds a BA in Economics from ",
       "Barnard College, Columbia University and a MSc with Distinction in Organizational Behavior ",
       "from the London School of Economics."
     ],
@@ -208,11 +208,10 @@ export const people = [
     githubUrl: "https://github.com/eriis1",
     focus: "Full Stack | Software",
     blurb: [
-      "Josh started off his career as a software engineer for IBM Watson where he worked ",
-      "on virtual assistant technologies.He then moved into the space industry, working ",
-      "on software and systems design for technologies that included lunar landers, radio ",
-      "interferometry telescopes, and small electric propulsion vehicles. He graduated from ",
-      "the University of Alabama with a BS in Computer Science and an MBA."
+      "Software Engineer with a degree in Electrical Engineering and Computer Science ",
+      "from Duke University. Prior to joining Ganymede, Erik worked as a software engineer ",
+      "for three years at GE Healthcare developing services to integrate AI-based clinical ",
+      "applications into the radiology reading workflows."
     ],
   },
   {
@@ -223,10 +222,11 @@ export const people = [
     githubUrl: "https://github.com/joshasharpe",
     focus: "Full Stack | Software",
     blurb: [
-      "Software Engineer with a degree in Electrical Engineering and Computer Science ",
-      "from Duke University.Prior to joining Ganymede, Erik worked as a software engineer ",
-      "for three years at GE Healthcare developing services to integrate AI-based clinical ",
-      "applications into the radiology reading workflows."
+      "Josh started off his career as a software engineer for IBM Watson where he worked ",
+      "on virtual assistant technologies.He then moved into the space industry, working ",
+      "on software and systems design for technologies that included lunar landers, radio ",
+      "interferometry telescopes, and small electric propulsion vehicles.  He graduated from ",
+      "the University of Alabama with a BS in Computer Science and an MBA."
     ],
   },
   {
@@ -236,7 +236,7 @@ export const people = [
     linkedinUrl: "https://www.linkedin.com/in/gavin-smith-788b6593/",
     focus: "Sales | Account Management",
     blurb: [
-      "Prior to joining Ganymede, Gavin was an Account Executive at Benchling and Dotmatics. ",
+      "Prior to joining Ganymede, Gavin was an Account Executive at Benchling and Dotmatics.  ",
       "He received his BS in Molecular, Cell and Developmental Biology from The University of ",
       "Washington."
     ],
