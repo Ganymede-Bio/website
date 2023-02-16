@@ -201,6 +201,21 @@ export const people = [
     ],
   },
   {
+    name: "Erik Riis",
+    role: "Software Engineer",
+    imageUrl: "/people/headshot202212/headshot_erik_riis.png",
+    linkedinUrl: "https://www.linkedin.com/in/erikriis/",
+    githubUrl: "https://github.com/eriis1",
+    focus: "Full Stack | Software",
+    blurb: [
+      "Josh started off his career as a software engineer for IBM Watson where he worked ",
+      "on virtual assistant technologies.He then moved into the space industry, working ",
+      "on software and systems design for technologies that included lunar landers, radio ",
+      "interferometry telescopes, and small electric propulsion vehicles. He graduated from ",
+      "the University of Alabama with a BS in Computer Science and an MBA."
+    ],
+  },
+  {
     name: "Josh Sharpe",
     role: "Software Engineer",
     imageUrl: "/people/headshot202212/headshot_josh_sharpe.png",
@@ -208,11 +223,10 @@ export const people = [
     githubUrl: "https://github.com/joshasharpe",
     focus: "Full Stack | Software",
     blurb: [
-      "Josh started off his career as a software engineer for IBM Watson where he worked ",
-      "on virtual assistant technologies.He then moved into the space industry, working ",
-      "on software and systems design for technologies that included lunar landers, radio ",
-      "interferometry telescopes, and small electric propulsion vehicles.He graduated from ",
-      "the University of Alabama with a BS in Computer Science and an MBA."
+      "Software Engineer with a degree in Electrical Engineering and Computer Science ",
+      "from Duke University.Prior to joining Ganymede, Erik worked as a software engineer ",
+      "for three years at GE Healthcare developing services to integrate AI-based clinical ",
+      "applications into the radiology reading workflows."
     ],
   },
   {

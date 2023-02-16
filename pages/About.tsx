@@ -9,7 +9,7 @@ import MoleculeStarsBackground from "../components/backgrounds/MoleculeStarsBack
 
 export default function About() {
   return (
-    <div>
+    <>
       <GanymedeTitle title='About Us' />
       <Header />
       <MoleculeStarsBackground>
@@ -40,6 +40,6 @@ export default function About() {
         </div>
       </MoleculeStarsBackground>
       <FooterSection />
-    </div>
+    </>
   );
 }
