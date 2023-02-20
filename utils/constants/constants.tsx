@@ -19,6 +19,7 @@ export const careerSortOrder = new Map([
   ["Senior Software Engineer (Full Stack)", 4],
   ["Senior Lab Automation Engineer", 4],
   ["Implementation Manager", 4],
+  ["Implementation Director", 6],
   ["Manager, Technical Writing", 5],
   ["Senior Manager, Content Strategy", 6],
   ["Senior Product Marketing Manager", 6],
@@ -33,6 +34,7 @@ export const careerSortOrder = new Map([
   ["Senior Product Designer", 4],
   ["Staff Client Solutions Engineer", 6],
   ["Staff Data Engineer", 6],
+
 ]);
 
 export const people = [
