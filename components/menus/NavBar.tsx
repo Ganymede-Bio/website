@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { LegacyRef, useState } from "react";
 import { Transition } from "@headlessui/react";
 import Link from "next/link"
 import AnimateScale from "../animations/AnimateScale";
@@ -110,7 +110,7 @@ export default function Navbar() {
         leaveFrom="opacity-100 scale-100"
         leaveTo="opacity-50 scale-95"
       >
-        {(ref) => (
+        {(ref: LegacyRef<HTMLDivElement>) => (
           <div className="md:hidden" id="mobile-menu">
             <div
               ref={ref}
