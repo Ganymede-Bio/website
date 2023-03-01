@@ -92,4 +92,4 @@ export const navigationFooter = [
 ]
 
 export const announcements =
-  { name: "Ganymede Bio Raises $12.75 Million in Series A Funding", href: "https://www.businesswire.com/news/home/20221220005248/en/Ganymede-Bio-the-Cloud-Provider-Purpose-Built-for-the-Life-Sciences-and-Manufacturing-Industries-Raises-12.75-Million-in-Series-A-Funding" }
+  { name: "🎞️ Our first live webinar is now available online!", href: "https://blog.ganymede.bio/video-come-watch-our-1st-live-webinar-on-your-time/" }
