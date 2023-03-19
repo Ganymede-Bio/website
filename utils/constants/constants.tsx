@@ -34,6 +34,7 @@ export const careerSortOrder = new Map([
   ["Senior Product Designer", 4],
   ["Staff Client Solutions Engineer", 6],
   ["Staff Data Engineer", 6],
+  ["Staff Computational Scientist", 6]
 
 ]);
 
