@@ -257,6 +257,22 @@ export const people = [
     ],
   },
   {
+    name: "Mike Travers",
+    role: "Software Engineer",
+    imageUrl: "/people/headshot202212/headshot_mike_travers.png",
+    linkedinUrl: "https://www.linkedin.com/in/mdtravers/",
+    focus: "Full Stack | Software",
+    blurb: [
+      "Mike is an experienced software designer who has built many innovative scientific and medical ",
+      "applications, including platforms for combinatorial chemistry, knowledge- based bioinformatics, ",
+      "and synthetic biology. Prior to joining Ganymede, he worked at the Parker Institute for Cancer ",
+      "Immunotherapy, and has also held research positions at SRI, IBM, and the Centre Mondial in Paris. ",
+      "He has exhibited installations at the SIGGRAPH Art Show and the Boston Computer Museum, and has a ",
+      "PhD from the MIT Media Lab.",
+      ""
+    ],
+  },
+  {
     name: "Ray Wang",
     role: "Senior Product Designer",
     imageUrl: "/people/headshot202212/headshot_ray_wang.png",
