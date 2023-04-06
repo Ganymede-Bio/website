@@ -110,16 +110,12 @@ export const people = [
     imageUrl: "/people/headshot202212/headshot_nathan_clark.png",
     linkedinUrl: "https://www.linkedin.com/in/nathan-clark-4b850134",
     githubUrl: "https://github.com/nathanwjclark",
-    focus: "Product | Design | Engineering",
+    focus: "Commercial | Product",
     blurb: [
-      "Former product manager at Benchling and Affirm, ",
-      "focused on data and machine learning. Launched ",
-      // eslint-disable-next-line react/jsx-key
-      <div className="text-regal-purple-light inline">
-        <a href="https://www.affirm.com/savings">
-          affirm.com/savings
-        </a>
-      </div>,
+      "Nathan Clark is the founder and CEO of Ganymede, the modern data platform and cloud infrastructure ",
+      "for science. Prior to Ganymede, Nathan was product manager for several of Benchling's data products, ",
+      "including the Insights BI tool and Machine Learning team. Before that, Nathan has a background in ",
+      "machine learning and data systems across financial technology and general technology."
     ],
   },
   {
