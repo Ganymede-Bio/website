@@ -5,11 +5,12 @@ import Script from 'next/script'
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang="en-US">
         <Head>
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <Script
-            strategy="lazyOnload"
+            id='google-tag-manager'
+            strategy="afterInteractive"
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
           />
           <Script
