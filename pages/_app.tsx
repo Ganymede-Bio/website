@@ -8,8 +8,6 @@ import * as ga from "../lib/ga";
 import Script from 'next/script';
 import TagManager from 'react-gtm-module';
 
-// import { IntercomProvider } from '../components/util/IntercomProvider'
-
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
 

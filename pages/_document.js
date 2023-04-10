@@ -9,11 +9,6 @@ export default class MyDocument extends Document {
         <Head>
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <Script
-            id='google-tag-manager'
-            strategy="afterInteractive"
-            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-          />
-          <Script
             id="google-analytics-script"
             strategy="lazyOnload"
             dangerouslySetInnerHTML={{

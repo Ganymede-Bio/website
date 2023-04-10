@@ -6,24 +6,21 @@ import React from 'react'
 import GanymedeLogoSpinning2D from "../components/images/GanymedeLogoSpinning2D"
 import GanymedeLogoSpinning3D from "../components/images/GanymedeLogoSpinning3D"
 import GanymedeLogoDraw from "../components/images/GanymedeLogoDraw"
-import { IntercomProvider } from '../components/util/IntercomProvider'
 
 export default function Test() {
   return (
     <div className="m-12">
-      <IntercomProvider>
-        <GanymedeLogoDraw />
-        <br />
-        {/* <br />
-        <br />
-        <GanymedeLogoSpinning2D />
-        <br />
-        <br />
-        <br />
-        <GanymedeLogoSpinning3D />
-        {/* <EmployeeIcon {...people[5]} /> 
-        <EmployeeIconTwo /> */}
-      </IntercomProvider>
+      <GanymedeLogoDraw />
+      <br />
+      <br />
+      <br />
+      <GanymedeLogoSpinning2D />
+      <br />
+      <br />
+      <br />
+      <GanymedeLogoSpinning3D />
+      {/* <EmployeeIcon {...people[5]} /> */}
+      {/* <EmployeeIconTwo /> */}
     </div>
   )
 }

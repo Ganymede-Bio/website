@@ -1,5 +1,3 @@
-import React from "react";
-
 export const darkMode = true;
 
 export const googleTag = "GTM-NB3LHGP";
