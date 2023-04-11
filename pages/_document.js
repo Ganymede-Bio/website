@@ -7,14 +7,15 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* <Script
+          <Script
             id="intercom"
-            strategy="lazyOnload"
+            strategy="afterInteractive"
             dangerouslySetInnerHTML={{
               __html: `
                 window.intercomSettings = {
-                  app_id: "your_intercom_app_id",
+                  app_id: "${process.env.INTERCOM_APP_ID}",
                 };
+
                 (function () {
                   var w = window;
                   var ic = w.Intercom;
@@ -48,7 +49,7 @@ export default class MyDocument extends Document {
                 })();
               `,
             }}
-          /> */}
+          />
           <Script
             id="google-analytics-script"
             strategy="lazyOnload"
