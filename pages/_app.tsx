@@ -7,12 +7,15 @@ import type { AppProps } from "next/app";
 import * as ga from "../lib/ga";
 import Script from 'next/script';
 import TagManager from 'react-gtm-module';
+import { googleTag } from '../utils/constants/constants';
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
   useEffect(() => {
-    TagManager.initialize({ gtmId: `${process.env.GOOGLE_TAG_MANAGER}` })
+    TagManager.initialize({
+      gtmId: googleTag
+    })
     const handleRouteChange = (url: string) => {
       ga.pageview(url);
     };
@@ -41,9 +44,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         })();
       `}
       </Script>
-      {/* <IntercomProvider> */}
       <Component {...pageProps} />
-      {/* </IntercomProvider> */}
 
     </div>
   );

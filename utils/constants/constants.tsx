@@ -74,7 +74,7 @@ export const people = [
   },
   {
     name: "Andy Caruso",
-    role: "Founding Engineer",
+    role: "Head of Engineering",
     imageUrl: "/people/headshot202212/headshot_andy_caruso.png",
     linkedinUrl: "https://www.linkedin.com/in/carusoandy",
     githubUrl: "https://github.com/carusooo",
