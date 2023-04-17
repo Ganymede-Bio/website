@@ -27,10 +27,10 @@ export const careerSortOrder = new Map([
   ["Staff Software Engineer (Full Stack)", 6],
   ["Staff Software Engineer (Backend/Infra)", 6],
   ["Forward-Deployed Software Engineer", 5],
-  ["Client Solutions Engineer", 5],
+  ["Scientific Software Engineer", 5],
   ["Flexible Inquiry", 5],
   ["Senior Product Designer", 4],
-  ["Staff Client Solutions Engineer", 6],
+  ["Staff Scientific Software Engineer", 6],
   ["Staff Data Engineer", 6],
   ["Staff Computational Scientist", 6]
 
@@ -39,7 +39,7 @@ export const careerSortOrder = new Map([
 export const people = [
   {
     name: "Nathan Ballou",
-    role: "Client Solutions Engineer",
+    role: "Scientific Software Engineer",
     imageUrl: "/people/headshot202212/headshot_nathan_ballou.png",
     linkedinUrl: "https://www.linkedin.com/in/nathan-ballou/",
     githubUrl: "https://github.com/nathanballou",
@@ -118,7 +118,7 @@ export const people = [
   },
   {
     name: "Matthew Co",
-    role: "Client Solutions Engineer",
+    role: "Scientific Software Engineer",
     imageUrl: "/people/headshot202212/headshot_matthew_co.png",
     linkedinUrl: "https://www.linkedin.com/in/matt-co/",
     githubUrl: "https://github.com/mattcoganymede",
