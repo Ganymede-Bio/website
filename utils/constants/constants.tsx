@@ -39,7 +39,7 @@ export const careerSortOrder = new Map([
 export const people = [
   {
     name: "Nathan Ballou",
-    role: "Scientific Software Engineer",
+    role: "Sr. Scientific Software Engineer",
     imageUrl: "/people/headshot202212/headshot_nathan_ballou.png",
     linkedinUrl: "https://www.linkedin.com/in/nathan-ballou/",
     githubUrl: "https://github.com/nathanballou",
@@ -221,6 +221,20 @@ export const people = [
       "from Duke University. Prior to joining Ganymede, Erik worked as a software engineer ",
       "for three years at GE Healthcare developing services to integrate AI-based clinical ",
       "applications into the radiology reading workflows."
+    ],
+  },
+  {
+    name: "Luke Schiefelbein",
+    role: "Sr. Scientific Software Engineer",
+    imageUrl: "/people/headshot202212/headshot_luke_schiefelbein.png",
+    linkedinUrl: "https://www.linkedin.com/in/lucas-schiefelbein/",
+    githubUrl: "https://github.com/cyniphile",
+    focus: "Solutions | Analytics",
+    blurb: [
+      "Before Ganymede, Luke was a data scientist at finance and ad-tech startups, working ",
+      "on everything from big - data machine - learning systems to statistical and econometric ",
+      "analyses. He has also worked as a professional screenwriter on documentary films. ",
+      "He received his BS in Mathematics from MIT."
     ],
   },
   {
