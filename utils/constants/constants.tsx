@@ -46,8 +46,8 @@ export const people = [
     focus: "Solutions | Analytics",
     blurb: [
       "Nathan brings with him years of experience as an operations research analyst, a data scientist, ",
-      "and software engineer.  In these roles, he implemented machine learning solutions, optimization algorithms, ",
-      "and multi-agent simulations to solve complex analysis problems.  Outside his career in engineering and data ",
+      "and software engineer. In these roles, he implemented machine learning solutions, optimization algorithms, ",
+      "and multi-agent simulations to solve complex analysis problems. Outside his career in engineering and data ",
       "science, he was head coach of youth, masters, and adaptive rowing teams in Washington, DC, and Baltimore, Maryland."]
   },
   {
@@ -58,7 +58,7 @@ export const people = [
     focus: "Lab Auto | Hardware",
     blurb: [
       "Sami was previously an Automation Engineer at HighRes Biosolutions, ",
-      "where he deployed robotic lab automation platforms in pharmaceutical and biotech labs.  ",
+      "where he deployed robotic lab automation platforms in pharmaceutical and biotech labs. ",
       "He holds a BSE in Mechanical and Aerospace Engineering from Princeton University."]
   },
   {
@@ -69,7 +69,7 @@ export const people = [
     focus: "Client Management | Solutions",
     blurb: [
       "Prior to joining Ganymede, James was a member of the Customer Experience team at Benchling, ",
-      "managing implementations and ongoing support for some of the largest companies in biotech.  ",
+      "managing implementations and ongoing support for some of the largest companies in biotech. ",
       "He received his BS in Biomedical Engineering from NC State University and UNC Chapel Hill."]
   },
   {
@@ -94,8 +94,8 @@ export const people = [
     focus: "Sales Ops | Business | People",
     blurb: ["A scientist by training, Alan has more than a decade of biomedical research ",
       "experience leading collaborations across 10+ world-class research institutions and ",
-      "medical centers.  Co-founded the Center for Epigenetics Research at Memorial Sloan Kettering ",
-      "Cancer Center, as well as Nucleate NYC.  He received his PhD in biomedical engineering at ",
+      "medical centers. Co-founded the Center for Epigenetics Research at Memorial Sloan Kettering ",
+      "Cancer Center, as well as Nucleate NYC. He received his PhD in biomedical engineering at ",
       "Columbia University, training under Dr. Gordana Vunjak-Novakovic."],
     bulletPoints: [
       "Led the successful launch of the NYC branch of Nucleate, an international organization that facilitates the formation of pioneering life sciences companies",
@@ -151,7 +151,7 @@ export const people = [
     linkedinUrl: "https://www.linkedin.com/in/danielle-kuhn/",
     focus: "Full Stack | Software",
     blurb: ["Danielle has spent the past seven years in the software industry, the last three ",
-      "as a software engineer focusing on full stack development at early stage companies.  ",
+      "as a software engineer focusing on full stack development at early stage companies. ",
       "Danielle also co-founded a global payments company where she scaled the company from zero to billions ",
       "in total payment volume. Prior to entering the software industry, she worked on analytics as a ",
       "credentialed Actuary for over six years."],
@@ -163,7 +163,7 @@ export const people = [
     linkedinUrl: "https://www.linkedin.com/in/johnla1/",
     focus: "Backend Eng | Systems",
     blurb: [
-      "Software Engineer with a degree in Electrical Engineering and Computer Science from MIT.  ",
+      "Software Engineer with a degree in Electrical Engineering and Computer Science from MIT. ",
       "Prior to Ganymede, John was part of Oculus for 4 years, developing systems software for the ",
       "Oculus Go(first standalone VR headset on the market) and the Oculus Quest line of devices."]
   },
@@ -177,7 +177,7 @@ export const people = [
     blurb: [
       "Before founding Ganymede, Benson was Head of Quantitative Markets at Affirm, ",
       "where he built and oversaw quantitative research, capital markets deal structuring, and model ",
-      "risk management.  He received BS and MEng degrees in Computer Science from Cornell.",
+      "risk management. He received BS and MEng degrees in Computer Science from Cornell.",
     ],
   },
   {
@@ -191,7 +191,7 @@ export const people = [
       "Cody began his software career in 2015 at Stanford’s Center for Spatial and Textual Analysis, ",
       "providing full-stack web development and data visualization solutions for data-first digital ",
       "humanities projects. He has worked as a software engineer at early-stage companies in the fields of ",
-      "health technology and business intelligence.Cody holds a B.S. in Architectural Design from Stanford University."
+      "health technology and business intelligence. Cody holds a B.S. in Architectural Design from Stanford University."
     ],
   },
   {
@@ -205,7 +205,7 @@ export const people = [
       "Allison has over five years of experience in the software industry and has spent ",
       "the past three in B2B enterprise SaaS sales. Prior to joining Ganymede she led customer ",
       "success at MobStac and was an early member of the commercial team for HCP365, a healthcare ",
-      "provider measurement tool at Pulsepoint/Internet Brands.  She holds a BA in Economics from ",
+      "provider measurement tool at Pulsepoint/Internet Brands. She holds a BA in Economics from ",
       "Barnard College, Columbia University and a MSc with Distinction in Organizational Behavior ",
       "from the London School of Economics."
     ],
@@ -262,7 +262,7 @@ export const people = [
       "Josh started off his career as a software engineer for IBM Watson where he worked ",
       "on virtual assistant technologies.He then moved into the space industry, working ",
       "on software and systems design for technologies that included lunar landers, radio ",
-      "interferometry telescopes, and small electric propulsion vehicles.  He graduated from ",
+      "interferometry telescopes, and small electric propulsion vehicles. He graduated from ",
       "the University of Alabama with a BS in Computer Science and an MBA."
     ],
   },
@@ -273,7 +273,7 @@ export const people = [
     linkedinUrl: "https://www.linkedin.com/in/gavin-smith-788b6593/",
     focus: "Sales | Account Management",
     blurb: [
-      "Prior to joining Ganymede, Gavin was an Account Executive at Benchling and Dotmatics.  ",
+      "Prior to joining Ganymede, Gavin was an Account Executive at Benchling and Dotmatics. ",
       "He received his BS in Molecular, Cell and Developmental Biology from The University of ",
       "Washington."
     ],
@@ -302,7 +302,7 @@ export const people = [
     focus: "Product Design | User Research",
     blurb: [
       "Ray was previously a UX Designer for three years at Bio-Rad Laboratories where he researched, ",
-      "designed, and tested features for a Quality Control SaaS intended for labs worldwide.  He has a ",
+      "designed, and tested features for a Quality Control SaaS intended for labs worldwide. He has a ",
       "BS degree in Cognitive Science at UCSD and a Master of Professional Studies in Information Science ",
       "at Cornell."
     ],
