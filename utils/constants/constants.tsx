@@ -181,6 +181,20 @@ export const people = [
     ],
   },
   {
+    name: "Cody Leff",
+    role: "Full Stack | Software",
+    imageUrl: "/people/headshot202212/headshot_cody_leff.png",
+    linkedinUrl: "https://www.linkedin.com/in/codymleff/",
+    githubUrl: "https://github.com/codyml",
+    focus: "Software | Full Stack",
+    blurb: [
+      "Cody began his software career in 2015 at Stanford’s Center for Spatial and Textual Analysis, ",
+      "providing full-stack web development and data visualization solutions for data-first digital ",
+      "humanities projects. He has worked as a software engineer at early-stage companies in the fields of ",
+      "health technology and business intelligence.Cody holds a B.S. in Architectural Design from Stanford University."
+    ],
+  },
+  {
     name: "Allison Murdoch",
     role: "Head of Business Development",
     imageUrl: "/people/headshot202212/headshot_allison_murdoch.png",
