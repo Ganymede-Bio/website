@@ -92,4 +92,4 @@ export const navigationFooter = [
 ]
 
 export const announcements =
-  { name: "🎞️ Our first live webinar is now available online!", href: "https://blog.ganymede.bio/video-come-watch-our-1st-live-webinar-on-your-time/" }
+  { name: "🎞️ Join us for a milestone new product announcement on May 11th!", href: "https://app.livestorm.co/ganymede-bio/live-webinar-accelerate-your-analysis-with-ganymedes-new-data-products" }

@@ -35,7 +35,7 @@ export const schematicAfterFeatures = [
     id: "schematic_data_mapped_versioned",
     name: "Sync everything into the cloud automatically",
     description:
-      "All your raw data, analyzed data, metadata, and even the internal data from your intergrated apps is saved forever in a single cloud data lake.",
+      "All your raw data, analyzed data, metadata, and even the internal data from your integrated apps is saved forever in a single cloud data lake.",
     icon: ArrowsUpDownIcon,
   },
   {
