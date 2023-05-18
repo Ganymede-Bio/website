@@ -92,4 +92,4 @@ export const navigationFooter = [
 ]
 
 export const announcements =
-  { name: "🎞️ Join us for a milestone new product announcement on May 11th!", href: "https://app.livestorm.co/ganymede-bio/live-webinar-accelerate-your-analysis-with-ganymedes-new-data-products" }
+  { name: "🎞️ Watch our demo on automating flow cytometry analysis with Ganymede virtualization!", href: "https://blog.ganymede.bio/video-automated-flow-cytometry/" }
