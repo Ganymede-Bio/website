@@ -92,4 +92,4 @@ export const navigationFooter = [
 ]
 
 export const announcements =
-  { name: "🎞️ Watch our demo on automating flow cytometry analysis with Ganymede virtualization!", href: "https://blog.ganymede.bio/video-automated-flow-cytometry/" }
+  { name: "🎞️ See how Ganymede virtualization can automate your flow cytometry analysis!", href: "https://blog.ganymede.bio/video-automated-flow-cytometry/" }
