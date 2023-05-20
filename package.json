@@ -8,7 +8,8 @@
     "lint": "next lint",
     "build": "next build",
     "postbuild": "next-sitemap",
-    "start": "next start"
+    "start": "next start",
+    "prisma:generate": "prisma generate"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.3",
