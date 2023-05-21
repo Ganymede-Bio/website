@@ -1,33 +1,32 @@
-import prisma from "../../lib/prisma";
+import { db } from '@vercel/postgres'
+
 import type { NextApiRequest, NextApiResponse } from "next";
 
-const addToContact = async (req: NextApiRequest, res: NextApiResponse) => {
+export default async function addToContact(req: NextApiRequest, res: NextApiResponse) {
   const { body } = req;
   const { name, email, phone, message } = JSON.parse(body);
 
-  await prisma.userContact
-    .create({
-      data: {
-        name: name,
-        email: email,
-        phone: phone,
-        message: message,
-      },
-    })
-    .catch((e) => {
-      return res.status(500).json({
-        status: "error",
-        data: e,
-      });
-    })
-    .finally(async () => {
-      await prisma.$disconnect();
-    });
+  const client = await db.connect();
+
+  try {
+    await client.sql`CREATE TABLE IF NOT EXISTS 
+                      users 
+                      (
+                        id serial PRIMARY KEY,
+                        name varchar(255) NULL,
+                        email varchar(255) NOT NULL,
+                        phone varchar(255) NULL,
+                        message varchar(255) NULL,
+                        created_at TIMESTAMP DEFAULT NOW(),
+                        updated_at TIMESTAMP DEFAULT NOW()
+                      )`;
+    await client.sql`INSERT INTO users (name, email, phone, message) VALUES (${name}, ${email}, ${phone}, ${message})`;
+  } catch (error) {
+    return res.status(500).json({ error });
+  }
 
   return res.status(201).json({
     status: "success",
     data: email,
   });
-};
-
-export default addToContact;
+}
