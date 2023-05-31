@@ -38,7 +38,7 @@ export default function Contact({ title = true }: IContactProps) {
               </h2>
               <div className="mt-3 text-lg leading-6 text-gray-500">
                 <p>
-                  We&apos;d love to hear from you. <a href="https://meetings.salesloft.com/ganymedebio/lydiariffert"
+                  We&apos;d love to hear from you. <a href="https://calendly.com/alan_ganymedebio/30-minute-meeting"
                     className="inline hover:font-semibold hover:text-blue-800 visited:text-regal-purple">Request a demo</a>, ask us questions,
                   inquire about openings, or just send us a note with how we can help!
                 </p>
@@ -91,7 +91,7 @@ export default function Contact({ title = true }: IContactProps) {
                       aria-hidden="true"
                     />
                     <span className="ml-3 text-gray-600 font-medium">
-                      <a href="https://meetings.salesloft.com/ganymedebio/lydiariffert"
+                      <a href="https://calendly.com/alan_ganymedebio/30-minute-meeting"
                         className="inline hover:font-semibold hover:text-blue-800 visited:text-regal-purple">
                         Schedule a demo
                       </a>
