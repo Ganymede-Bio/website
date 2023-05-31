@@ -211,19 +211,6 @@ export const people = [
     ],
   },
   {
-    name: "Lydia Riffert",
-    role: "Business Development",
-    imageUrl: "/people/headshot202212/headshot_lydia_riffert.png",
-    linkedinUrl: "https://www.linkedin.com/in/lydiariffert/",
-    focus: "Biz Dev | Inside Sales",
-    blurb: [
-      "Lydia Riffert comes from a background in biology, graduating summa cum laude with a Bachelor's ",
-      "of Science at Suffolk University in Boston, Massachusetts. Prior to joining Ganymede, Lydia ",
-      "worked for Boomi - an integration platform as a service - where she lead the brand new inside sales ",
-      "team. Lydia is here to sprinkle some sugar on that salty attitude!"
-    ],
-  },
-  {
     name: "Erik Riis",
     role: "Software Engineer",
     imageUrl: "/people/headshot202212/headshot_erik_riis.png",
