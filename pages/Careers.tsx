@@ -66,16 +66,16 @@ export default function Careers(positions: IPositions) {
       <MoleculeStarsBackground>
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-8 lg:px-8">
           <div className="max-w-3xl mx-auto text-center pt-24">
-            <div className="pb-6">
-              <Image
-                src={`${imageHostURL}/logo/favicon.png`}
-                alt="Ganymede logo"
-                width={50}
-                height={50}
-                quality={100}
-              />
-            </div>
             <h2 className="text-4xl font-bold text-gray-900 pb-12">
+              <div className="pb-6 flex justify-center">
+                <Image
+                  src={`${imageHostURL}/logo/favicon.png`}
+                  alt="Ganymede logo"
+                  width={50}
+                  height={50}
+                  quality={100}
+                />
+              </div>
               Careers at Ganymede
             </h2>
           </div>
