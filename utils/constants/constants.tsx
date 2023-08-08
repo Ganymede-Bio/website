@@ -38,6 +38,16 @@ export const careerSortOrder = new Map([
 
 export const people = [
   {
+    name: "Mays Alwash",
+    role: "Scientific Business Development Associate",
+    imageUrl: "/people/headshot202212/headshot_mays_alwash.png",
+    linkedinUrl: "https://www.linkedin.com/in/mays-alwash-ph-d-00092a17a/",
+    focus: "Business Development | Science",
+    blurb: ["As a former scientist, Mays is passionate about improving and accelerating the drug discovery process. ",
+      "Prior to joining Ganymede, she was a Scientific Liaison at BenchSci.Mays received her doctorate degree ",
+      "in Molecular Biology from the University of Toronto, and is a former social entrepreneur."]
+  },
+  {
     name: "Nathan Ballou",
     role: "Sr. Scientific Software Engineer",
     imageUrl: "/people/headshot202212/headshot_nathan_ballou.png",
@@ -91,7 +101,7 @@ export const people = [
     imageUrl: "/people/headshot202212/headshot_alan_chramiec.png",
     githubUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/alan-chramiec/",
-    focus: "Sales Ops | Business | People",
+    focus: "Marketing | Business | People",
     blurb: ["A scientist by training, Alan has more than a decade of biomedical research ",
       "experience leading collaborations across 10+ world-class research institutions and ",
       "medical centers. Co-founded the Center for Epigenetics Research at Memorial Sloan Kettering ",
@@ -155,17 +165,6 @@ export const people = [
       "Danielle also co-founded a global payments company where she scaled the company from zero to billions ",
       "in total payment volume. Prior to entering the software industry, she worked on analytics as a ",
       "credentialed Actuary for over six years."],
-  },
-  {
-    name: "John La",
-    role: "Founding Engineer",
-    imageUrl: "/people/headshot202212/headshot_john_la.png",
-    linkedinUrl: "https://www.linkedin.com/in/johnla1/",
-    focus: "Backend Eng | Systems",
-    blurb: [
-      "Software Engineer with a degree in Electrical Engineering and Computer Science from MIT. ",
-      "Prior to Ganymede, John was part of Oculus for 4 years, developing systems software for the ",
-      "Oculus Go(first standalone VR headset on the market) and the Oculus Quest line of devices."]
   },
   {
     name: "Benson Lee",
