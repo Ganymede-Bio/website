@@ -210,6 +210,21 @@ export const people = [
     ],
   },
   {
+    name: "Namrata Patil",
+    role: "Implementation Director",
+    imageUrl: "/people/headshot202212/headshot_namrata_patil.png",
+    linkedinUrl: "https://www.linkedin.com/in/napatil/",
+    githubUrl: "",
+    focus: "Implementations Leadership",
+    blurb: [
+      "Namrata brings extensive expertise in GTM roles within the Biotech/Pharma industry, including ",
+      "Marketing, Sales, and Services, gained from her years of experience in SaaS, B2B, and Biotech. ",
+      "Formerly at Benchling, she excelled in lab automation implementations and successfully led a team ",
+      "that deployed Benchling solutions to diverse customers, from startups to enterprises. With hands-on ",
+      "experience in various R&D labs, Namrata combines scientific knowledge with business acumen to drive impactful solutions."
+    ],
+  },
+  {
     name: "Erik Riis",
     role: "Software Engineer",
     imageUrl: "/people/headshot202212/headshot_erik_riis.png",
@@ -278,6 +293,18 @@ export const people = [
       "He has exhibited installations at the SIGGRAPH Art Show and the Boston Computer Museum, and has a ",
       "PhD from the MIT Media Lab.",
       ""
+    ],
+  },
+  {
+    name: "Dan Vagie",
+    role: "Scientific Software Engineer",
+    imageUrl: "/people/headshot202212/headshot_daniel_vagie.png",
+    linkedinUrl: "https://www.linkedin.com/in/daniel-vagie-2802561ab",
+    focus: "Solutions | Analytics",
+    blurb: [
+      "Daniel was previously a Data Scientist for a company in the Boston area that utilized Causal AI to discover novel drug targets, ",
+      "where he built pipelines to train models and developed code to validate potential targets. He has a PhD in Physics from the ",
+      "University of Oklahoma."
     ],
   },
   {
