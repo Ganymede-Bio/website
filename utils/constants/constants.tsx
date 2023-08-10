@@ -99,7 +99,6 @@ export const people = [
     name: "Alan Chramiec, PhD",
     role: "Founding Scientist",
     imageUrl: "/people/headshot202212/headshot_alan_chramiec.png",
-    githubUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/alan-chramiec/",
     focus: "Marketing | Business | People",
     blurb: ["A scientist by training, Alan has more than a decade of biomedical research ",
@@ -144,7 +143,6 @@ export const people = [
     name: "Paul Hao",
     role: "Executive Assistant",
     imageUrl: "/people/headshot202212/headshot_paul_hao.png",
-    githubUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/paul-hao-b23815252/",
     focus: "Business Operations",
     blurb: [
@@ -157,7 +155,6 @@ export const people = [
     name: "Danielle Kuhn",
     role: "Software Engineer",
     imageUrl: "/people/headshot202212/headshot_danielle_kuhn.png",
-    githubUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/danielle-kuhn/",
     focus: "Full Stack | Software",
     blurb: ["Danielle has spent the past seven years in the software industry, the last three ",
@@ -198,7 +195,6 @@ export const people = [
     role: "Head of Business Development",
     imageUrl: "/people/headshot202212/headshot_allison_murdoch.png",
     linkedinUrl: "https://www.linkedin.com/in/allison-murdoch-2816a21b/",
-    githubUrl: "",
     focus: "Sales | CSM",
     blurb: [
       "Allison has over five years of experience in the software industry and has spent ",
