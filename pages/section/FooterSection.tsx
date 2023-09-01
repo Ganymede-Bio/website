@@ -14,7 +14,7 @@ export default function FooterSection() {
             </div>
           ))}
         </nav>
-        <p className="mt-8 text-center text-base text-gray-400">&copy; 2022 Ganymede Bio, Inc. All rights reserved.</p>
+        <p className="mt-8 text-center text-base text-gray-400">&copy; 2023 Ganymede Bio, Inc. All rights reserved.</p>
       </div>
     </footer>
   )

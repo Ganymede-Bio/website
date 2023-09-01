@@ -44,21 +44,20 @@ export const people = [
     linkedinUrl: "https://www.linkedin.com/in/mays-alwash-ph-d-00092a17a/",
     focus: "Business Development | Science",
     blurb: ["As a former scientist, Mays is passionate about improving and accelerating the drug discovery process. ",
-      "Prior to joining Ganymede, she was a Scientific Liaison at BenchSci.Mays received her doctorate degree ",
+      "Prior to joining Ganymede, she was a Scientific Liaison at BenchSci. Mays received her doctorate degree ",
       "in Molecular Biology from the University of Toronto, and is a former social entrepreneur."]
   },
   {
-    name: "Nathan Ballou",
+    name: "Zach Augenfeld",
     role: "Sr. Scientific Software Engineer",
-    imageUrl: "/people/headshot202212/headshot_nathan_ballou.png",
-    linkedinUrl: "https://www.linkedin.com/in/nathan-ballou/",
-    githubUrl: "https://github.com/nathanballou",
-    focus: "Solutions | Analytics",
-    blurb: [
-      "Nathan brings with him years of experience as an operations research analyst, a data scientist, ",
-      "and software engineer. In these roles, he implemented machine learning solutions, optimization algorithms, ",
-      "and multi-agent simulations to solve complex analysis problems. Outside his career in engineering and data ",
-      "science, he was head coach of youth, masters, and adaptive rowing teams in Washington, DC, and Baltimore, Maryland."]
+    imageUrl: "/people/headshot202212/headshot_zach_augenfeld.png",
+    linkedinUrl: "https://www.linkedin.com/in/zachaugenfeld/",
+    focus: "Solutions | Hardware",
+    blurb: ["Zach has worked as a software and systems engineer at various biotech startups since receiving his PhD in ",
+      "Biomedical Engineering from Yale. His doctoral work focused on deep learning algorithms for medical image analysis ",
+      "and image - guided cancer therapies. Before that, he studied Electrical Engineering and worked as a firmware engineer ",
+      "for medical devices and as a DSP engineer for guitar stompboxes."
+    ]
   },
   {
     name: "Sami Belkadi",
@@ -144,7 +143,7 @@ export const people = [
     role: "Executive Assistant",
     imageUrl: "/people/headshot202212/headshot_paul_hao.png",
     linkedinUrl: "https://www.linkedin.com/in/paul-hao-b23815252/",
-    focus: "Business Operations",
+    focus: "Business Operations | Finance",
     blurb: [
       "Paul has a bachelor's degree in Aeronautical Engineering, which he leveraged to work as a Technical ",
       "Representative for Cebu Pacific's Aircraft Maintenance and Engineering department. He is currently ",
@@ -169,7 +168,7 @@ export const people = [
     imageUrl: "/people/headshot202212/headshot_benson_lee.png",
     linkedinUrl: "https://www.linkedin.com/in/benson-lee-69980745",
     githubUrl: "https://github.com/bensonlee5",
-    focus: "Science | Eng | Hardware",
+    focus: "Implementations | Science | Eng",
     blurb: [
       "Before founding Ganymede, Benson was Head of Quantitative Markets at Affirm, ",
       "where he built and oversaw quantitative research, capital markets deal structuring, and model ",
@@ -232,6 +231,17 @@ export const people = [
       "from Duke University. Prior to joining Ganymede, Erik worked as a software engineer ",
       "for three years at GE Healthcare developing services to integrate AI-based clinical ",
       "applications into the radiology reading workflows."
+    ],
+  },
+  {
+    name: "Derek Scott",
+    role: "Business Development Associate",
+    imageUrl: "/people/headshot202212/headshot_derek_scott.png",
+    linkedinUrl: "https://www.linkedin.com/in/derek-scott1/",
+    focus: "Business Development | Data",
+    blurb: [
+      "Derek began his career in software data integration at Matillion working in business development. ",
+      "He graduated from the Leeds School of Business with a BS in Business Marketing from the University of Colorado Boulder."
     ],
   },
   {
