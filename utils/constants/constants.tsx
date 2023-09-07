@@ -197,7 +197,7 @@ export const people = [
     focus: "Software | Science",
     blurb: [
       "Prior to joining Ganymede Stephen served as a Sr. Software Data engineer at onco-pharmaceutical startup ",
-      "Adaptimmune, spearheading the development of a multi - model NoSQL Enterprise Data Warehouse, dramatically ",
+      "Adaptimmune, spearheading the development of a multi-model NoSQL Enterprise Data Warehouse, dramatically ",
       "improving bioinformatics analytics turnaround and predictive accuracy.  Prior to entering software, Stephen ",
       "spent three in Oncology research both In Vitro and In Silico at The Lankenau Institute for Medical Research, ",
       "The Wistar Institute and The Philadelphia Veterans Hospital at the University of Pennsylvania, publishing in ",
@@ -346,7 +346,7 @@ export const people = [
     role: "Sr. Scientific Software Engineer",
     imageUrl: "/people/headshot202212/headshot_olivia_watson.png",
     linkedinUrl: "https://www.linkedin.com/in/oliviawatson213/",
-    focus: "Manufacturing | Integrations",
+    focus: "Manufacturing | Solutions",
     blurb: [
       "Olivia has worked in chemical manufacturing and full-stack software development for startups and global ",
       "companies, mainly in the defense and aerospace industry. She has implemented both custom and off the shelf ",
