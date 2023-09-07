@@ -190,6 +190,21 @@ export const people = [
     ],
   },
   {
+    name: "Stephen Malkowicz",
+    role: "Sr. Scientific Software Engineer",
+    imageUrl: "/people/headshot202212/headshot_stephen_malkowicz.png",
+    linkedinUrl: "https://www.linkedin.com/in/sbm367/",
+    focus: "Software | Science",
+    blurb: [
+      "Prior to joining Ganymede Stephen served as a Sr. Software Data engineer at onco-pharmaceutical startup ",
+      "Adaptimmune, spearheading the development of a multi - model NoSQL Enterprise Data Warehouse, dramatically ",
+      "improving bioinformatics analytics turnaround and predictive accuracy.  Prior to entering software, Stephen ",
+      "spent three in Oncology research both In Vitro and In Silico at The Lankenau Institute for Medical Research, ",
+      "The Wistar Institute and The Philadelphia Veterans Hospital at the University of Pennsylvania, publishing in ",
+      "The International Journal of Oncology. Stephen studied Biophysics at Temple University and Computer Science at New York University."
+    ],
+  },
+  {
     name: "Allison Murdoch",
     role: "Head of Business Development",
     imageUrl: "/people/headshot202212/headshot_allison_murdoch.png",
@@ -324,6 +339,20 @@ export const people = [
       "designed, and tested features for a Quality Control SaaS intended for labs worldwide. He has a ",
       "BS degree in Cognitive Science at UCSD and a Master of Professional Studies in Information Science ",
       "at Cornell."
+    ],
+  },
+  {
+    name: "Olivia Watson",
+    role: "Sr. Scientific Software Engineer",
+    imageUrl: "/people/headshot202212/headshot_olivia_watson.png",
+    linkedinUrl: "https://www.linkedin.com/in/oliviawatson213/",
+    focus: "Manufacturing | Integrations",
+    blurb: [
+      "Olivia has worked in chemical manufacturing and full-stack software development for startups and global ",
+      "companies, mainly in the defense and aerospace industry. She has implemented both custom and off the shelf ",
+      "shop floor systems for R & D and full-scale production manufacturing.She graduated with her BS in Chemical ",
+      "Engineering from the University of Alabama in Huntsville and continued with research in nanofibers and sensor ",
+      "development at the University of Utah."
     ],
   },
 ];
