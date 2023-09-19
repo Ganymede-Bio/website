@@ -92,4 +92,4 @@ export const navigationFooter = [
 ]
 
 export const announcements =
-  { name: "Ganymede Bio and Kytopen Partner to Bring Cloud-Native, Structured Data to Gene-Modified Cell Therapy Instruments", href: "https://www.prnewswire.com/news-releases/ganymede-bio-and-kytopen-partner-to-bring-cloud-native-structured-data-to-gene-modified-cell-therapy-instruments-301930863.html" }
+  { name: " Ganymede Bio and Kytopen Partner to Bring Cloud-Native, Structured Data to Gene-Modified Cell Therapy Instruments", href: "https://www.prnewswire.com/news-releases/ganymede-bio-and-kytopen-partner-to-bring-cloud-native-structured-data-to-gene-modified-cell-therapy-instruments-301930863.html" }
