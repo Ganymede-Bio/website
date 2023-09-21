@@ -163,6 +163,19 @@ export const people = [
       "credentialed Actuary for over six years."],
   },
   {
+    name: "Kevin Leo",
+    role: "VP, Enterprise Sales",
+    imageUrl: "/people/headshot202212/headshot_kevin_leo.png",
+    linkedinUrl: "https://www.linkedin.com/in/kevin-leo-7406852/",
+    focus: "Enterprise Sales",
+    blurb: [
+      "Kevin is an experienced account executive in the software industry.  He focuses on enterprise ",
+      "data and analytic solutions in a variety of industries such as life science, retail, and financial ",
+      "services. Prior to joining Ganymede, he worked at IDBS, Oracle, Teradata and TIBCO. He received his BS ",
+      "in Computer Science from Purdue University."
+    ],
+  },
+  {
     name: "Benson Lee",
     role: "Founder",
     imageUrl: "/people/headshot202212/headshot_benson_lee.png",
